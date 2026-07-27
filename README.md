@@ -115,7 +115,15 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 
 ## Änderungsprotokoll
 
-Änderungen werden hier chronologisch festgehalten, neueste zuerst.
+Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
+je abgeschlossener Runde.
+
+### 2026-07-27 – Veröffentlichungsrhythmus umgestellt
+
+Ab sofort wird nach jeder abgeschlossenen Runde veröffentlicht statt am Ende
+eines Arbeitslaufs. Jede Runde erhält damit einen eigenen Eintrag in diesem
+Protokoll und einen eigenen Commit – die Historie wird nachvollziehbar, und
+Arbeit ist gesichert, sobald sie geprüft ist.
 
 ### 2026-07-27 – Läufe 2 bis 8: von 10 auf 48 Prompts
 
