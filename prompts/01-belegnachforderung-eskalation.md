@@ -4,7 +4,7 @@
 **Rolle:** Buchhaltung, Sekretariat, Lohnsachbearbeitung
 **DATEV-Bezug:** DATEV Unternehmen online (Belegtransfer), Kanzlei-Rechnungswesen, LODAS/Lohn und Gehalt
 **Was du bereitstellen musst:** Liste der fehlenden Unterlagen, Zeitraum, bisherige Kontakte, gewünschte Frist, Verhältnis zum Mandanten.
-**Datensparsamkeit:** Mandantenname, Anschrift, Steuernummer und den Namen des Ansprechpartners durch Platzhalter ersetzen (`Mandant A`, `Frau M.`). Namen erst beim Versand aus der Kanzleivorlage einsetzen.
+**Datensparsamkeit:** Mandantenname, Anschrift, Steuernummer und den Namen des Ansprechpartners durch Platzhalter ersetzen (`Mandant A`, `Frau M.`). Namen erst beim Versand aus der Kanzleivorlage einsetzen. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -48,10 +48,18 @@ ANFORDERUNGEN
 5. Maximal 180 Wörter je Mail. Keine Rechtsbelehrung, kein Paragrafenzitat,
    außer es ist für die Konsequenz zwingend.
 6. Passe die Anrede an: [Sie-Form förmlich / Sie-Form vertraut / Du-Form].
+7. Nenne zu jeder rechtlichen Aussage, die du dennoch machst – etwa zur
+   angekündigten Konsequenz –, die Rechtsgrundlage (Norm mit Absatz und Satz),
+   jeweils mit dem Zusatz "für [JAHR] verifizieren". Führe sie nicht in der
+   Mail, sondern gesammelt in einer internen Zeile auf. Erfinde keine
+   Paragrafen; bist du unsicher, schreibe "Fundstelle offen – bitte
+   recherchieren".
 
 AUSGABEFORMAT
 Für jede Stufe: Überschrift "Stufe N – <Zweck>", Betreff, Mailtext,
 darunter eine Zeile "Versenden ab: <Zeitpunkt relativ zur Vorstufe>".
+Am Ende, falls einschlägig, "Intern: Rechtsgrundlagen – für [JAHR]
+verifizieren".
 ```
 
 ## Anwendung
@@ -66,6 +74,7 @@ darunter eine Zeile "Versenden ab: <Zeitpunkt relativ zur Vorstufe>".
 - Prüfe, ob die genannte Konsequenz mandatsvertraglich und berufsrechtlich tragfähig ist. Formulierungen wie "wir stellen die Arbeit ein" nie ungeprüft versenden.
 - Frist muss zur tatsächlichen Bearbeitungszeit der Kanzlei passen, nicht nur zur gesetzlichen Frist.
 - Bei angespanntem Mandat: Stufe 3 vor Versand vom verantwortlichen Berufsträger freigeben lassen.
+- **Vier-Augen-Prinzip und Freigabe:** Die drei Texte sind Entwürfe. Vor dem Versand muss eine zweite Person die Unterlagenliste, die Frist und die angekündigte Konsequenz gegenlesen. Die Freigabe für Schreiben an den Mandanten erteilt ein Berufsträger, sobald eine Konsequenz angekündigt wird; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

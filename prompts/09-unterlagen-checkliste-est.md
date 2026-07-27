@@ -4,7 +4,7 @@
 **Rolle:** Steuerberater, Steuerfachangestellte, Sekretariat
 **DATEV-Bezug:** DATEV Meine Steuern, Einkommensteuer, DATEV Upload mobil
 **Was du bereitstellen musst:** Lebenssachverhalt des Mandanten, Veranlagungsjahr, was aus dem Vorjahr bekannt ist.
-**Datensparsamkeit:** Dieser Prompt sammelt die sensibelsten Angaben aller Prompts (Familie, Immobilien, Auslandsbezug). Namen, Geburtsdaten, Anschriften, Steuernummern, Konto- und Objektbezeichnungen durch Platzhalter ersetzen (`Mandant A`, `Kind 1, 14 Jahre`, `Objekt 1`). Für die Checkliste genügen Sachverhaltstypen, keine Identitäten. Vor dem Einsatz die berufsrechtliche Freigabe der Kanzlei beachten (§ 57 StBerG, § 203 StGB, DSGVO).
+**Datensparsamkeit:** Dieser Prompt sammelt die sensibelsten Angaben aller Prompts (Familie, Immobilien, Auslandsbezug). Namen, Geburtsdaten, Anschriften, Steuernummern, Konto- und Objektbezeichnungen durch Platzhalter ersetzen (`Mandant A`, `Kind 1, 14 Jahre`, `Objekt 1`). Für die Checkliste genügen Sachverhaltstypen, keine Identitäten. Vor dem Einsatz die berufsrechtliche Freigabe der Kanzlei beachten (§ 57 StBerG, § 203 StGB, DSGVO). Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -57,6 +57,13 @@ ANFORDERUNGEN
    dem Hinweis auf den Übermittlungsweg [DATEV Meine Steuern / Upload mobil].
 9. Erzeuge die Liste so, dass sie ausgedruckt abhakbar ist
    (Kästchen ☐ vor jeder Position).
+10. Die Checkliste fordert Unterlagen an, sie berät nicht. Machst du dennoch
+    eine rechtliche Aussage – etwa zu einer Nachweispflicht oder einer
+    Aufbewahrungsfrist –, nenne die Rechtsgrundlage (Norm mit Absatz und Satz,
+    Richtlinie oder BMF-Schreiben mit Datum), jeweils mit dem Zusatz
+    "für [JAHR] verifizieren", und stelle sie in die interne Notiz statt in
+    den Mandantentext. Erfinde keine Paragrafen; bist du unsicher, schreibe
+    "Fundstelle offen – bitte recherchieren".
 
 AUSGABEFORMAT
 1. Anschreiben  2. Checkliste nach Lebensbereichen  3. Neu in diesem Jahr
@@ -74,6 +81,7 @@ AUSGABEFORMAT
 - Liste gegen die tatsächlichen Einkunftsarten der Vorjahresveranlagung prüfen – das Modell kennt den Mandanten nicht.
 - Keine Aussagen zur steuerlichen Abzugsfähigkeit in die Checkliste aufnehmen, die nicht geprüft sind; die Liste fordert Unterlagen an, sie berät nicht.
 - Prüfen, ob Positionen enthalten sind, die bereits über die vorausgefüllte Steuererklärung vorliegen – doppelte Anforderung wirkt unprofessionell.
+- **Vier-Augen-Prinzip und Freigabe:** Die Checkliste ist ein Entwurf. Eine zweite Person muss sie gegen das Mandantenprofil und die Vorjahresveranlagung abgleichen – eine fehlende Pflichtposition fällt erst bei der Bearbeitung auf. Die Freigabe zur Weitergabe an den Mandanten erteilt ein Berufsträger; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

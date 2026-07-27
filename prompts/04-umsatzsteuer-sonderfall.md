@@ -4,7 +4,7 @@
 **Rolle:** Buchhaltung, Steuerberater
 **DATEV-Bezug:** Kanzlei-Rechnungswesen, UStVA, Zusammenfassende Meldung
 **Was du bereitstellen musst:** Sachverhalt, beide Beteiligte mit Sitz und USt-ID-Status, Leistungsart, Rechnungswortlaut.
-**Datensparsamkeit:** Vor dem Einfügen Mandantenname, Anschrift, Steuernummer, Personalnummern und Namen Dritter durch Platzhalter ersetzen (`Mandant A`, `Lieferant EU 1`, `Konto ****1234`). Für die fachliche Prüfung genügen Rolle, Sitzland, USt-ID-Status, Beträge und Daten.
+**Datensparsamkeit:** Vor dem Einfügen Mandantenname, Anschrift, Steuernummer, Personalnummern und Namen Dritter durch Platzhalter ersetzen (`Mandant A`, `Lieferant EU 1`, `Konto ****1234`). Für die fachliche Prüfung genügen Rolle, Sitzland, USt-ID-Status, Beträge und Daten. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -57,19 +57,21 @@ PRÜFE IN DIESER REIHENFOLGE UND HALTE JEDEN SCHRITT FEST
     nach § 14 Abs. 4 / § 14a UStG und den nötigen Hinweistext.
 
 ANFORDERUNGEN
-- Nenne zu jedem Schritt die Rechtsgrundlage.
+- Nenne zu jeder rechtlichen Aussage die Rechtsgrundlage (Norm mit Absatz und
+  Satz, Richtlinie oder BMF-Schreiben mit Datum), jeweils mit dem Zusatz
+  "für [JAHR] verifizieren".
 - Wenn ein Schritt ohne weitere Angaben nicht entscheidbar ist: sag das
   ausdrücklich, benenne die fehlende Angabe und rechne beide Varianten durch.
 - Schließe mit einer Kurzfassung in fünf Sätzen, die ein Mandant versteht.
-- Kennzeichne am Ende gesondert: "Rechtsstand unsicher / bitte prüfen bei: …"
+- Kennzeichne am Ende gesondert: "Rechtsstand – für [JAHR] verifizieren: …"
   für alle Punkte, bei denen sich die Rechtslage geändert haben könnte.
 - Erfinde keine Paragrafen und keine BMF-Schreiben. Wenn du eine Fundstelle
-  nicht sicher kennst, schreibe "Fundstelle bitte verifizieren".
+  nicht sicher kennst, schreibe "Fundstelle offen – bitte recherchieren".
 
 AUSGABEFORMAT
 Prüfschritte 1–11 als nummerierte Abschnitte, dann
 "Buchungs- und Meldefolge", dann "Kurzfassung für den Mandanten",
-dann "Rechtsstand unsicher".
+dann "Rechtsstand – für [JAHR] verifizieren".
 ```
 
 ## Anwendung
@@ -84,6 +86,7 @@ dann "Rechtsstand unsicher".
 - Prüfschema ist ein Denkgerüst, keine verbindliche Auskunft. Bei Zweifelsfällen Rücksprache mit dem Berufsträger, ggf. verbindliche Auskunft beim Finanzamt.
 - USt-ID des Geschäftspartners immer über das qualifizierte Bestätigungsverfahren des BZSt prüfen – das kann die KI nicht.
 - Rechtsstandsangaben (Steuersätze, Schwellenwerte, Meldepflichten) an der aktuellen Fassung verifizieren.
+- **Vier-Augen-Prinzip und Freigabe:** Das Ergebnis ist ein Entwurf. Eine zweite fachkundige Person muss die Ortsbestimmung, die Steuerschuldnerschaft und die UStVA-Kennzahlen nachvollziehen. Die Freigabe erteilt ein Berufsträger, bevor die Einordnung gebucht oder dem Mandanten mitgeteilt wird; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

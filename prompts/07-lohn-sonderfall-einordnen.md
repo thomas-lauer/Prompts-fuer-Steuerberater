@@ -4,7 +4,7 @@
 **Rolle:** Lohnsachbearbeitung
 **DATEV-Bezug:** LODAS, Lohn und Gehalt (jeweils inkl. SV-Meldungen und Bescheinigungswesen)
 **Was du bereitstellen musst:** Sachverhalt, Vertragsdaten, Abrechnungszeitraum, bisherige Behandlung.
-**Datensparsamkeit:** Name, Personalnummer, Geburtsdatum und Anschrift des Arbeitnehmers durch Platzhalter ersetzen (`AN 1`), ebenso den Mandantennamen (`Mandant A`). Für die Einordnung genügen Beschäftigungsart, Status, Beträge und Zeitraum. Angaben zu Gesundheit, Gläubigern oder familiären Umständen nur so weit einfügen, wie sie für die Prüfung zwingend sind.
+**Datensparsamkeit:** Name, Personalnummer, Geburtsdatum und Anschrift des Arbeitnehmers durch Platzhalter ersetzen (`AN 1`), ebenso den Mandantennamen (`Mandant A`). Für die Einordnung genügen Beschäftigungsart, Status, Beträge und Zeitraum. Angaben zu Gesundheit, Gläubigern oder familiären Umständen nur so weit einfügen, wie sie für die Prüfung zwingend sind. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -54,7 +54,7 @@ B2. NETTOEBENE (nur bei Pfändung, Abtretung, Arbeitgeberdarlehen)
    6a. Pfändbares Einkommen: was ist unpfändbar, was bleibt außer Betracht
        (§§ 850 ff. ZPO), welche Rangfolge gilt bei mehreren Titeln?
    6b. Nenne KEINE konkreten Pfändungsfreibeträge, ohne sie als
-       "Tabellenwert bitte für [ZEITRAUM] verifizieren" zu markieren.
+       "Tabellenwert – für [JAHR] verifizieren" zu markieren.
 C. FOLGEN
    7. Auswirkung auf Meldungen und Bescheinigungen.
    8. Was ist bei rückwirkender Korrektur zu beachten (Verjährung,
@@ -63,19 +63,23 @@ C. FOLGEN
 ANFORDERUNGEN
 - Gib zuerst eine Einschätzung: eindeutig / vertretbare Varianten /
   nicht ohne weitere Angaben entscheidbar. Liste fehlende Angaben auf.
-- Nenne zu jedem Prüfschritt die Rechtsgrundlage (EStG, LStR/LStH,
-  § 14 SGB IV, § 23a SGB IV, SvEV, Beitragsverfahrensverordnung,
-  Geringfügigkeits-Richtlinien, bei Nettoabzügen §§ 850 ff. ZPO).
+- Nenne zu jedem Prüfschritt und zu jeder rechtlichen Aussage die
+  Rechtsgrundlage (EStG, LStR/LStH, § 14 SGB IV, § 23a SGB IV, SvEV,
+  Beitragsverfahrensverordnung, Geringfügigkeits-Richtlinien, bei
+  Nettoabzügen §§ 850 ff. ZPO), jeweils mit dem Zusatz
+  "für [JAHR] verifizieren". Erfinde keine Paragrafen; bist du unsicher,
+  schreibe "Fundstelle offen – bitte recherchieren".
 - Nenne die typischen Fehlerquellen genau dieses Falls.
 - Schließe mit einer Handlungsanweisung in Stichpunkten für die Abrechnung.
 - Kennzeichne gesondert alles, was du nicht sicher weißt oder wo sich
   Werte jährlich ändern (Beitragsbemessungsgrenzen, Sachbezugswerte,
   Freigrenzen). Nenne KEINE konkreten Jahreswerte, ohne sie ausdrücklich
-  als "bitte für [JAHR] verifizieren" zu markieren.
+  als "für [JAHR] verifizieren" zu markieren.
 
 AUSGABEFORMAT
 Einschätzung – A Lohnsteuer – B Sozialversicherung – B2 Nettoebene
-(falls einschlägig) – C Folgen – Handlungsanweisung – "Bitte verifizieren".
+(falls einschlägig) – C Folgen – Handlungsanweisung –
+"Rechtsstand – für [JAHR] verifizieren".
 ```
 
 ## Anwendung
@@ -90,6 +94,7 @@ Einschätzung – A Lohnsteuer – B Sozialversicherung – B2 Nettoebene
 - Bei SV-rechtlichen Zweifelsfällen: Statusfeststellung oder Anfrage bei der Einzugsstelle. Die KI-Antwort ersetzt keine verbindliche Auskunft.
 - Rückwirkende Korrekturen immer vom Berufsträger freigeben lassen – sie berühren Meldungen und ggf. Haftung.
 - Prüfschema nutzen, Ergebnis verifizieren: Die Stärke der Antwort liegt in der Vollständigkeit der Prüfpunkte, nicht in den Zahlen.
+- **Vier-Augen-Prinzip und Freigabe:** Das Ergebnis ist ein Entwurf. Vor der Abrechnung muss eine zweite fachkundige Person die getrennte lohnsteuerliche und sozialversicherungsrechtliche Einordnung sowie alle Jahreswerte nachvollziehen. Die Freigabe erteilt ein Berufsträger, bevor der Fall abgerechnet, gemeldet oder dem Mandanten mitgeteilt wird; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

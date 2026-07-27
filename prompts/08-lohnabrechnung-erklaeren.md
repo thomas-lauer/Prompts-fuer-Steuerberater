@@ -4,7 +4,7 @@
 **Rolle:** Lohnsachbearbeitung, Sekretariat
 **DATEV-Bezug:** Lohn und Gehalt, LODAS, DATEV Arbeitnehmer online
 **Was du bereitstellen musst:** Die relevanten Positionen beider Abrechnungen, die konkrete Frage des Arbeitnehmers.
-**Datensparsamkeit:** Name, Personalnummer und Anschrift des Arbeitnehmers durch `AN 1` ersetzen, den Arbeitgeber durch `Mandant A`. Bei Pfändungen keine Gläubigerdaten und keine Angaben zum Grund der Forderung einfügen.
+**Datensparsamkeit:** Name, Personalnummer und Anschrift des Arbeitnehmers durch `AN 1` ersetzen, den Arbeitgeber durch `Mandant A`. Bei Pfändungen keine Gläubigerdaten und keine Angaben zum Grund der Forderung einfügen. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -60,11 +60,20 @@ ANFORDERUNGEN
    wofür – vorrangig an den Arbeitgeber; Krankenkasse oder Finanzamt nur
    bei deren Zuständigkeit; an die Kanzlei nur, wenn dazu eine
    ausdrückliche Vereinbarung mit dem Arbeitgeber besteht.
-7. Länge: maximal 250 Wörter. Sie-Form. Keine Paragrafen.
+7. Länge: maximal 250 Wörter. Sie-Form. Keine Paragrafen im Text an den
+   Arbeitnehmer.
+8. Nenne in der internen Notiz zu jeder rechtlichen Aussage die Rechtsgrundlage
+   (Norm mit Absatz und Satz, etwa § 42b EStG, § 23a SGB IV), jeweils mit dem
+   Zusatz "für [JAHR] verifizieren"; ebenso jeden Jahreswert
+   (Beitragsbemessungsgrenze, Zusatzbeitrag, Freigrenze). Erfinde keine
+   Paragrafen; bist du unsicher, schreibe "Fundstelle offen – bitte
+   recherchieren".
 
 AUSGABEFORMAT
 Antwortmail mit Betreff, Text, Tabelle, Schlusssatz.
-Darunter separat: "Interne Notiz" – was die Kanzlei ggf. noch prüfen sollte.
+Darunter separat: "Interne Notiz" – was die Kanzlei ggf. noch prüfen sollte,
+mit den Rechtsgrundlagen und den Werten, die mit "für [JAHR] verifizieren"
+markiert sind.
 ```
 
 ## Anwendung
@@ -79,6 +88,7 @@ Darunter separat: "Interne Notiz" – was die Kanzlei ggf. noch prüfen sollte.
 - Prüfen, ob die Kanzlei gegenüber dem Arbeitnehmer überhaupt auskunftsbefugt ist – Mandant ist der Arbeitgeber. Im Zweifel über den Arbeitgeber kommunizieren.
 - Keine Aussagen zur persönlichen Steuersituation des Arbeitnehmers (Erstattung, Veranlagung) ohne Mandat.
 - Bei Pfändungen und Abtretungen: Text vor Versand gesondert freigeben, hier sind Datenschutz und Persönlichkeitsrechte berührt.
+- **Vier-Augen-Prinzip und Freigabe:** Der Text ist ein Entwurf. Eine zweite Person aus der Lohnsachbearbeitung muss die vorgerechnete Veränderung und die Zuordnung zu den Fällen (a), (b), (c) nachvollziehen. Die Freigabe für den Versand an Arbeitnehmer oder Arbeitgeber erteilt ein Berufsträger; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

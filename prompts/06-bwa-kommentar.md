@@ -4,7 +4,7 @@
 **Rolle:** Steuerberater, Buchhaltung
 **DATEV-Bezug:** Kanzlei-Rechnungswesen (BWA, kurzfristige Erfolgsrechnung), DATEV Analyse und Planung (Kennzahlen/Controllingreport), DATEV Unternehmen online
 **Was du bereitstellen musst:** BWA-Werte des Zeitraums, Vergleichswerte (Vormonat, Vorjahr, kumuliert), Branche, bekannte Sondereffekte.
-**Datensparsamkeit:** Mandantenname und Anschrift durch ein Kürzel ersetzen (`Mandant A`). Für den Kommentar genügen Branche, Größenordnung und die Zahlen.
+**Datensparsamkeit:** Mandantenname und Anschrift durch ein Kürzel ersetzen (`Mandant A`). Für den Kommentar genügen Branche, Größenordnung und die Zahlen. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -56,6 +56,11 @@ ANFORDERUNGEN
    Bestandsveränderungen, Abschreibungen und Rückstellungen sind noch
    nicht oder nur planmäßig berücksichtigt. Nenne die Positionen, die
    dadurch im konkreten Fall verzerrt sein können.
+9. Nenne zu jeder rechtlichen oder steuerlichen Aussage die Rechtsgrundlage
+   (Norm mit Absatz und Satz, Richtlinie oder BMF-Schreiben mit Datum),
+   jeweils mit dem Zusatz "für [JAHR] verifizieren". Solche Aussagen gehören
+   in die interne Notiz, nicht in den Mandantentext. Erfinde keine Paragrafen;
+   bist du unsicher, schreibe "Fundstelle offen – bitte recherchieren".
 
 AUSGABEFORMAT
 "Das Wichtigste in Kürze" – "Was sich verändert hat" (max. 5 Punkte) –
@@ -77,6 +82,7 @@ darunter separat: "Interne Notiz: offene Rückfragen an den Mandanten".
 - Jede Ursachenbehauptung streichen, die nicht belegt ist. Der häufigste Fehler ist eine plausibel klingende, aber erfundene Erklärung.
 - Keine Prognosen und keine Finanzierungsempfehlungen ohne Freigabe durch den Berufsträger.
 - Vor dem Versand prüfen, ob der Ton zur Mandantenbeziehung passt.
+- **Vier-Augen-Prinzip und Freigabe:** Der Kommentar ist ein Entwurf. Eine zweite Person muss die Kennzahlen, die Prozentangaben und jede Ursachenaussage nachvollziehen. Die Freigabe zur Weitergabe an den Mandanten erteilt ein Berufsträger – der Kommentar steuert unternehmerische Entscheidungen; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

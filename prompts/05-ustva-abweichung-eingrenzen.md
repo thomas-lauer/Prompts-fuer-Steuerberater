@@ -4,7 +4,7 @@
 **Rolle:** Buchhaltung, Steuerberater
 **DATEV-Bezug:** Kanzlei-Rechnungswesen, UStVA, Umsatzsteuer-Verprobung, Summen- und Saldenliste
 **Was du bereitstellen musst:** UStVA-Werte je Kennzahl, Kontensalden der USt-/VSt-Konten und Erlöskonten, Zeitraum, Besteuerungsart.
-**Datensparsamkeit:** Mandantenname und Steuernummer durch ein Kürzel ersetzen (`Mandant A`). Für die Verprobung genügen Branche, Besteuerungsart, Kennzahlen und Salden.
+**Datensparsamkeit:** Mandantenname und Steuernummer durch ein Kürzel ersetzen (`Mandant A`). Für die Verprobung genügen Branche, Besteuerungsart, Kennzahlen und Salden. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -62,8 +62,12 @@ ANFORDERUNGEN
    der den Stand der Klärung dokumentiert.
 6. Wenn der Betrag der Abweichung auf einen typischen Fehler hindeutet
    (z. B. exakt der Steueranteil eines Bruttobetrags beim jeweils
-   anwendbaren Steuersatz – Satz bitte für [ZEITRAUM] verifizieren –,
+   anwendbaren Steuersatz – Satz: für [JAHR] verifizieren –,
    exakt der Saldo eines Kontos, Zahlendreher), weise ausdrücklich darauf hin.
+7. Nenne zu jeder rechtlichen Aussage die Rechtsgrundlage (Norm mit Absatz und
+   Satz, Richtlinie oder BMF-Schreiben mit Datum), jeweils mit dem Zusatz
+   "für [JAHR] verifizieren". Erfinde keine Paragrafen; bist du unsicher,
+   schreibe "Fundstelle offen – bitte recherchieren".
 
 AUSGABEFORMAT
 1. Verprobungsrechnung  2. Ursachenliste (Tabelle: Ursache | Wahrscheinlichkeit |
@@ -81,6 +85,7 @@ Prüfschritt)  3. Empfohlene Prüfreihenfolge  4. Interner Vermerk
 - Die Verprobungsrechnung selbst nachrechnen – Rechenfehler von Sprachmodellen sind bei mehrstufigen Beträgen möglich. Alternativ: Zahlen in Excel gegenrechnen.
 - Keine Berichtigung nach § 153 AO ohne Entscheidung des Berufsträgers.
 - Wenn die Abweichung eine bereits übermittelte Voranmeldung betrifft: Korrekturpflicht und Anzeigepflicht gesondert prüfen.
+- **Vier-Augen-Prinzip und Freigabe:** Das Ergebnis ist ein Entwurf. Eine zweite fachkundige Person muss die Verprobungsrechnung und die gefundene Ursache nachvollziehen. Die Freigabe für eine Korrekturmeldung oder eine Mitteilung an den Mandanten erteilt ein Berufsträger; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

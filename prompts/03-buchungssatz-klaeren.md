@@ -4,7 +4,7 @@
 **Rolle:** Buchhaltung, Steuerfachangestellte, Berufseinsteiger
 **DATEV-Bezug:** Kanzlei-Rechnungswesen, Kontenrahmen SKR03/SKR04, DATEV-Steuerschlüssel
 **Was du bereitstellen musst:** Sachverhalt, Belegangaben, Kontenrahmen, Rechtsform und Besteuerungsart des Mandanten.
-**Datensparsamkeit:** Mandantenname, Steuernummer und den Namen des Rechnungsausstellers durch Platzhalter ersetzen (`Mandant A`, `Lieferant 1`). Für die Kontierungsfrage genügen Rechtsform, Kontenrahmen, Sachverhalt und Beträge.
+**Datensparsamkeit:** Mandantenname, Steuernummer und den Namen des Rechnungsausstellers durch Platzhalter ersetzen (`Mandant A`, `Lieferant 1`). Für die Kontierungsfrage genügen Rechtsform, Kontenrahmen, Sachverhalt und Beträge. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -41,8 +41,11 @@ ANFORDERUNGEN
    Soll-Konto (Nummer + Bezeichnung) an Haben-Konto (Nummer + Bezeichnung), Betrag,
    plus DATEV-Steuerschlüssel oder Automatikkonto-Hinweis.
 3. Begründe in maximal 6 Sätzen, warum diese Konten und dieser
-   Steuerschlüssel richtig sind. Nenne die einschlägige Norm
-   (z. B. § 13b UStG, § 4 Abs. 5 EStG, R 4.10 EStR).
+   Steuerschlüssel richtig sind. Nenne zu jeder rechtlichen Aussage die
+   einschlägige Norm mit Absatz und Satz (z. B. § 13b UStG,
+   § 4 Abs. 5 EStG, R 4.10 EStR), jeweils mit dem Zusatz
+   "für [JAHR] verifizieren". Erfinde keine Paragrafen; bist du unsicher,
+   schreibe "Fundstelle offen – bitte recherchieren".
 4. Nenne bis zu zwei plausible ALTERNATIVE Buchungen mit dem Kriterium,
    an dem sich die Entscheidung dreht.
 5. Nenne die AUSWIRKUNG auf die UStVA (welche Kennzahl, Kz, betroffen ist)
@@ -70,6 +73,7 @@ AUSGABEFORMAT
 - Steuerschlüssel im DATEV-Programm gegenprüfen, nicht aus der KI-Antwort übernehmen.
 - Bei Fällen mit steuerlicher Auswirkung oberhalb der von der Kanzlei festgelegten Wesentlichkeitsgrenze: Freigabe durch einen Berufsträger. Ist keine Grenze festgelegt, gilt jeder Sonderfall als freigabepflichtig.
 - Rechtsstand prüfen: Das Modell kennt möglicherweise nicht die aktuellste Rechtsprechung oder BMF-Schreiben.
+- **Vier-Augen-Prinzip und Freigabe:** Der Buchungssatz ist ein Entwurf. Eine zweite fachkundige Person muss Konten, Steuerschlüssel und die genannten Fundstellen nachvollziehen, bevor gebucht wird. Die Freigabe erteilt ein Berufsträger bei jedem Sonderfall und bei jeder Auskunft an den Mandanten; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

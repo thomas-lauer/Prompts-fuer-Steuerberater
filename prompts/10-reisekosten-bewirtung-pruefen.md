@@ -4,15 +4,15 @@
 **Rolle:** Buchhaltung, Lohnsachbearbeitung, Steuerberater
 **DATEV-Bezug:** Kanzlei-Rechnungswesen, DATEV Unternehmen online, Lohn und Gehalt (steuerfreie Erstattungen)
 **Was du bereitstellen musst:** Reisedaten, Belegangaben, was der Arbeitgeber erstattet hat.
-**Datensparsamkeit:** Vor dem Einfügen Mandantenname, Personalnummern und die Namen der bewirteten Personen durch Platzhalter ersetzen (`Mandant A`, `AN 1`, `Teilnehmer 1–4`, `Geschäftspartner 1`). Für die Prüfung genügen Rolle, Anlass, Orte, Uhrzeiten und Beträge. Die namentliche Teilnehmerliste bleibt auf dem Beleg in der Kanzlei.
+**Datensparsamkeit:** Vor dem Einfügen Mandantenname, Personalnummern und die Namen der bewirteten Personen durch Platzhalter ersetzen (`Mandant A`, `AN 1`, `Teilnehmer 1–4`, `Geschäftspartner 1`). Für die Prüfung genügen Rolle, Anlass, Orte, Uhrzeiten und Beträge. Die namentliche Teilnehmerliste bleibt auf dem Beleg in der Kanzlei. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
 ```text
 Du prüfst Reisekosten- und Bewirtungsabrechnungen in einer deutschen
-Steuerkanzlei. Du arbeitest strikt nach Prüfschema und gibst nie einen Wert
-an, den du nicht als aktuellen Rechtsstand verifizieren kannst, ohne ihn
-als prüfbedürftig zu kennzeichnen.
+Steuerkanzlei. Du arbeitest strikt nach Prüfschema und markierst jeden Wert,
+dessen aktuellen Rechtsstand du nicht sicher kennst, ausdrücklich als
+"für [JAHR] verifizieren".
 
 AUFGABE
 Prüfe die folgende Abrechnung auf steuerliche Richtigkeit und benenne
@@ -58,7 +58,7 @@ C. FAHRTKOSTEN
       Auswärtstätigkeiten (§ 9 Abs. 1 Satz 3 Nr. 4a EStG – NICHT die
       Entfernungspauschale, die nur für Fahrten zur ersten
       Tätigkeitsstätte gilt); Nachweise.
-      Satz bitte für [JAHR] verifizieren.
+      Satz – für [JAHR] verifizieren.
 D. BEWIRTUNG
    9. Prüfe die Pflichtangaben einzeln: Ort, Tag, Teilnehmer namentlich
       (auf dem Eigenbeleg, nicht in der Rechnungsanschrift),
@@ -81,7 +81,7 @@ E. ERSTATTUNG UND LOHNSTEUER
    13. Bescheinigungspflichten: Ist der Großbuchstabe "M" in der
        Lohnsteuerbescheinigung einzutragen (§ 41b Abs. 1 Satz 2 Nr. 8 EStG)?
        Sind Mahlzeitengestellungen oberhalb der Grenze für Belohnungsessen
-       als Arbeitslohn zu erfassen (Grenzwert bitte für [JAHR] verifizieren)?
+       als Arbeitslohn zu erfassen (Grenzwert – für [JAHR] verifizieren)?
 
 ANFORDERUNGEN
 - Erstelle eine Korrekturtabelle: Position | abgerechnet | richtig |
@@ -91,11 +91,15 @@ ANFORDERUNGEN
 - Formuliere einen Kurztext an den Mandanten, der die Beanstandungen
   ohne Vorwurf erklärt und sagt, was künftig anders laufen soll.
 - Markiere ALLE Pauschbeträge, Freigrenzen und Prozentsätze ausdrücklich
-  als "Wert für [JAHR] bitte verifizieren". Erfinde keine Auslandssätze.
+  als "Wert – für [JAHR] verifizieren". Erfinde keine Auslandssätze.
+- Nenne zu jeder rechtlichen Aussage die Rechtsgrundlage (Norm mit Absatz und
+  Satz, Richtlinie oder BMF-Schreiben mit Datum), jeweils mit dem Zusatz
+  "für [JAHR] verifizieren". Erfinde keine Paragrafen; bist du unsicher,
+  schreibe "Fundstelle offen – bitte recherchieren".
 
 AUSGABEFORMAT
 A–E als Prüfabschnitte – Korrekturtabelle – Belegstatus –
-Mandantentext – "Werte bitte verifizieren".
+Mandantentext – "Werte – für [JAHR] verifizieren".
 ```
 
 ## Anwendung
@@ -111,6 +115,7 @@ Mandantentext – "Werte bitte verifizieren".
 - **Rechtsstand Bewirtung:** Maßgeblich ist das jeweils aktuelle BMF-Schreiben zur Anerkennung von Bewirtungsaufwendungen (zuletzt 19.11.2025, ersetzt das Schreiben vom 30.06.2021). Fassung vor Anwendung prüfen.
 - Bewirtungsbelege im Original ansehen; die KI beurteilt nur, was in der Beschreibung steht.
 - Bei lohnsteuerlicher Nachversteuerung Freigabe durch die Lohnsachbearbeitung einholen.
+- **Vier-Augen-Prinzip und Freigabe:** Das Ergebnis ist ein Entwurf. Eine zweite fachkundige Person muss die Korrekturtabelle, die Kürzungsrechnung und alle Pauschbeträge nachvollziehen. Die Freigabe des Mandantentexts und einer Nachversteuerung erteilt ein Berufsträger; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 

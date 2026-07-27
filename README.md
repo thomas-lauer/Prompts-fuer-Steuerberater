@@ -25,16 +25,20 @@ jedes Mal von Hand erledigt wird. Die Themen sind nicht erfunden, sondern aus
 Foren, Fachdiensten und Kanzleiblogs recherchiert – unter anderem aus der
 DATEV-Community.
 
-Abgedeckt sind derzeit:
+**48 Prompts.** Die vollständige Übersicht nach Rolle, Anlass und Prompt-Ketten
+steht in [INDEX.md](INDEX.md).
 
 | Bereich | Was die Prompts leisten |
 |---------|-------------------------|
-| **Belege und Mandantenzulieferung** | Fehlende Unterlagen in Eskalationsstufen nachfordern; unklare Bankumsätze gebündelt statt einzeln klären |
-| **Buchführung** | Buchungssätze in SKR03/SKR04 begründen; Umsatzsteuer-Sonderfälle nach Prüfschema einordnen; UStVA-Abweichungen eingrenzen |
-| **Lohn** | Sonderfälle lohnsteuerlich und sozialversicherungsrechtlich prüfen; Abrechnungen für Arbeitnehmer verständlich erklären |
-| **Steuererklärung** | Unterlagen-Checklisten, die zum jeweiligen Mandanten passen statt zum Formular |
-| **Reisekosten und Bewirtung** | Abrechnungen und Belege systematisch prüfen, Korrekturbedarf benennen |
-| **Auswertung und Kommunikation** | BWA so kommentieren, dass der Mandant sie versteht |
+| **Belege und Mandantenzulieferung** | Fehlende Unterlagen in Eskalationsstufen nachfordern; unklare Bankumsätze gebündelt statt einzeln klären; Belegkanäle und Scan-Regeln festlegen |
+| **Buchführung** | Buchungssätze in SKR03/SKR04 begründen; Umsatzsteuer-Sonderfälle nach Prüfschema einordnen; UStVA-Abweichungen eingrenzen; Kontenrahmen bei Mandatsübernahme überleiten |
+| **Analyse exportierter Daten** | Offene Posten nach Alter und Risiko, Dubletten in Buchungen und Stammdaten, Summen- und Saldenliste, EÜR-Plausibilität vor Abgabe |
+| **Lohn** | Sonderfälle lohnsteuerlich und sozialversicherungsrechtlich prüfen; Abrechnungen erklären; SV-Fehlerprotokolle entschlüsseln; Stichtagspläne und Behördenanschreiben |
+| **Steuererklärung, Bescheide, Prüfung** | Unterlagen-Checklisten je Mandantentyp; Bescheid gegen Erklärung abgleichen; Einspruch begründen; Fristverlängerung; Betriebsprüfung vorbereiten |
+| **GoBD, Kasse, Dokumentation** | Verfahrensdokumentation entwerfen; Kassenführung prüfen; Kontierungsrichtlinie und Sachbezugs-Merkblatt für den Mandanten |
+| **Auswertung und Kommunikation** | BWA in Mandantensprache kommentieren; Fachtexte übersetzen; E-Rechnungspflicht erklären; lange Mandantenmails zu Aufgaben und Fristen verdichten |
+| **Honorar** | Leistungsnachweis zur Rechnung; Honorarbeschwerde und -anpassung; Mahnstufen mit berufsrechtlichen Grenzen |
+| **Kanzleiorganisation** | Arbeitsanweisungen, Vertretungsleitfäden, Fristenkonzept, Onboarding, Übungsfälle, Erreichbarkeit, Change-Kommunikation, Mandantenbindung |
 
 ## Wofür nicht
 
@@ -68,9 +72,14 @@ Personalnummern, IBAN und Namen Dritter durch Platzhalter ersetzen
 Sachverhalt, Beträge, Konten und Daten.
 
 Der Einsatz von KI-Werkzeugen mit Mandantenbezug berührt die berufsrechtliche
-Verschwiegenheitspflicht (§ 57 StBerG, § 203 StGB) und die DSGVO. Ob und mit
-welchen Daten ein bestimmtes Werkzeug befüllt werden darf, muss die Kanzlei
-entscheiden und dokumentieren. Jeder Prompt enthält dazu einen eigenen Hinweis.
+Verschwiegenheitspflicht (§ 57 StBerG, § 203 StGB), die Einbindung von
+Dienstleistern (§ 62a StBerG), die DSGVO und die KI-Kompetenzpflicht des
+Art. 4 KI-VO. Ob und mit welchen Daten ein bestimmtes Werkzeug befüllt werden
+darf, muss die Kanzlei entscheiden und dokumentieren. Jeder Prompt enthält dazu
+einen eigenen Hinweis.
+
+**Einzelheiten, die drei Datenzonen, die Freigabestufen und die Checkliste vor
+dem ersten Einsatz: [DATENSCHUTZ.md](DATENSCHUTZ.md).**
 
 ## Zwei Grundregeln, die den Unterschied machen
 
@@ -83,6 +92,13 @@ Deshalb fordert jeder Prompt das Modell auf, solche Werte als
 **Vier Augen.** Kein Ergebnis geht ungeprüft an einen Mandanten oder in eine
 Buchung. Der Abschnitt Qualitätssicherung sagt in jeder Datei konkret, worauf
 zu achten ist.
+
+## Eigene Prompts schreiben
+
+Der [BAUKASTEN.md](BAUKASTEN.md) enthält die wiederverwendbaren Bausteine, aus
+denen diese Sammlung gebaut ist: Rollen- und Arbeitsweisenformeln, den
+Unsicherheitsbaustein, Ausgabeformate, das Freigabe-Bauteil und die Anti-Muster,
+die in Kanzleiprompts regelmäßig schiefgehen.
 
 ## Beitragen
 
@@ -100,6 +116,61 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 ## Änderungsprotokoll
 
 Änderungen werden hier chronologisch festgehalten, neueste zuerst.
+
+### 2026-07-27 – Läufe 2 bis 8: von 10 auf 48 Prompts
+
+**Neu: 38 Prompts (11–49, ohne 45).**
+
+- Kommunikation und Mandantenführung (11–17): Fachtext übersetzen,
+  E-Rechnungs-Rundschreiben, Mandantenmail verdichten, Leistungsnachweis zur
+  Honorarrechnung, Honorarbeschwerde und -anpassung, Mahnstufen, Zulieferkalender.
+- Analyse exportierter Daten (18–22): Offene Posten, Dubletten, Summen- und
+  Saldenliste, EÜR-Plausibilität, Kontenrahmen-Vergleich.
+- Kanzleiorganisation und Qualitätssicherung (23–30): Arbeitsanweisung,
+  Vertretungsleitfaden, Stammdatenkonvention, Belegkanäle, Scan-Anleitung,
+  OCR-Prüfroutine, Onboarding, Übungsfälle.
+- Fristen, Bescheide, Prüfung (31–36): Fristverlängerung, Bescheidabgleich,
+  Einspruchsbegründung, Betriebsprüfung, Fristenkonzept, Sachverhaltsdarstellung.
+- GoBD, Kasse, Dokumentation (37–40): Verfahrensdokumentation, GoBD-Kasse,
+  Kontierungsrichtlinie, Sachbezüge.
+- Lohn vertieft (41–44): SV-Fehlerprotokoll, Behördenanschreiben, FAQ Lohn,
+  Stichtagsplan.
+- Kanzleiführung (46–49): Mandatsprofitabilität, Erreichbarkeitskonzept,
+  Change-Kommunikation, Mandantenkontakt.
+
+**Neu: drei Querschnittsdateien.**
+
+- [DATENSCHUTZ.md](DATENSCHUTZ.md) – Datenschutz- und Freigabe-Leitfaden mit
+  drei Datenzonen, vier Freigabestufen, Werkzeugauswahl nach § 62a StBerG,
+  KI-Kompetenz nach Art. 4 KI-VO und Checkliste vor dem ersten Einsatz.
+- [BAUKASTEN.md](BAUKASTEN.md) – 15 wiederverwendbare Prompt-Bausteine und die
+  Anti-Muster, die in Kanzleiprompts schiefgehen.
+- [INDEX.md](INDEX.md) – Übersicht nach Rolle, Anlass und Prompt-Ketten.
+
+**Qualitätssicherung.** Vier unabhängige adversarische Fachprüfungen fanden
+**86 Mängel**, davon 15 schwer; alle behoben. Die wichtigsten Korrekturen:
+
+- § 62a StBerG (Einbindung von Dienstleistern) und Art. 4 KI-VO (KI-Kompetenz)
+  fehlten in allen Dateien und sind jetzt durchgehend berücksichtigt.
+- Bei versäumter Erklärungsfrist ist die rückwirkende Fristverlängerung nach
+  § 109 Abs. 1 Satz 2 AO das Mittel, nicht die Wiedereinsetzung.
+- Bekanntgabefiktion auf vier Tage aktualisiert (seit 1.1.2025);
+  § 200a AO (qualifiziertes Mitwirkungsverlangen) ergänzt; § 147 Abs. 6 AO
+  in der Fassung ab 1.1.2025.
+- Gestufte Ausgangskontrolle mit Sendenachweis im Fristenkonzept ergänzt.
+- Sachbezugs-Merkblatt: Vorteile mit eigener Bewertungsregel gehören nicht in
+  die monatliche Freigrenze.
+- Offene-Posten-Analyse: Zweifelhaftigkeit und Uneinbringlichkeit nach
+  § 17 UStG getrennt; Wertberichtigung bei EÜR ausgeschlossen.
+- E-Rechnung in Belegkanal-, Scan- und Kontierungsprompts berücksichtigt –
+  aufbewahrungspflichtig ist der strukturierte Datensatz, nicht der Ausdruck.
+- GoBD-Fundstelle auf die zweite Änderung vom 14.7.2025 aktualisiert.
+- Keine Beschäftigtenbeurteilungen, keine Gesundheitsdaten über Mitarbeitende.
+- Markertext für prüfbedürftige Werte auf eine kanonische Form vereinheitlicht
+  und Rechtsgrundlagen werden jetzt positiv eingefordert, nicht nur ihre
+  Erfindung verboten.
+
+Strukturprüfung über alle 48 Dateien: 0 Befunde.
 
 ### 2026-07-27 – Veröffentlichung auf GitHub
 

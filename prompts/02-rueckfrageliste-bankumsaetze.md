@@ -4,7 +4,7 @@
 **Rolle:** Buchhaltung
 **DATEV-Bezug:** Kanzlei-Rechnungswesen (Bankbuchungen, offene Posten), DATEV Unternehmen online
 **Was du bereitstellen musst:** Export oder Abschrift der unklaren Umsätze (Datum, Betrag, Verwendungszweck, Gegenseite).
-**Datensparsamkeit:** Mandantenname, IBAN und Klarnamen Dritter durch Platzhalter ersetzen (`Mandant A`, `Konto ****1234`, `Zahlungsempfänger 1`). Für die Klärung genügen Datum, Betrag, Verwendungszweck und Art der Gegenseite.
+**Datensparsamkeit:** Mandantenname, IBAN und Klarnamen Dritter durch Platzhalter ersetzen (`Mandant A`, `Konto ****1234`, `Zahlungsempfänger 1`). Für die Klärung genügen Datum, Betrag, Verwendungszweck und Art der Gegenseite. Werkzeugauswahl, Auftragsverarbeitungsvertrag und die berufsrechtliche Einbindung des Anbieters (§ 62a StBerG: sorgfältige Auswahl, Vertrag in Textform mit Verschwiegenheitsverpflichtung) müssen vor dem Einsatz geklärt sein – siehe `DATENSCHUTZ.md`.
 
 ## Prompt
 
@@ -48,6 +48,12 @@ ANFORDERUNGEN
 7. Wenn eine Position aus dem Verwendungszweck eindeutig zuzuordnen ist,
    nimm sie NICHT in die Mandantenliste auf, sondern in eine separate
    Rubrik "Von uns geklärt – keine Rückfrage nötig" mit Begründung.
+8. Nenne zu jeder rechtlichen Aussage – etwa zur Behandlung einer
+   Privatentnahme oder eines Verrechnungsvorgangs – die Rechtsgrundlage
+   (Norm mit Absatz und Satz), jeweils mit dem Zusatz
+   "für [JAHR] verifizieren". Solche Aussagen gehören ausschließlich in die
+   interne Kurzliste, nicht in den Mandantentext. Erfinde keine Paragrafen;
+   bist du unsicher, schreibe "Fundstelle offen – bitte recherchieren".
 
 AUSGABEFORMAT
 1. Anschreiben  2. Rückfragetabelle  3. Von uns geklärt  4. Interne Kurzliste
@@ -65,6 +71,7 @@ AUSGABEFORMAT
 - Jede vom Modell angebotene Vermutung gegen den tatsächlichen Verwendungszweck prüfen – Modelle raten hier plausibel, aber nicht immer richtig.
 - Die interne Kurzliste ist ein Vorschlag; die Buchungsentscheidung trifft die Kanzlei.
 - Stichprobe: mindestens drei Positionen selbst nachvollziehen, bevor die Liste rausgeht.
+- **Vier-Augen-Prinzip und Freigabe:** Die Liste ist ein Entwurf. Vor dem Versand muss eine zweite Person die Rückfragetabelle und die Rubrik "Von uns geklärt" gegenlesen – eine als geklärt eingestufte, tatsächlich offene Position ist der teuerste Fehler dieser Auswertung. Die Freigabe zur Weitergabe an den Mandanten erteilt ein Berufsträger; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 
