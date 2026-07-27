@@ -101,6 +101,17 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 
 Änderungen werden hier chronologisch festgehalten, neueste zuerst.
 
+### 2026-07-27 – Veröffentlichung auf GitHub
+
+- Projekt auf zwei Repositorys aufgeteilt: ein privates Entwicklungs-Repository
+  mit Charter, Backlog, Recherche und Projektdokumentation, und dieses
+  öffentliche Repository mit den Prompts und dieser Beschreibung.
+- `README.md` neu geschrieben: von einer internen Konventionsdatei zu einer
+  Beschreibung für Anwender – für wen, wofür, wofür ausdrücklich nicht,
+  Anwendung, Datenschutz und Berufsrecht.
+- Die bisherigen Konventionen für Prompt-Dateien sind in die Projekt-
+  dokumentation des privaten Repositorys gewandert.
+
 ### 2026-07-27 – Lauf 1: Erstveröffentlichung
 
 - Recherchebasis aufgebaut: 60+ Alltagsprobleme aus DATEV-Community, Circula-Blog,
