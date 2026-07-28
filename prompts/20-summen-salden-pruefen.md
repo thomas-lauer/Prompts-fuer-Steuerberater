@@ -79,8 +79,7 @@ ANFORDERUNGEN
    Kontonummer nennst, kennzeichne sie mit "(Kontonummer im Kontenplan des
    Mandanten nachschlagen – nicht übernehmen)". Kontonummern unterscheiden sich
    je Kontenrahmen und je individuellem Kontenplan.
-5. Kennzeichne jeden Steuersatz, Grenzwert und Schwellenbetrag mit "Wert – für
-   [JAHR] verifizieren".
+5. Kennzeichne jeden Steuersatz, Grenzwert und Schwellenbetrag mit "Wert – für [JAHR] verifizieren".
 6. Prüfe die Summenkontrolle nur, wenn die eingefügte Liste vollständig ist
    (alle Sach- und Personenkonten, mit Vortragswerten). Frage zuerst danach. Ist
    die Liste ausschnittweise, verdichtet oder ohne Personenkonten eingefügt,

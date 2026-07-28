@@ -42,8 +42,7 @@ ANFORDERUNGEN
    Nenne zu jeder Frist die Norm, aus der sie folgt, oder schreibe "Grundlage
    unklar – von der Kanzlei zu ergänzen". Prüfe und vermerke, ob das Fristende
    auf einen Samstag, Sonntag oder Feiertag fällt; bei steuerlichen Fristen
-   verschiebt es sich dann auf den nächsten Werktag (§ 108 Abs. 3 AO – für
-   [JAHR] verifizieren). Ergänze bei jeder Frist: "Frist von einem Menschen zu
+   verschiebt es sich dann auf den nächsten Werktag (§ 108 Abs. 3 AO – für [JAHR] verifizieren). Ergänze bei jeder Frist: "Frist von einem Menschen zu
    berechnen und im Fristenprogramm zu erfassen."
 4. OFFENE FRAGEN: was der Mandant nicht beantwortet hat, obwohl es zur
    Bearbeitung nötig ist. Höchstens 5, jede geschlossen formuliert.

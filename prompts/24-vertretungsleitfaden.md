@@ -63,8 +63,7 @@ ANFORDERUNGEN
 5. Kontierungsbesonderheiten nur übernehmen, wenn sie angegeben sind. Leite
    keine Buchungsregeln aus der Branche ab und nenne keine konkreten
    Kontonummern, die nicht angegeben wurden.
-6. Nenne keine Fristen als feststehend, ohne sie als "Termin – für [JAHR]
-   verifizieren" zu kennzeichnen. Erfinde keine Paragrafen.
+6. Nenne keine Fristen als feststehend, ohne sie als "Termin – für [JAHR] verifizieren" zu kennzeichnen. Erfinde keine Paragrafen.
 7. Was in den Angaben fehlt, markierst du als (offen) und nimmst es in die
    Klärungsliste auf – nicht ergänzen, nicht plausibel raten.
 

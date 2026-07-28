@@ -66,8 +66,7 @@ ANFORDERUNGEN
    Einspruchsbegründung eingeflochten. Wenn oben "noch offen" steht, formuliere
    ihn als Entscheidungsvorlage, nicht als fertigen Antrag.
 7a. Weise im Abschnitt zur Aussetzung der Vollziehung ausdrücklich darauf hin,
-    dass der Einspruch die Vollziehung nicht hemmt (§ 361 Abs. 1 AO – für [JAHR]
-    verifizieren), dass die Nachzahlung ohne Aussetzung fällig bleibt und
+    dass der Einspruch die Vollziehung nicht hemmt (§ 361 Abs. 1 AO – für [JAHR] verifizieren), dass die Nachzahlung ohne Aussetzung fällig bleibt und
     Säumniszuschläge entstehen können (§ 240 AO – für [JAHR] verifizieren).
     Ordne die Zuständigkeit zu: Antrag bei der Finanzbehörde nach § 361 Abs. 2 AO;
     gerichtlicher Antrag erst nachrangig nach § 69 FGO. Behaupte nicht, dass

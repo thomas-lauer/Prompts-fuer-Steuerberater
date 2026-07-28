@@ -58,8 +58,7 @@ ANFORDERUNGEN
 AUSGABEFORMAT
 Für jede Stufe: Überschrift "Stufe N – <Zweck>", Betreff, Mailtext,
 darunter eine Zeile "Versenden ab: <Zeitpunkt relativ zur Vorstufe>".
-Am Ende, falls einschlägig, "Intern: Rechtsgrundlagen – für [JAHR]
-verifizieren".
+Am Ende, falls einschlägig, "Intern: Rechtsgrundlagen – für [JAHR] verifizieren".
 ```
 
 ## Anwendung

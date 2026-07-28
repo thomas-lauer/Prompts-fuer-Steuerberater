@@ -33,8 +33,7 @@ BETRIEBSPROFIL
 - Gesetzgebungsvorhaben zur Verpflichtung, elektronische Aufzeichnungssysteme
   einzusetzen: Stand für [JAHR] verifizieren. Bei offener Ladenkasse als
   Prüfpunkt aufnehmen, ob der Betrieb von einer künftigen Verpflichtung erfasst
-  wäre (Schwelle, Anwendungszeitpunkt und Verfahrensstand – für [JAHR]
-  verifizieren – nicht als geltendes Recht darstellen).
+  wäre (Schwelle, Anwendungszeitpunkt und Verfahrensstand – für [JAHR] verifizieren – nicht als geltendes Recht darstellen).
 
 ARBEITSWEISE
 1. Gib zuerst eine EINSCHÄTZUNG DER EINDEUTIGKEIT ab. "Unbekannt" bei TSE

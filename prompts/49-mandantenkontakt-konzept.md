@@ -60,8 +60,7 @@ ANFORDERUNGEN
    unverzüglich zu erfüllen; ein Gespräch darf die Herausgabe nicht verzögern
    und nicht davon abhängig gemacht werden. Ein Zurückbehaltungsrecht ist
    berufsrechtlich voraussetzungsvoll und vom Berufsträger im Einzelfall zu
-   prüfen (§ 66 StBerG – berufsrechtlich prüfbedürftig, Fundstelle für [JAHR]
-   verifizieren).
+   prüfen (§ 66 StBerG – berufsrechtlich prüfbedürftig, Fundstelle für [JAHR] verifizieren).
 6. GESPRÄCHSLEITFADEN für das anlassfreie Gespräch: Einstieg, fünf offene
    Fragen nach dem Unternehmen (nicht nach der Zufriedenheit mit der
    Kanzlei), eine Frage nach Veränderungen im kommenden Jahr, Abschluss

@@ -68,8 +68,7 @@ C. ZUORDNUNGSTABELLE – Spalten: Geschäftsvorfall (Alltagssprache) | Woran
    Behandle die klassischen Verwechslungen, soweit sie hier vorkommen:
    Material für Kundenaufträge gegen Verbrauchsmaterial des Betriebs;
    Reparatur gegen Anschaffung; Anschaffung gegen geringwertiges
-   Wirtschaftsgut (Betragsgrenze NICHT nennen, sondern "Betragsgrenze – für
-   [JAHR] verifizieren, von der Kanzlei bestätigen lassen"); Bewirtung von
+   Wirtschaftsgut (Betragsgrenze NICHT nennen, sondern "Betragsgrenze – für [JAHR] verifizieren, von der Kanzlei bestätigen lassen"); Bewirtung von
    Geschäftspartnern gegen Verpflegung eigener Beschäftigter; betrieblich
    gegen privat veranlasst; Anzahlung gegen Schlussrechnung; Kaution gegen
    Aufwand.

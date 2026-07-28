@@ -72,8 +72,7 @@ ANFORDERUNGEN
    Folgemonat) und mit Bitte um Bestätigung.
 8. Nenne KEINE gesetzlichen Fristen, Fälligkeitstermine, Beitragsbemessungs-
    grenzen, Sachbezugswerte, Geringfügigkeitsgrenzen oder Pfändungsfreibeträge,
-   ohne sie als "Wert – für [JAHR] verifizieren" bzw. "Frist – für [JAHR]
-   verifizieren" zu markieren. Erfinde keine Fristen.
+   ohne sie als "Wert – für [JAHR] verifizieren" bzw. "Frist – für [JAHR] verifizieren" zu markieren. Erfinde keine Fristen.
 8a. Nenne zu jedem Prüfungsschritt die einschlägige Rechtsgrundlage, jeweils mit
     dem Zusatz "für [JAHR] verifizieren", und führe sie am Ende in einer Tabelle
     "Zu verifizierende Rechtsgrundlagen" mit Spalte "geprüft von (leer)".

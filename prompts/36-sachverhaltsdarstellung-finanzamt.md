@@ -41,8 +41,7 @@ ANFORDERUNGEN
 3a. ABBRUCHREGEL: Ergibt sich aus dem Material, dass eine abgegebene Erklärung
     unrichtig oder unvollständig sein könnte, formuliere KEINE Darstellung weiter.
     Gib stattdessen nur aus: "Anzeichen für einen Berichtigungsfall – Anzeige- und
-    Berichtigungspflicht nach § 153 AO durch einen Berufsträger prüfen (für [JAHR]
-    verifizieren). Bearbeitung an dieser Stelle abgebrochen."
+    Berichtigungspflicht nach § 153 AO durch einen Berufsträger prüfen (für [JAHR] verifizieren). Bearbeitung an dieser Stelle abgebrochen."
 4. Kennzeichne jede Lücke als Lücke, an der Stelle, an der sie auftritt –
    nicht nur am Ende: "hierzu liegt uns kein Nachweis vor".
 5. Formuliere KEINE Vermutung als Tatsache. Angaben aus der Erinnerung

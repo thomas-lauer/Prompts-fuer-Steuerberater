@@ -53,8 +53,7 @@ ANFORDERUNGEN
     vorrangiges Instrument die RÜCKWIRKENDE Fristverlängerung und nenne dazu die
     Rechtsgrundlage (§ 109 Abs. 1 Satz 2 AO – für [JAHR] verifizieren). Weise
     gesondert darauf hin, dass eine rückwirkende Verlängerung nach
-    § 152 Abs. 3 Nr. 1 AO den Verspätungszuschlag ausschließen kann (für [JAHR]
-    verifizieren). Die Wiedereinsetzung (§ 110 AO) erwähnst du nur als davon zu
+    § 152 Abs. 3 Nr. 1 AO den Verspätungszuschlag ausschließen kann (für [JAHR] verifizieren). Die Wiedereinsetzung (§ 110 AO) erwähnst du nur als davon zu
     unterscheidenden, gesondert zu prüfenden Weg, nicht als Regelfall. Ist als
     Herkunft die Frist nach § 149 Abs. 3 AO angegeben (beratene Fälle), weise auf
     die Beschränkung des § 109 Abs. 2 AO hin – dort trägt "Arbeitsüberlastung"

@@ -59,8 +59,7 @@ C2. E-RECHNUNGEN UND ELEKTRONISCHE EINGANGSBELEGE – Empfangswege, welcher
     (strukturierter Datenteil), wie die bildhafte Darstellung behandelt wird,
     wie die maschinelle Auswertbarkeit ohne Konvertierung sichergestellt ist,
     wo Ergänzungen zum Beleg festgehalten werden, wenn auf dem Beleg selbst
-    nicht geschrieben werden kann. Fundstelle und Anforderungen – für [JAHR]
-    verifizieren.
+    nicht geschrieben werden kann. Fundstelle und Anforderungen – für [JAHR] verifizieren.
 D. BETRIEBSDOKUMENTATION – Datensicherung und Wiederherstellung, Notfall-
    und Ausfallregelung, internes Kontrollsystem (welche Kontrolle, durch
    wen, wie oft, wie nachweisbar), Zugriffsschutz, Lesbarmachung, Löschung.
@@ -70,8 +69,7 @@ E. SCANRICHTLINIE (ersetzendes Scannen) – wer scannt (Rolle), wann, welche
    Formuliere KEINE eigenen Voraussetzungen für die Vernichtung des
    Papieroriginals. Gib stattdessen als Leerstelle aus:
    "Vernichtung erst nach schriftlicher Freigabe durch [ROLLE]; die
-   Voraussetzungen legt die Kanzlei fest (Fundstelle und Frist – für [JAHR]
-   verifizieren)." Führe die Unterlagen, die NICHT ersetzend gescannt werden
+   Voraussetzungen legt die Kanzlei fest (Fundstelle und Frist – für [JAHR] verifizieren)." Führe die Unterlagen, die NICHT ersetzend gescannt werden
    dürfen, als eigene Positivliste mit zwei getrennten Gründen:
    (1) steuerliche Original-Aufbewahrungspflicht – Jahresabschlüsse,
    Eröffnungsbilanz sowie bestimmte Zoll- und Präferenzunterlagen
@@ -81,8 +79,7 @@ E. SCANRICHTLINIE (ersetzendes Scannen) – wer scannt (Rolle), wann, welche
 F. AUFBEWAHRUNG – Ordne den Belegarten die Fristen zu. Behandle
    Buchungsbelege und die übrigen aufbewahrungspflichtigen Unterlagen
    getrennt, weil die Fristen unterschiedlich sein können, und markiere
-   JEDE Fristangabe als "Frist und Anwendungsbereich für [JAHR]
-   verifizieren". Nenne keine Frist ohne diese Kennzeichnung.
+   JEDE Fristangabe als "Frist und Anwendungsbereich für [JAHR] verifizieren". Nenne keine Frist ohne diese Kennzeichnung.
 
 ANFORDERUNGEN
 - Kennzeichne jede Aussage, bei der du dir nicht sicher bist. Rate nicht.

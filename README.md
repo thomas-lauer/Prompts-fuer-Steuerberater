@@ -118,6 +118,47 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-07-27 – Runde 9: Jahresabschluss und selten geübte Steuerarten (50–59)
+
+Zehn neue Prompts, Grundlage ist eine Lückenanalyse gegen die vorhandenen 48
+Prompts mit 30 belegten Kandidaten.
+
+- **Jahresabschluss:** Rückstellungs-Prüfschema mit getrennter handelsrechtlicher
+  und steuerlicher Beurteilung · Cut-off- und Nachlaufcheck zum Stichtag ·
+  Anlagevermögen und AfA-Wahlrechte · Investitionsabzugsbetrag überwachen ·
+  E-Bilanz-Kontennachweise vorbereiten · Anhang kleine Kapitalgesellschaft ·
+  Offenlegung und Ordnungsgeldabwehr.
+- **Selten geübte Steuerarten:** Bauabzugsteuer · Zusammenfassende Meldung und
+  innergemeinschaftliche Lieferung · Kapitalertragsteuer bei Ausschüttung.
+
+**Qualitätssicherung.** Eine adversarische Fachprüfung fand 28 Mängel, davon
+7 schwer; alle behoben. Die wichtigsten:
+
+- Der Bauleistungsbegriff des § 48 EStG ist **nicht** identisch mit dem des
+  § 13b UStG. Gerüstbau ist bei der Bauabzugsteuer Bauleistung, bei der
+  Umsatzsteuer nicht – die Verwechslung hätte zum Unterlassen des Einbehalts und
+  damit zur Haftung geführt.
+- Steuerliche Ansatzverbote bei Rückstellungen werden jetzt einzeln eingefordert,
+  damit kein handelsrechtlicher Ansatz unbesehen in die Steuerspalte wandert.
+- Kleinstkapitalgesellschaften brauchen unter Voraussetzungen keinen Anhang – der
+  Prompt bricht dort jetzt ab, statt einen Anhang zu erzeugen, der mehr offenlegt
+  als geschuldet.
+- Rechnungsabgrenzungsposten setzen "eine bestimmte Zeit" voraus; ohne dieses
+  Merkmal wurde jede Vorauszahlung zum Abgrenzungsposten.
+- Teilwertabschreibung wird nicht mehr für Mandanten mit
+  Einnahmenüberschussrechnung geprüft.
+- Veraltete Fundstellen korrigiert: § 328a HGB existiert nicht; die
+  Umsatzsteuer-Durchführungsverordnung wurde zum 1.1.2020 umnummeriert, die
+  Gelangensbestätigung ist § 17b, der Buchnachweis § 17d.
+- Ein Ampelstatus verlangte implizit die Fristberechnung, die derselbe Prompt
+  verbietet – ersetzt durch einen Status, der sich allein aus der Datenlage ergibt.
+- Teilmaskierte Steuernummern aus zwei Dateien entfernt; sie sind nach dem
+  Datenschutzleitfaden auch in Ausschnitten unzulässig.
+
+**Querschnitt:** Der Marker für prüfbedürftige Werte war in 15 älteren Dateien
+über Zeilenumbrüche getrennt und damit maschinell nicht auffindbar – 18 Stellen
+zusammengezogen, und die Strukturprüfung erkennt diesen Fehler ab jetzt selbst.
+
 ### 2026-07-27 – Veröffentlichungsrhythmus umgestellt
 
 Ab sofort wird nach jeder abgeschlossenen Runde veröffentlicht statt am Ende

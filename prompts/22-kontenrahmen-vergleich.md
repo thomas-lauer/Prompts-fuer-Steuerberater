@@ -31,8 +31,7 @@ RAHMEN
   Hinweis für das Modell: Prüfe zuerst, ob der angegebene Zeitpunkt zum Anlass
   passt. Eine Mandatsübernahme ist unterjährig möglich; ein Wechsel des
   Kontenrahmens setzt regelmäßig den Beginn eines Wirtschaftsjahres voraus
-  (technische Voraussetzung im eingesetzten Programmstand – für [JAHR]
-  verifizieren). Passt beides nicht zusammen, sage das als ersten Befund und
+  (technische Voraussetzung im eingesetzten Programmstand – für [JAHR] verifizieren). Passt beides nicht zusammen, sage das als ersten Befund und
   trenne die Aufgabe in "unterjährige Übernahme im bisherigen Kontenrahmen" und
   "Kontenrahmenwechsel zum nächsten Wirtschaftsjahr".
 - Besonderheiten: [z. B. individuelle Konten des Vorberaters, mehrere
@@ -87,8 +86,7 @@ ANFORDERUNGEN
    diente das Konto mit Bezeichnung Y? Welche Wahlrechte wurden ausgeübt? Wo
    liegen Anlagenverzeichnis, Rückstellungsspiegel, Verträge?), an den
    Mandanten Sachverhaltsfragen. Geschlossen formulieren.
-6. Kennzeichne alle Jahreswerte, Grenzbeträge und Steuersätze mit "Wert für
-   [JAHR] verifizieren". Nenne zu JEDER rechtlichen Aussage die Rechtsgrundlage
+6. Kennzeichne alle Jahreswerte, Grenzbeträge und Steuersätze mit "Wert für [JAHR] verifizieren". Nenne zu JEDER rechtlichen Aussage die Rechtsgrundlage
    (Norm mit Absatz und Satz, Richtlinie oder BMF-Schreiben mit Datum), jeweils
    mit dem Zusatz "für [JAHR] verifizieren". Kannst du sie nicht angeben,
    kennzeichne die Aussage als "ohne Fundstelle – vor Verwendung belegen".

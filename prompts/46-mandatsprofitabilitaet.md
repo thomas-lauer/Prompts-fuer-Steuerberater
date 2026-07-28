@@ -65,8 +65,7 @@ ANFORDERUNGEN
    Vergütungsvereinbarung voraus (Formanforderung, gesonderte Bezeichnung und
    Absetzung, Hinweispflicht, Grenzen bei Unterschreitung der gesetzlichen
    Vergütung, §§ 4, 4a, 4b StBVV) und kann nicht einseitig erklärt werden.
-   Bezeichne das als "berufsrechtlich prüfbedürftig (Fundstelle – für [JAHR]
-   verifizieren)". Nenne keine Gebührenhöhen und keine Sätze.
+   Bezeichne das als "berufsrechtlich prüfbedürftig (Fundstelle – für [JAHR] verifizieren)". Nenne keine Gebührenhöhen und keine Sätze.
    Zu Option (d) schreibe ausdrücklich: Eine Mandatsbeendigung ist
    berufsrechtlich voraussetzungsvoll (unter anderem Kündigung zur Unzeit,
    Herausgabe- und Hinweispflichten, laufende Fristen und Vollmachten) und

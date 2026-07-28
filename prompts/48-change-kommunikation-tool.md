@@ -69,8 +69,7 @@ ANFORDERUNGEN
    Erfinde dazu keine Fundstellen. Sag ausdrücklich, dass bereits die
    EINFÜHRUNG und Anwendung einer technischen Einrichtung, die zur Leistungs-
    oder Verhaltenskontrolle geeignet ist, mitbestimmungsrechtlich prüfbedürftig
-   ist – nicht erst deren Auswertung (§ 87 Abs. 1 Nr. 6 BetrVG – für [JAHR]
-   verifizieren).
+   ist – nicht erst deren Auswertung (§ 87 Abs. 1 Nr. 6 BetrVG – für [JAHR] verifizieren).
 7. Ankündigungstext: höchstens 250 Wörter, ruhig, konkret, ohne Werbeton.
    Erster Absatz: was, ab wann, warum. Letzter Absatz: wohin mit Fragen
    und Bedenken, bis wann.
