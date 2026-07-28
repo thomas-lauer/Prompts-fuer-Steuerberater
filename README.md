@@ -118,6 +118,20 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-07-28 – Kategorien im Index
+
+- `INDEX.md` um eine Gliederung **nach Kategorie** erweitert, vorangestellt vor
+  den bisherigen Gliederungen nach Rolle und nach Anlass. Zwölf Kategorien:
+  Finanzbuchhaltung, Umsatzsteuer, Jahresabschluss und Bilanzierung, Lohn und
+  Gehalt, Steuererklärung und Einzelsteuerfälle, Finanzamt/Fristen/Rechtsbehelf,
+  GoBD/Kasse/Verfahrensdokumentation, Mandantenkommunikation, Honorar und
+  Forderungen, Kanzleiorganisation und Team, Mandatsbeginn und Mandatswechsel,
+  Krise/Liquidität/Bank.
+- Jeder der 68 Prompts steht in genau einer Kategorie – anders als bei Rolle und
+  Anlass, wo Mehrfachnennungen gewollt sind. Die Vollständigkeit und
+  Überschneidungsfreiheit der Zuordnung wird beim Erzeugen maschinell geprüft.
+- Urheberzeile am Ende dieser Datei ergänzt.
+
 ### 2026-07-27 – Runde 10: Mandantenthemen, Krise, Neumandat (60–69)
 
 Zehn neue Prompts. Damit umfasst die Sammlung 68 Prompts.
