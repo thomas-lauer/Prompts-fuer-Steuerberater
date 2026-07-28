@@ -118,6 +118,23 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-07-28 – Recherche: 20 neue Prompt-Kandidaten
+
+- Vier unabhängige Recherchen (Umsatzsteuer und E-Rechnung; Lohn und
+  Sozialversicherung; Ertragsteuer, Immobilien und Nachfolge; Kanzleiführung,
+  Berufsrecht und KI) mit rund 55 Suchen und 60 Quellenabrufen. Ergebnis: 56
+  belegte Kandidaten.
+- Daraus 20 ausgewählt und als Runde 12 (85–104) in den Backlog aufgenommen,
+  12 als Reserve dokumentiert, der Rest mit Begründung verworfen.
+- Ausschlussregeln, die am meisten aussortiert haben: bereits abgedeckt durch
+  den Bestand oder die Runde 11; Kern ist eine Berechnung, ein Systemzugriff
+  oder eine Wertetabelle; Entscheidungsgrundlagen liegen in der Kanzlei nicht
+  vor; Rechtslage nicht gefestigt.
+- Neue Recherchedatei `recherche/2026-07-28-kandidaten.md` mit Problem,
+  zwingenden Normen, Haftungsrisiko und offenen Fundstellen je Kandidat – sowie
+  einer Liste der Punkte, die vor dem Bau am Primärtext zu belegen sind.
+- Noch kein Prompt erstellt: Diese Runde war die Suche.
+
 ### 2026-07-28 – Verzeichnisstruktur nach Kategorien
 
 - Die Prompts liegen jetzt in zwölf Kategorieordnern unter `prompts/`
