@@ -4,6 +4,7 @@ Anträge, Bescheide, Einspruch, Betriebsprüfung.
 
 | # | Prompt | Datei |
 |---|--------|-------|
+| 10 | Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle | [102-bekanntgabe-122a-ao.md](102-bekanntgabe-122a-ao.md) |
 | 31 | Fristverlängerungsantrag entwerfen | [31-fristverlaengerungsantrag.md](31-fristverlaengerungsantrag.md) |
 | 32 | Steuerbescheid gegen Erklärung abgleichen (Prüfschema) | [32-bescheid-abgleichen.md](32-bescheid-abgleichen.md) |
 | 33 | Einspruchsbegründung formulieren | [33-einspruchsbegruendung.md](33-einspruchsbegruendung.md) |

@@ -1,6 +1,6 @@
 # 07 – Lohn-Sonderfall einordnen: Steuer- und SV-Pflicht prüfen
 
-**Problem:** Firmenwagen in der Elternzeit, Sachbezug beim Minijob, Pfändung, Einmalzahlung im Austrittsmonat – Sonderfälle kosten jedes Mal Recherche, und ein Fehler wirkt rückwirkend über Monate.
+**Problem:** Firmenwagen in der Elternzeit, Sachbezug beim Minijob, Einmalzahlung im Austrittsmonat – Sonderfälle kosten jedes Mal Recherche, und ein Fehler wirkt rückwirkend über Monate. Für Lohnpfändungen ist Prompt 101 vorrangig; er behandelt Zuordnung der Bezüge, Rangfolge und Drittschuldnerpflichten.
 **Rolle:** Lohnsachbearbeitung
 **DATEV-Bezug:** LODAS, Lohn und Gehalt (jeweils inkl. SV-Meldungen und Bescheinigungswesen)
 **Was du bereitstellen musst:** Sachverhalt, Vertragsdaten, Abrechnungszeitraum, bisherige Behandlung.
@@ -53,6 +53,9 @@ B. SOZIALVERSICHERUNG
 B2. NETTOEBENE (nur bei Pfändung, Abtretung, Arbeitgeberdarlehen)
    6a. Pfändbares Einkommen: was ist unpfändbar, was bleibt außer Betracht
        (§§ 850 ff. ZPO), welche Rangfolge gilt bei mehreren Titeln?
+       Bearbeite diesen Punkt nur überblicksartig; Zuordnung der Bezugsarten,
+       Rangfolge, Abtretung und Drittschuldnererklärung sind Gegenstand von
+       Prompt 101 und dort vorrangig zu bearbeiten.
    6b. Nenne KEINE konkreten Pfändungsfreibeträge, ohne sie als
        "Tabellenwert – für [JAHR] verifizieren" zu markieren.
 C. FOLGEN

@@ -1,7 +1,7 @@
 # Index – alle Prompts nach Kategorie, Rolle und Anlass
 
-78 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
-Lücke bei 45 (zurückgestellt, siehe unten).
+88 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
+Lücken bei 45 (zurückgestellt, siehe unten) und bei 70 bis 84.
 Vor dem ersten Einsatz: [DATENSCHUTZ.md](DATENSCHUTZ.md).
 Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 
@@ -19,13 +19,13 @@ brauchen wie die Kanzleileitung.
 | [Finanzbuchhaltung](#finanzbuchhaltung) | 8 |
 | [Umsatzsteuer](#umsatzsteuer) | 7 |
 | [Jahresabschluss und Bilanzierung](#jahresabschluss-und-bilanzierung) | 10 |
-| [Lohn und Gehalt](#lohn-und-gehalt) | 9 |
+| [Lohn und Gehalt](#lohn-und-gehalt) | 16 |
 | [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 10 |
-| [Finanzamt, Fristen und Rechtsbehelf](#finanzamt-fristen-und-rechtsbehelf) | 6 |
+| [Finanzamt, Fristen und Rechtsbehelf](#finanzamt-fristen-und-rechtsbehelf) | 7 |
 | [GoBD, Kasse und Verfahrensdokumentation](#gobd-kasse-und-verfahrensdokumentation) | 3 |
 | [Mandantenkommunikation](#mandantenkommunikation) | 9 |
 | [Honorar und Forderungen](#honorar-und-forderungen) | 4 |
-| [Kanzleiorganisation und Team](#kanzleiorganisation-und-team) | 6 |
+| [Kanzleiorganisation und Team](#kanzleiorganisation-und-team) | 8 |
 | [Mandatsbeginn und Mandatswechsel](#mandatsbeginn-und-mandatswechsel) | 3 |
 | [Krise, Liquidität und Bank](#krise-liquidität-und-bank) | 3 |
 
@@ -90,6 +90,13 @@ Abrechnung, Sozialversicherung, geldwerte Vorteile, Zulieferung.
 | 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/04-lohn/44-stichtagsplan-lohn.md) |
 | 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/04-lohn/63-elektro-dienstwagen.md) |
 | 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/04-lohn/64-minijob-uebergangsbereich.md) |
+| 95 | [Lohn-Jahreswechsel: Stammdaten- und Umstellungsprüfung](prompts/04-lohn/95-lohn-jahreswechsel.md) |
+| 96 | [Aktivrente: Voraussetzungen, Nachweise, Abrechnungsfolgen](prompts/04-lohn/96-aktivrente.md) |
+| 97 | [Betriebsprüfung der Rentenversicherung vorbereiten](prompts/04-lohn/97-drv-betriebspruefung.md) |
+| 98 | [Phantomlohn: Auslöser erkennen und Grundlage klären](prompts/04-lohn/98-phantomlohn-screening.md) |
+| 99 | [Statusfeststellung: Indizienerhebung für § 7a SGB IV](prompts/04-lohn/99-statusfeststellung-indizien.md) |
+| 100 | [A1 und Tätigkeit im Ausland: Entscheidungsbaum](prompts/04-lohn/100-a1-taetigkeit-ausland.md) |
+| 101 | [Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner](prompts/04-lohn/101-lohnpfaendung-drittschuldner.md) |
 
 ### Steuererklärung und Einzelsteuerfälle
 
@@ -120,6 +127,7 @@ Anträge, Bescheide, Einspruch, Betriebsprüfung.
 | 34 | [Betriebsprüfung vorbereiten](prompts/06-finanzamt-fristen/34-betriebspruefung-vorbereiten.md) |
 | 35 | [Wiedervorlage- und Fristenkonzept](prompts/06-finanzamt-fristen/35-fristenkonzept.md) |
 | 36 | [Sachverhaltsdarstellung für das Finanzamt](prompts/06-finanzamt-fristen/36-sachverhaltsdarstellung-finanzamt.md) |
+| 102 | [Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle](prompts/06-finanzamt-fristen/102-bekanntgabe-122a-ao.md) |
 
 ### GoBD, Kasse und Verfahrensdokumentation
 
@@ -170,6 +178,8 @@ Interne Abläufe, Einarbeitung, Vertretung, Veränderungen.
 | 30 | [Übungsfälle mit Musterlösung erzeugen](prompts/10-kanzleiorganisation/30-uebungsfaelle-erzeugen.md) |
 | 47 | [Telefon- und Erreichbarkeitskonzept](prompts/10-kanzleiorganisation/47-erreichbarkeitskonzept.md) |
 | 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
+| 103 | [§ 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung](prompts/10-kanzleiorganisation/103-62a-dienstleisterpruefung.md) |
+| 104 | [KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO](prompts/10-kanzleiorganisation/104-ki-richtlinie-kompetenz.md) |
 
 ### Mandatsbeginn und Mandatswechsel
 
@@ -240,6 +250,13 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/04-lohn/44-stichtagsplan-lohn.md) |
 | 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/04-lohn/63-elektro-dienstwagen.md) |
 | 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/04-lohn/64-minijob-uebergangsbereich.md) |
+| 95 | [Lohn-Jahreswechsel: Stammdaten- und Umstellungsprüfung](prompts/04-lohn/95-lohn-jahreswechsel.md) |
+| 96 | [Aktivrente: Voraussetzungen, Nachweise, Abrechnungsfolgen](prompts/04-lohn/96-aktivrente.md) |
+| 97 | [Betriebsprüfung der Rentenversicherung vorbereiten](prompts/04-lohn/97-drv-betriebspruefung.md) |
+| 98 | [Phantomlohn: Auslöser erkennen und Grundlage klären](prompts/04-lohn/98-phantomlohn-screening.md) |
+| 99 | [Statusfeststellung: Indizienerhebung für § 7a SGB IV](prompts/04-lohn/99-statusfeststellung-indizien.md) |
+| 100 | [A1 und Tätigkeit im Ausland: Entscheidungsbaum](prompts/04-lohn/100-a1-taetigkeit-ausland.md) |
+| 101 | [Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner](prompts/04-lohn/101-lohnpfaendung-drittschuldner.md) |
 
 ### Steuerberaterinnen und Steuerberater
 
@@ -274,6 +291,12 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
 | 93 | [Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist](prompts/05-steuererklaerung/93-grunderwerbsteuer-anteilsbewegung.md) |
 | 94 | [Verdeckte Gewinnausschüttung: Vertragsdurchsicht](prompts/03-jahresabschluss/94-vga-vertragsdurchsicht.md) |
+| 96 | [Aktivrente: Voraussetzungen, Nachweise, Abrechnungsfolgen](prompts/04-lohn/96-aktivrente.md) |
+| 97 | [Betriebsprüfung der Rentenversicherung vorbereiten](prompts/04-lohn/97-drv-betriebspruefung.md) |
+| 99 | [Statusfeststellung: Indizienerhebung für § 7a SGB IV](prompts/04-lohn/99-statusfeststellung-indizien.md) |
+| 100 | [A1 und Tätigkeit im Ausland: Entscheidungsbaum](prompts/04-lohn/100-a1-taetigkeit-ausland.md) |
+| 101 | [Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner](prompts/04-lohn/101-lohnpfaendung-drittschuldner.md) |
+| 102 | [Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle](prompts/06-finanzamt-fristen/102-bekanntgabe-122a-ao.md) |
 
 ### Sekretariat und Büroorganisation
 
@@ -305,6 +328,9 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
 | 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/08-mandantenkommunikation/49-mandantenkontakt-konzept.md) |
 | 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
+| 102 | [Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle](prompts/06-finanzamt-fristen/102-bekanntgabe-122a-ao.md) |
+| 103 | [§ 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung](prompts/10-kanzleiorganisation/103-62a-dienstleisterpruefung.md) |
+| 104 | [KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO](prompts/10-kanzleiorganisation/104-ki-richtlinie-kompetenz.md) |
 
 ### Alle
 
@@ -332,7 +358,9 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 87 § 14c unrichtiger Steuerausweis · 88 Kleinunternehmer-Grenzen ·
 89 Erhaltungsaufwand oder Herstellungskosten ·
 90 Privates Veräußerungsgeschäft · 92 Sonderbetriebsvermögen ·
-93 Grunderwerbsteuer bei Anteilsbewegungen
+93 Grunderwerbsteuer bei Anteilsbewegungen · 96 Aktivrente ·
+98 Phantomlohn-Auslöser · 99 Statusfeststellung ·
+100 A1 und Tätigkeit im Ausland · 101 Lohnpfändung
 
 ### Jahresabschluss steht an
 
@@ -340,6 +368,11 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 53 Investitionsabzugsbetrag · 54 E-Bilanz-Kontennachweise · 55 Anhang ·
 56 Offenlegung · 91 Betriebsaufspaltung-Monitoring ·
 94 Verdeckte Gewinnausschüttung
+
+### Das Lohnjahr wechselt
+
+44 Stichtagsplan Lohn · 64 Minijob und Übergangsbereich ·
+95 Lohn-Jahreswechsel: Stammdaten und Umstellung · 96 Aktivrente
 
 ### Dem Mandanten geht es wirtschaftlich schlecht
 
@@ -366,7 +399,9 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 ### Post vom Finanzamt oder von einer Behörde
 
 31 Fristverlängerung · 32 Bescheid abgleichen · 33 Einspruchsbegründung ·
-34 Betriebsprüfung · 36 Sachverhaltsdarstellung · 42 Anschreiben an Kasse/Behörde
+34 Betriebsprüfung · 36 Sachverhaltsdarstellung · 42 Anschreiben an Kasse/Behörde ·
+101 Lohnpfändung: Drittschuldnerpflichten ·
+102 Elektronische Bekanntgabe nach § 122a AO
 
 ### Es geht ums Geld
 
@@ -377,14 +412,23 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 23 Arbeitsanweisung · 24 Vertretungsleitfaden · 25 Stammdatenkonvention ·
 29 Onboarding · 35 Fristenkonzept · 47 Erreichbarkeitskonzept ·
-48 Change-Kommunikation · 49 Mandantenkontakt
+48 Change-Kommunikation · 49 Mandantenkontakt ·
+102 Elektronische Bekanntgabe und Fristenkontrolle ·
+103 § 62a StBerG: Dienstleisterprüfung · 104 KI-Richtlinie und KI-Kompetenz
 
 ### Prüfungssicherheit herstellen
 
 10 Reisekosten und Bewirtung · 28 OCR-Prüfroutine ·
 34 Betriebsprüfung · 37 Verfahrensdokumentation · 38 GoBD Kasse ·
 39 Kontierungsrichtlinie · 89 Erhaltungsaufwand oder Herstellungskosten ·
-91 Betriebsaufspaltung-Monitoring · 94 Verdeckte Gewinnausschüttung
+91 Betriebsaufspaltung-Monitoring · 94 Verdeckte Gewinnausschüttung ·
+97 Prüfung der Rentenversicherung
+
+### Die Rentenversicherung prüft
+
+64 Minijob und Übergangsbereich · 97 Prüfung der Rentenversicherung vorbereiten ·
+98 Phantomlohn-Auslöser · 99 Statusfeststellung ·
+100 A1 und Tätigkeit im Ausland
 
 ### Der Mandant hat eine Immobilie gekauft, verkauft oder saniert
 
@@ -408,7 +452,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 - **14 → 15 → 16** – Rechnung erklären, Einwand beantworten, notfalls mahnen.
 - **05 → 23** – Fehlerursache finden, daraus eine Arbeitsanweisung machen.
 - **37 ↔ 38 ↔ 39** – Verfahrensdokumentation, Kassenprüfung und Kontierungsregeln greifen ineinander.
-- **35** ist die Grundsatzdatei für alles Fristbezogene (31, 32, 33, 34, 42, 44, 53, 56, 93).
+- **35** ist die Grundsatzdatei für alles Fristbezogene (31, 32, 33, 34, 42, 44, 53,
+  56, 93, 100, 101, 102).
 - **65 → 66 → 67** – Krisenindikatoren erkennen, Liquidität planen, gegenüber der
   Bank erläutern. 66 und 06 brechen ab und verweisen auf 65, sobald
   Krisenindikatoren auftreten; jede Weitergabe an eine Bank läuft über 67.
@@ -428,6 +473,30 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
   Vorberater anzufordern sind, und ergänzt damit 22.
 - **94 → 34** – Die Vereinbarungen mit dem Gesellschafter-Geschäftsführer
   durchsehen, bevor die Betriebsprüfung sie durchsieht; 94 ergänzt 34.
+- **95 → 64 · 95 → 99** – Der Jahreswechsel stellt die Stammdaten um und legt die
+  offenen Weichenstellungen offen: geringfügige Beschäftigung und
+  Übergangsbereich laufen in 64 weiter, Statusfragen in 99. 95 stellt die Frage
+  ausdrücklich, entscheidet sie aber nicht.
+- **97 ↔ 98 ↔ 99** – Die Vorbereitung der Prüfung nach § 28p SGB IV verweist für
+  Auslöser nicht verbeitragten Entgelts auf 98 und für offene Statusfragen auf
+  99; 98 und 99 geben ihre Ergebnisse in 97 zurück. 97 nennt daneben 64 für
+  geringfügige Beschäftigungen.
+- **97 neben 34** – 97 grenzt sich ausdrücklich ab: Prüfung des Trägers der
+  Rentenversicherung (§ 28p SGB IV) hier, steuerliche Außenprüfung (§§ 193 ff. AO)
+  in 34. Getrennte Prüffelder, getrennte Verfahrensregeln, getrennte Prompts.
+- **100 → 44 · 100 → 97** – Die Tätigkeit im Ausland ergänzt 44 um den Zulieferweg
+  und 97 um ein Prüffeld: fehlende A1-Bescheinigungen fallen regelmäßig erst in
+  der Prüfung der Rentenversicherung auf.
+- **101 vor 07** – Für Pfändungssachverhalte ist 101 vorrangig; 07 bleibt auf die
+  steuer- und beitragsrechtliche Einordnung sonstiger Lohn-Sonderfälle beschränkt
+  und behandelt die Drittschuldnerpflichten nicht. 101 ergänzt 44 um den
+  Zulieferweg für Pfändungsunterlagen.
+- **102 → 35 → 32 → 33** – 102 regelt nur den Zugangsweg der elektronischen
+  Bekanntgabe und hängt sich in das allgemeine Fristenkonzept 35 ein, statt es zu
+  ersetzen; 32 und 33 bauen auf einem fristgerecht bemerkten Bescheid auf.
+- **104 → 103** – Auf die Positivliste der KI-Richtlinie gehört nur ein nach
+  § 62a StBerG geprüftes Werkzeug; 103 übergibt sein Prüfergebnis an 104, und
+  ein Auftragsverarbeitungsvertrag allein trägt die Aufnahme nicht.
 
 ## Nicht enthalten
 

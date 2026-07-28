@@ -25,8 +25,12 @@ Drei Ebenen, die gleichzeitig gelten:
 **Die berufsrechtliche Prüfung geht der datenschutzrechtlichen vor.**
 § 62a StBerG ist die Spezialnorm für die Einbindung von Dienstleistern und
 damit für den KI-Einsatz. Ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO
-ersetzt sie nicht. § 203 Abs. 3 StGB erlaubt die Einbeziehung mitwirkender
-Personen, wenn sie zur Verschwiegenheit verpflichtet werden; ob ein KI-Dienst
+ersetzt sie nicht; umgekehrt bleiben die Vorschriften zum Schutz
+personenbezogener Daten neben dem Berufsrecht unberührt
+(§ 62a Abs. 8 StBerG). § 203 Abs. 3 Satz 2 StGB erlaubt die Einbeziehung
+sonstiger mitwirkender Personen, soweit dies für die Inanspruchnahme ihrer
+Tätigkeit erforderlich ist; wer die erforderliche Verpflichtung unterlässt,
+macht sich nach § 203 Abs. 4 StGB strafbar. Ob ein KI-Dienst
 als mitwirkende Person in diesem Sinne gilt, ist nicht abschließend geklärt.
 **Solange das offen ist, ist Maskierung nicht Vorsicht, sondern der eigentliche
 Schutzmechanismus.**
@@ -125,9 +129,13 @@ kommt zuerst – er ist berufsrechtlich und geht der DSGVO-Prüfung vor.**
 1. **Berufsrechtliche Einbindung nach § 62a StBerG** geklärt?
    - Abs. 1 und 2: dokumentierte sorgfältige Auswahl des Anbieters; Beendigung
      der Zusammenarbeit bei Zweifeln.
-   - Abs. 3: **Vertrag in Textform**, der den Anbieter **vor** Kenntniserlangung
-     zur Verschwiegenheit verpflichtet, über die Strafbarkeit belehrt, den
-     Zugang auf das Erforderliche begrenzt und Unterauftragnehmer einbezieht.
+   - Abs. 3: **Vertrag in Textform**, der den Anbieter unter Belehrung über die
+     strafrechtlichen Folgen zur Verschwiegenheit verpflichtet, die
+     Kenntnisnahme auf das zur Vertragserfüllung Erforderliche begrenzt und
+     festlegt, ob Unterauftragnehmer herangezogen werden dürfen und wie sie in
+     Textform zu verpflichten sind. Der Vertrag muss geschlossen sein, **bevor**
+     dem Anbieter der Zugang eröffnet wird – das folgt aus § 62a Abs. 1 StBerG,
+     nicht aus dem Wortlaut des Absatzes 3.
    - Abs. 4: bei Leistungserbringung im Ausland ein dem inländischen
      Berufsgeheimnis **vergleichbares Schutzniveau** – bei Anbietern außerhalb
      der EU gesondert zu begründen.

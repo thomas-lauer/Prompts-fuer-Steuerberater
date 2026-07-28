@@ -118,6 +118,35 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-07-28 – Runde 12b: Lohn, Verfahrensrecht, KI-Compliance (95–104)
+
+- Zehn neue Prompts: Lohn-Jahreswechsel, Aktivrente, Betriebsprüfung der
+  Rentenversicherung, Phantomlohn-Screening, Statusfeststellung nach § 7a SGB IV,
+  A1 und Tätigkeit im Ausland, Lohnpfändung, elektronische Bekanntgabe nach
+  § 122a AO, Dienstleisterprüfung nach § 62a StBerG, KI-Richtlinie und
+  KI-Kompetenz nach Art. 4 KI-VO.
+- Adversarische Fachprüfung in zwei Domänen: 45 Mängel, alle behoben. Die
+  schwersten: Die Soll-Regelung des § 122a Abs. 1 Satz 2 AO ist durch das
+  Mindeststeueranpassungsgesetz auf 2027 verschoben worden – der Prompt hätte
+  sonst auf einem Rechtsstand aufgesetzt, der noch nicht gilt; die Abgabenordnung
+  kennt an dieser Stelle keinen „Widerspruch", sondern einen Antrag auf
+  postalische Bekanntgabe; § 62a StBerG hat acht Absätze, die Prüfung endete bei
+  fünf und ließ damit die Ausnahme für gesetzlich bereits verschwiegenheits-
+  verpflichtete Dienstleister aus; ein Aktenzeichen des Bundessozialgerichts trug
+  die ihm zugeschriebene Aussage nicht; bei Tätigkeit in mehreren Mitgliedstaaten
+  ist der Träger des Wohnstaats zuständig, nicht eine deutsche Stelle; § 850f
+  Abs. 2, § 845 und § 833 Abs. 2 ZPO fehlten in der Lohnpfändung.
+- Vier Abbruchregeln feuerten erneut im eigenen Hauptanwendungsfall. Sie hängen
+  jetzt an objektiven Angaben und steuern einzelne Vorgänge aus, statt die
+  Bearbeitung zu beenden.
+- `DATENSCHUTZ.md` nachgezogen: § 203 Abs. 3 Satz 2 StGB als Erlaubnistatbestand
+  ergänzt, § 62a Abs. 8 StBerG als Fundstelle dafür, dass das Datenschutzrecht
+  neben dem Berufsrecht steht, und eine Formulierung korrigiert, die eine
+  zeitliche Vorgabe fälschlich dem § 62a Abs. 3 StBerG zuschrieb.
+- Prompt 07 nachgezogen: Die Lohnpfändung ist dort aus dem Problemsatz genommen
+  und verweist auf Prompt 101.
+- Strukturprüfung über alle 88 Dateien: 0 Befunde.
+
 ### 2026-07-28 – Runde 12a: Umsatzsteuer, Immobilien, Nachfolge (85–94)
 
 - Zehn neue Prompts: E-Rechnungs-Umstellungsradar, fehlerhafte E-Rechnung,
