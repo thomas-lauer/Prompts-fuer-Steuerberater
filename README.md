@@ -118,6 +118,35 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-07-28 – Runde 12a: Umsatzsteuer, Immobilien, Nachfolge (85–94)
+
+- Zehn neue Prompts: E-Rechnungs-Umstellungsradar, fehlerhafte E-Rechnung,
+  § 14c UStG, Kleinunternehmer-Grenzen, Erhaltungsaufwand gegen anschaffungsnahe
+  Herstellungskosten, privates Veräußerungsgeschäft § 23 EStG,
+  Betriebsaufspaltungs-Monitoring, Sonderbetriebsvermögen bei der Übertragung,
+  Grunderwerbsteuer bei Anteilsbewegungen, verdeckte Gewinnausschüttung.
+- Vor dem Bau wurden die offenen Fundstellen an der Primärquelle gegengelesen.
+  Dabei fiel auf: Das BMF-Schreiben vom 26.01.2026 enthält weder eine
+  Vereinfachungsregelung mit Betragsgrenze je Baumaßnahme noch eine angeordnete
+  Prüfungsreihenfolge, und vier der fünf für die sachliche Verflechtung bei der
+  Betriebsaufspaltung genannten BFH-Entscheidungen betreffen tatsächlich die
+  personelle Verflechtung oder ein anderes Thema. Diese Angaben stehen deshalb
+  in keinem Prompt.
+- Adversarische Fachprüfung in zwei Domänen: 39 Mängel, alle behoben. Die
+  schwersten: ein Prüfschritt, der EU-ansässige Kleinunternehmer entgegen § 19
+  Abs. 4 UStG von der Prüfung ausschloss; ein Hinweis, der den Anlagenverkauf in
+  den Gesamtumsatz einbezog, obwohl § 19 Abs. 2 UStG ihn ausnimmt; die falsche
+  Zuordnung von Satz 1 und Satz 2 des § 6 Abs. 3 EStG; die falschen Nummern des
+  § 13 GrEStG und damit der falsche Anzeigepflichtige; die Abschaltung des
+  § 6 Abs. 1 Nr. 1a EStG beim unentgeltlichen Erwerb; eine fehlende Grenze der
+  Befugnis gegenüber Vertragsgestaltung und Beurkundung.
+- Drei Abbruchregeln feuerten in ihrem eigenen Hauptanwendungsfall und mussten
+  auf den einzelnen Vorgang statt auf den Gesamtfall umgestellt werden – dieselbe
+  Fehlerart wie in Runde 10.
+- Prompt 52 nachgezogen: Er verweist jetzt für Erwerbe im maßgeblichen Zeitraum
+  auf Prompt 89, und umgekehrt.
+- Strukturprüfung über alle 78 Dateien: 0 Befunde.
+
 ### 2026-07-28 – Recherche: 20 neue Prompt-Kandidaten
 
 - Vier unabhängige Recherchen (Umsatzsteuer und E-Rechnung; Lohn und

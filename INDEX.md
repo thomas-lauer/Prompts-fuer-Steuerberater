@@ -1,6 +1,6 @@
 # Index – alle Prompts nach Kategorie, Rolle und Anlass
 
-68 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
+78 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
 Lücke bei 45 (zurückgestellt, siehe unten).
 Vor dem ersten Einsatz: [DATENSCHUTZ.md](DATENSCHUTZ.md).
 Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
@@ -17,10 +17,10 @@ brauchen wie die Kanzleileitung.
 | Kategorie | Prompts |
 |---|---|
 | [Finanzbuchhaltung](#finanzbuchhaltung) | 8 |
-| [Umsatzsteuer](#umsatzsteuer) | 3 |
-| [Jahresabschluss und Bilanzierung](#jahresabschluss-und-bilanzierung) | 8 |
+| [Umsatzsteuer](#umsatzsteuer) | 7 |
+| [Jahresabschluss und Bilanzierung](#jahresabschluss-und-bilanzierung) | 10 |
 | [Lohn und Gehalt](#lohn-und-gehalt) | 9 |
-| [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 6 |
+| [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 10 |
 | [Finanzamt, Fristen und Rechtsbehelf](#finanzamt-fristen-und-rechtsbehelf) | 6 |
 | [GoBD, Kasse und Verfahrensdokumentation](#gobd-kasse-und-verfahrensdokumentation) | 3 |
 | [Mandantenkommunikation](#mandantenkommunikation) | 9 |
@@ -53,6 +53,10 @@ Voranmeldung, Sonderfälle, grenzüberschreitende Umsätze.
 | 04 | [Umsatzsteuer-Sonderfall prüfen (§ 13b, i.g. Erwerb, § 25a, § 19)](prompts/02-umsatzsteuer/04-umsatzsteuer-sonderfall.md) |
 | 05 | [UStVA-Abweichung systematisch eingrenzen](prompts/02-umsatzsteuer/05-ustva-abweichung-eingrenzen.md) |
 | 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/02-umsatzsteuer/58-zusammenfassende-meldung-abgleich.md) |
+| 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
+| 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
+| 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
+| 88 | [Kleinunternehmer: Grenzen überwachen und Statuswechsel begleiten](prompts/02-umsatzsteuer/88-kleinunternehmer-grenzen.md) |
 
 ### Jahresabschluss und Bilanzierung
 
@@ -68,6 +72,8 @@ Alles, was zwischen Bilanzstichtag und Offenlegung anfällt.
 | 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/03-jahresabschluss/54-ebilanz-kontennachweise.md) |
 | 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/03-jahresabschluss/55-anhang-kleine-kapitalgesellschaft.md) |
 | 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/03-jahresabschluss/56-offenlegung-ordnungsgeld.md) |
+| 91 | [Betriebsaufspaltung: jährliches Monitoring](prompts/03-jahresabschluss/91-betriebsaufspaltung-monitoring.md) |
+| 94 | [Verdeckte Gewinnausschüttung: Vertragsdurchsicht](prompts/03-jahresabschluss/94-vga-vertragsdurchsicht.md) |
 
 ### Lohn und Gehalt
 
@@ -97,6 +103,10 @@ Deklaration und Fälle, die selten vorkommen und deshalb Zeit kosten.
 | 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/05-steuererklaerung/60-photovoltaik-fallklaerung.md) |
 | 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/05-steuererklaerung/61-krypto-nachweise.md) |
 | 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/05-steuererklaerung/62-verbilligte-vermietung.md) |
+| 89 | [Erhaltungsaufwand oder anschaffungsnahe Herstellungskosten](prompts/05-steuererklaerung/89-erhaltungsaufwand-abgrenzung.md) |
+| 90 | [Privates Veräußerungsgeschäft § 23 EStG prüfen](prompts/05-steuererklaerung/90-privates-veraeusserungsgeschaeft.md) |
+| 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
+| 93 | [Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist](prompts/05-steuererklaerung/93-grunderwerbsteuer-anteilsbewegung.md) |
 
 ### Finanzamt, Fristen und Rechtsbehelf
 
@@ -206,6 +216,16 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/03-jahresabschluss/54-ebilanz-kontennachweise.md) |
 | 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/05-steuererklaerung/57-bauabzugsteuer-pruefschema.md) |
 | 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/02-umsatzsteuer/58-zusammenfassende-meldung-abgleich.md) |
+| 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
+| 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
+| 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
+| 88 | [Kleinunternehmer: Grenzen überwachen und Statuswechsel begleiten](prompts/02-umsatzsteuer/88-kleinunternehmer-grenzen.md) |
+| 89 | [Erhaltungsaufwand oder anschaffungsnahe Herstellungskosten](prompts/05-steuererklaerung/89-erhaltungsaufwand-abgrenzung.md) |
+| 90 | [Privates Veräußerungsgeschäft § 23 EStG prüfen](prompts/05-steuererklaerung/90-privates-veraeusserungsgeschaeft.md) |
+| 91 | [Betriebsaufspaltung: jährliches Monitoring](prompts/03-jahresabschluss/91-betriebsaufspaltung-monitoring.md) |
+| 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
+| 93 | [Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist](prompts/05-steuererklaerung/93-grunderwerbsteuer-anteilsbewegung.md) |
+| 94 | [Verdeckte Gewinnausschüttung: Vertragsdurchsicht](prompts/03-jahresabschluss/94-vga-vertragsdurchsicht.md) |
 
 ### Lohnsachbearbeitung
 
@@ -244,6 +264,16 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/12-krise-liquiditaet-bank/67-bankgespraech-unterlagenpaket.md) |
 | 68 | [Fragebogen zur steuerlichen Erfassung](prompts/11-mandatsbeginn-wechsel/68-fragebogen-steuerliche-erfassung.md) |
 | 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/11-mandatsbeginn-wechsel/69-mandatswechsel-datenuebernahme.md) |
+| 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
+| 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
+| 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
+| 88 | [Kleinunternehmer: Grenzen überwachen und Statuswechsel begleiten](prompts/02-umsatzsteuer/88-kleinunternehmer-grenzen.md) |
+| 89 | [Erhaltungsaufwand oder anschaffungsnahe Herstellungskosten](prompts/05-steuererklaerung/89-erhaltungsaufwand-abgrenzung.md) |
+| 90 | [Privates Veräußerungsgeschäft § 23 EStG prüfen](prompts/05-steuererklaerung/90-privates-veraeusserungsgeschaeft.md) |
+| 91 | [Betriebsaufspaltung: jährliches Monitoring](prompts/03-jahresabschluss/91-betriebsaufspaltung-monitoring.md) |
+| 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
+| 93 | [Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist](prompts/05-steuererklaerung/93-grunderwerbsteuer-anteilsbewegung.md) |
+| 94 | [Verdeckte Gewinnausschüttung: Vertragsdurchsicht](prompts/03-jahresabschluss/94-vga-vertragsdurchsicht.md) |
 
 ### Sekretariat und Büroorganisation
 
@@ -274,6 +304,7 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 46 | [Mandatsprofitabilität bewerten](prompts/09-honorar-forderungen/46-mandatsprofitabilitaet.md) |
 | 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
 | 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/08-mandantenkommunikation/49-mandantenkontakt-konzept.md) |
+| 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
 
 ### Alle
 
@@ -297,13 +328,18 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 21 EÜR-Plausibilität · 22 Kontenrahmen-Vergleich · 30 Übungsfälle zum Lernen ·
 50 Rückstellungen · 57 Bauabzugsteuer · 59 Kapitalertragsteuer ·
 60 Photovoltaik · 62 Verbilligte Vermietung · 63 Elektro-Dienstwagen ·
-64 Minijob und Übergangsbereich
+64 Minijob und Übergangsbereich · 85 E-Rechnungs-Stichtag je Mandant ·
+87 § 14c unrichtiger Steuerausweis · 88 Kleinunternehmer-Grenzen ·
+89 Erhaltungsaufwand oder Herstellungskosten ·
+90 Privates Veräußerungsgeschäft · 92 Sonderbetriebsvermögen ·
+93 Grunderwerbsteuer bei Anteilsbewegungen
 
 ### Jahresabschluss steht an
 
 50 Rückstellungen · 51 Cut-off und Nachlauf · 52 Anlagevermögen und AfA ·
 53 Investitionsabzugsbetrag · 54 E-Bilanz-Kontennachweise · 55 Anhang ·
-56 Offenlegung
+56 Offenlegung · 91 Betriebsaufspaltung-Monitoring ·
+94 Verdeckte Gewinnausschüttung
 
 ### Dem Mandanten geht es wirtschaftlich schlecht
 
@@ -319,7 +355,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 ### Etwas stimmt nicht
 
 05 UStVA-Abweichung · 18 Offene Posten · 19 Dubletten ·
-20 Summen- und Saldenliste · 28 OCR-Prüfroutine · 41 SV-Fehlerprotokoll
+20 Summen- und Saldenliste · 28 OCR-Prüfroutine · 41 SV-Fehlerprotokoll ·
+86 Fehlerhafte E-Rechnung · 87 § 14c unrichtiger Steuerausweis
 
 ### Ich muss etwas erklären
 
@@ -346,7 +383,19 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 10 Reisekosten und Bewirtung · 28 OCR-Prüfroutine ·
 34 Betriebsprüfung · 37 Verfahrensdokumentation · 38 GoBD Kasse ·
-39 Kontierungsrichtlinie
+39 Kontierungsrichtlinie · 89 Erhaltungsaufwand oder Herstellungskosten ·
+91 Betriebsaufspaltung-Monitoring · 94 Verdeckte Gewinnausschüttung
+
+### Der Mandant hat eine Immobilie gekauft, verkauft oder saniert
+
+57 Bauabzugsteuer · 62 Verbilligte Vermietung ·
+89 Erhaltungsaufwand oder Herstellungskosten ·
+90 Privates Veräußerungsgeschäft
+
+### Der Mandant übergibt sein Unternehmen oder überträgt Anteile
+
+91 Betriebsaufspaltung-Monitoring · 92 Sonderbetriebsvermögen ·
+93 Grunderwerbsteuer bei Anteilsbewegungen
 
 ---
 
@@ -359,7 +408,7 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 - **14 → 15 → 16** – Rechnung erklären, Einwand beantworten, notfalls mahnen.
 - **05 → 23** – Fehlerursache finden, daraus eine Arbeitsanweisung machen.
 - **37 ↔ 38 ↔ 39** – Verfahrensdokumentation, Kassenprüfung und Kontierungsregeln greifen ineinander.
-- **35** ist die Grundsatzdatei für alles Fristbezogene (31, 32, 33, 34, 42, 44, 53, 56).
+- **35** ist die Grundsatzdatei für alles Fristbezogene (31, 32, 33, 34, 42, 44, 53, 56, 93).
 - **65 → 66 → 67** – Krisenindikatoren erkennen, Liquidität planen, gegenüber der
   Bank erläutern. 66 und 06 brechen ab und verweisen auf 65, sobald
   Krisenindikatoren auftreten; jede Weitergabe an eine Bank läuft über 67.
@@ -367,6 +416,18 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
   die Weichen stellen.
 - **63 ↔ 64** – Der Sachbezug Fahrzeug kann die Geringfügigkeitsgrenze reißen;
   63 bricht dann ab und verweist auf 64.
+- **12 → 85 → 86** – Den Mandantenstamm über die E-Rechnungspflicht informieren,
+  je Mandant den eigenen Ausstellungsstichtag bestimmen, dann den Fehlerfall in
+  der Eingangsrechnung einordnen. 85 verweist für die Information ausdrücklich
+  auf 12 zurück.
+- **04 → 87** – 87 setzt die zutreffende umsatzsteuerliche Behandlung des
+  Umsatzes voraus und verweist dafür auf 04.
+- **52 ↔ 89** – Die Gebäude-Variante in 52 verweist für Erwerbe innerhalb des
+  maßgeblichen Zeitraums auf 89; 89 ergänzt 52 und verweist zurück.
+- **91 → 22** – Die Erstprüfung im Neumandat benennt die Unterlagen, die vom
+  Vorberater anzufordern sind, und ergänzt damit 22.
+- **94 → 34** – Die Vereinbarungen mit dem Gesellschafter-Geschäftsführer
+  durchsehen, bevor die Betriebsprüfung sie durchsieht; 94 ergänzt 34.
 
 ## Nicht enthalten
 
