@@ -25,7 +25,7 @@ jedes Mal von Hand erledigt wird. Die Themen sind nicht erfunden, sondern aus
 Foren, Fachdiensten und Kanzleiblogs recherchiert – unter anderem aus der
 DATEV-Community.
 
-**48 Prompts.** Die vollständige Übersicht nach Rolle, Anlass und Prompt-Ketten
+**68 Prompts.** Die vollständige Übersicht nach Rolle, Anlass und Prompt-Ketten
 steht in [INDEX.md](INDEX.md).
 
 | Bereich | Was die Prompts leisten |
@@ -117,6 +117,45 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
+
+### 2026-07-27 – Runde 10: Mandantenthemen, Krise, Neumandat (60–69)
+
+Zehn neue Prompts. Damit umfasst die Sammlung 68 Prompts.
+
+- **Mandantenthemen 2026:** Photovoltaik (Steuerbefreiung, Entnahme von
+  Bestandsanlagen, Nullsteuersatz) · Kryptowerte (Nachweise anfordern und einen
+  Steuerreport prüfen) · verbilligte Vermietung · Elektro-Dienstwagen ·
+  Minijob und Übergangsbereich.
+- **Krise und Beratung:** Krisenindikatoren erkennen und ein Hinweisschreiben
+  entwerfen (ausschließlich Berufsträger) · rollierende 13-Wochen-Liquiditäts-
+  planung · Bankgespräch und Rating.
+- **Neumandat:** Fragebogen zur steuerlichen Erfassung mit seinen bindenden
+  Weichenstellungen · Mandatswechsel und Datenübernahme vom Vorberater.
+
+**Qualitätssicherung.** Eine adversarische Fachprüfung fand 21 Mängel, davon
+8 schwer; alle behoben. Die wichtigsten:
+
+- Die Abbruchregel des Krisen-Prompts blockierte ihren eigenen Normalfall: Sie
+  löste bei jedem Sozialversicherungsrückstand aus, den das Indikatorenraster
+  zugleich abfragt – und ihr Tatbestand verlangte genau die insolvenzrechtliche
+  Beurteilung, die der Prompt verbietet. Jetzt an objektiven Angaben verankert.
+- Der Mandatswechsel-Prompt verlangte ein Anschreiben an den Vorberater, ohne
+  dessen Entbindung von der Verschwiegenheit – das Schreiben wäre zu Recht
+  zurückgewiesen worden, während laufende Fristen ablaufen.
+- Die Liquiditätsplanung ermittelt den Punkt der ersten Unterdeckung und hatte
+  dafür keine Weiterleitungsregel; sie bricht jetzt ab und verweist auf den
+  Krisen-Prompt, dessen Rolle ausschließlich der Berufsträger ist.
+- Der Vergleich von Kalt- und Warmmiete bei der verbilligten Vermietung war im
+  Eingabeteil angelegt: Für die ortsübliche Seite fehlte das Feld für die
+  umlagefähigen Kosten.
+- Zwei Prompts versprachen in der Rollenbeschreibung eine Prüfung, die im
+  Schema fehlte (Lohnsteuer beim Minijob, Sozialversicherung beim Dienstwagen).
+- Photovoltaik: Kleinunternehmerregelung und Vorsteuerabzug standen unverbunden
+  nebeneinander; die umsatzsteuerliche Entnahme der Altanlage und die
+  gewerbesteuerliche Befreiung mit ihrer eigenen Grenze fehlten.
+- Der Satz "bei Zweifeln ist die vorsichtigere Bewertung der sichere Weg" ist
+  beim Dienstwagen keine sichere Anleitung, sondern führt zu einem zu hohen
+  Sachbezug – ersetzt durch die Anrufungsauskunft.
 
 ### 2026-07-27 – Runde 9: Jahresabschluss und selten geübte Steuerarten (50–59)
 

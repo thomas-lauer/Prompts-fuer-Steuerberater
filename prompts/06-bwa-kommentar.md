@@ -82,10 +82,11 @@ darunter separat: "Interne Notiz: offene Rückfragen an den Mandanten".
 - Jede Ursachenbehauptung streichen, die nicht belegt ist. Der häufigste Fehler ist eine plausibel klingende, aber erfundene Erklärung.
 - Keine Prognosen und keine Finanzierungsempfehlungen ohne Freigabe durch den Berufsträger.
 - Vor dem Versand prüfen, ob der Ton zur Mandantenbeziehung passt.
+- Zeigen die Zahlen Krisenindikatoren (nicht durch Eigenkapital gedeckter Verlust, Rückstände bei Steuern oder Sozialversicherung, gekündigte Linien, Lieferstopp), wird der Kommentar nicht versandt; dann gilt Prompt 65, Rolle ausschließlich Berufsträger.
 - **Vier-Augen-Prinzip und Freigabe:** Der Kommentar ist ein Entwurf. Eine zweite Person muss die Kennzahlen, die Prozentangaben und jede Ursachenaussage nachvollziehen. Die Freigabe zur Weitergabe an den Mandanten erteilt ein Berufsträger – der Kommentar steuert unternehmerische Entscheidungen; die Freigabe ist zu dokumentieren.
 
 ## Varianten
 
-- **Bankgespräch:** Zusatz "Ergänze eine Fassung von einer Seite, die für ein Gespräch mit der Hausbank geeignet ist – sachlich, mit Fokus auf Ertragskraft und Kapitaldienstfähigkeit."
+- **Bankgespräch:** Nicht mit diesem Prompt. Für jede Fassung, die an ein Kreditinstitut geht, gilt Prompt 67 – dort steht die vorher einzuholende dokumentierte Einwilligung und die Haftung gegenüber der Bank.
 - **Kurzfassung:** "Erzeuge zusätzlich eine Fassung mit maximal 90 Wörtern für eine E-Mail."
 - **Quartalsgespräch:** "Fasse die letzten drei Monatskommentare zu einem Quartalsbericht zusammen und benenne die Entwicklungslinie."

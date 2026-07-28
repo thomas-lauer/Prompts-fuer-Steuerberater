@@ -1,6 +1,7 @@
 # Index – alle Prompts nach Rolle und Anlass
 
-48 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
+68 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
+Lücke bei 45 (zurückgestellt, siehe unten).
 Vor dem ersten Einsatz: [DATENSCHUTZ.md](DATENSCHUTZ.md).
 Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 
@@ -24,6 +25,13 @@ Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 | 22 | [Kontenrahmen-Vergleich SKR03 ↔ SKR04](prompts/22-kontenrahmen-vergleich.md) |
 | 25 | [Namens- und Stammdatenkonvention für Personenkonten](prompts/25-stammdatenkonvention.md) |
 | 28 | [Vier-Augen-Prüfroutine für OCR-erfasste Belege](prompts/28-ocr-pruefroutine.md) |
+| 50 | [Rückstellungs-Prüfschema zum Bilanzstichtag](prompts/50-rueckstellungen-pruefschema.md) |
+| 51 | [Cut-off- und Nachlaufcheck zum Bilanzstichtag](prompts/51-cutoff-nachlaufcheck.md) |
+| 52 | [Anlagevermögen und AfA-Wahlrechte plausibilisieren](prompts/52-anlagevermoegen-afa-wahlrechte.md) |
+| 53 | [Investitionsabzugsbetrag § 7g EStG überwachen](prompts/53-investitionsabzugsbetrag-monitor.md) |
+| 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/54-ebilanz-kontennachweise.md) |
+| 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/57-bauabzugsteuer-pruefschema.md) |
+| 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/58-zusammenfassende-meldung-abgleich.md) |
 
 ### Lohnsachbearbeitung
 
@@ -36,6 +44,8 @@ Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 | 42 | [Anschreiben an Krankenkasse, Behörde oder Amt](prompts/42-anschreiben-kasse-behoerde.md) |
 | 43 | [FAQ zur Lohnabrechnung für die Belegschaft des Mandanten](prompts/43-faq-lohnabrechnung.md) |
 | 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/44-stichtagsplan-lohn.md) |
+| 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/63-elektro-dienstwagen.md) |
+| 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/64-minijob-uebergangsbereich.md) |
 
 ### Steuerberaterinnen und Steuerberater
 
@@ -50,6 +60,16 @@ Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 | 37 | [Verfahrensdokumentation entwerfen](prompts/37-verfahrensdokumentation.md) |
 | 38 | [GoBD-Checkliste Kassenführung](prompts/38-gobd-checkliste-kasse.md) |
 | 39 | [Kontierungsrichtlinie für den Mandanten](prompts/39-kontierungsrichtlinie-mandant.md) |
+| 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/55-anhang-kleine-kapitalgesellschaft.md) |
+| 59 | [Kapitalertragsteuer bei Gewinnausschüttung](prompts/59-kapitalertragsteuer-ausschuettung.md) |
+| 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/60-photovoltaik-fallklaerung.md) |
+| 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/61-krypto-nachweise.md) |
+| 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/62-verbilligte-vermietung.md) |
+| 65 | [Krisenindikatoren und Hinweisschreiben (nur Berufsträger)](prompts/65-insolvenzreife-hinweisschreiben.md) |
+| 66 | [Rollierende 13-Wochen-Liquiditätsplanung](prompts/66-liquiditaetsplanung-13-wochen.md) |
+| 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/67-bankgespraech-unterlagenpaket.md) |
+| 68 | [Fragebogen zur steuerlichen Erfassung](prompts/68-fragebogen-steuerliche-erfassung.md) |
+| 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/69-mandatswechsel-datenuebernahme.md) |
 
 ### Sekretariat und Büroorganisation
 
@@ -63,6 +83,7 @@ Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 | 27 | [Kurzanleitung: So reichen Sie Belege richtig ein](prompts/27-anleitung-belege-scannen.md) |
 | 31 | [Fristverlängerungsantrag entwerfen](prompts/31-fristverlaengerungsantrag.md) |
 | 47 | [Telefon- und Erreichbarkeitskonzept](prompts/47-erreichbarkeitskonzept.md) |
+| 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/56-offenlegung-ordnungsgeld.md) |
 
 ### Kanzleileitung
 
@@ -99,7 +120,27 @@ Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 ### Ich bin mir fachlich unsicher
 
 03 Buchungssatz · 04 Umsatzsteuer-Sonderfall · 07 Lohn-Sonderfall ·
-21 EÜR-Plausibilität · 22 Kontenrahmen-Vergleich · 30 Übungsfälle zum Lernen
+21 EÜR-Plausibilität · 22 Kontenrahmen-Vergleich · 30 Übungsfälle zum Lernen ·
+50 Rückstellungen · 57 Bauabzugsteuer · 59 Kapitalertragsteuer ·
+60 Photovoltaik · 62 Verbilligte Vermietung · 63 Elektro-Dienstwagen ·
+64 Minijob und Übergangsbereich
+
+### Jahresabschluss steht an
+
+50 Rückstellungen · 51 Cut-off und Nachlauf · 52 Anlagevermögen und AfA ·
+53 Investitionsabzugsbetrag · 54 E-Bilanz-Kontennachweise · 55 Anhang ·
+56 Offenlegung
+
+### Dem Mandanten geht es wirtschaftlich schlecht
+
+65 Krisenindikatoren und Hinweisschreiben (nur Berufsträger) ·
+66 13-Wochen-Liquiditätsplanung · 67 Bankgespräch und Rating ·
+18 Offene Posten
+
+### Ein Mandat beginnt oder wechselt
+
+68 Fragebogen zur steuerlichen Erfassung · 69 Mandatswechsel und Datenübernahme ·
+22 Kontenrahmen-Vergleich · 09 Unterlagen-Checkliste · 17 Zulieferkalender
 
 ### Etwas stimmt nicht
 
@@ -144,7 +185,14 @@ Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 - **14 → 15 → 16** – Rechnung erklären, Einwand beantworten, notfalls mahnen.
 - **05 → 23** – Fehlerursache finden, daraus eine Arbeitsanweisung machen.
 - **37 ↔ 38 ↔ 39** – Verfahrensdokumentation, Kassenprüfung und Kontierungsregeln greifen ineinander.
-- **35** ist die Grundsatzdatei für alles Fristbezogene (31, 32, 33, 34, 42, 44).
+- **35** ist die Grundsatzdatei für alles Fristbezogene (31, 32, 33, 34, 42, 44, 53, 56).
+- **65 → 66 → 67** – Krisenindikatoren erkennen, Liquidität planen, gegenüber der
+  Bank erläutern. 66 und 06 brechen ab und verweisen auf 65, sobald
+  Krisenindikatoren auftreten; jede Weitergabe an eine Bank läuft über 67.
+- **69 → 22 → 68** – Mandat übernehmen, Kontenrahmen überleiten, bei Neugründung
+  die Weichen stellen.
+- **63 ↔ 64** – Der Sachbezug Fahrzeug kann die Geringfügigkeitsgrenze reißen;
+  63 bricht dann ab und verweist auf 64.
 
 ## Nicht enthalten
 
