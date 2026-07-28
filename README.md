@@ -286,3 +286,7 @@ Strukturprüfung über alle 48 Dateien: 0 Befunde.
   Fahrtkostenzuschuss und bAV in der Lohnabrechnung richtig einsortiert,
   abgekündigtes DATEV-Produkt ersetzt, Datensparsamkeitshinweis in allen Dateien ergänzt.
 - Backlog mit 52 Punkten angelegt.
+
+---
+
+Erstellt von Thomas Lauer (Thomas@Lauer.io) – mehr unter https://www.Lauer.io
