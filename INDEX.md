@@ -35,14 +35,14 @@ Laufende Buchführung, Kontierung, Prüfung von Buchungs- und Stammdaten.
 
 | # | Prompt |
 |---|--------|
-| 02 | [Gebündelte Rückfrageliste zu unklaren Bankumsätzen](prompts/02-rueckfrageliste-bankumsaetze.md) |
-| 03 | [Buchungssatz klären und begründen (SKR03/SKR04)](prompts/03-buchungssatz-klaeren.md) |
-| 10 | [Reisekosten- und Bewirtungsbeleg prüfen](prompts/10-reisekosten-bewirtung-pruefen.md) |
-| 18 | [Offene-Posten-Liste analysieren](prompts/18-op-liste-analysieren.md) |
-| 19 | [Dublettenprüfung auf Buchungs- und Stammdatenexporten](prompts/19-dublettenpruefung.md) |
-| 20 | [Summen- und Saldenliste auf Auffälligkeiten prüfen](prompts/20-summen-salden-pruefen.md) |
-| 25 | [Namens- und Stammdatenkonvention für Personenkonten](prompts/25-stammdatenkonvention.md) |
-| 28 | [Vier-Augen-Prüfroutine für OCR-erfasste Belege](prompts/28-ocr-pruefroutine.md) |
+| 02 | [Gebündelte Rückfrageliste zu unklaren Bankumsätzen](prompts/01-finanzbuchhaltung/02-rueckfrageliste-bankumsaetze.md) |
+| 03 | [Buchungssatz klären und begründen (SKR03/SKR04)](prompts/01-finanzbuchhaltung/03-buchungssatz-klaeren.md) |
+| 10 | [Reisekosten- und Bewirtungsbeleg prüfen](prompts/01-finanzbuchhaltung/10-reisekosten-bewirtung-pruefen.md) |
+| 18 | [Offene-Posten-Liste analysieren](prompts/01-finanzbuchhaltung/18-op-liste-analysieren.md) |
+| 19 | [Dublettenprüfung auf Buchungs- und Stammdatenexporten](prompts/01-finanzbuchhaltung/19-dublettenpruefung.md) |
+| 20 | [Summen- und Saldenliste auf Auffälligkeiten prüfen](prompts/01-finanzbuchhaltung/20-summen-salden-pruefen.md) |
+| 25 | [Namens- und Stammdatenkonvention für Personenkonten](prompts/01-finanzbuchhaltung/25-stammdatenkonvention.md) |
+| 28 | [Vier-Augen-Prüfroutine für OCR-erfasste Belege](prompts/01-finanzbuchhaltung/28-ocr-pruefroutine.md) |
 
 ### Umsatzsteuer
 
@@ -50,9 +50,9 @@ Voranmeldung, Sonderfälle, grenzüberschreitende Umsätze.
 
 | # | Prompt |
 |---|--------|
-| 04 | [Umsatzsteuer-Sonderfall prüfen (§ 13b, i.g. Erwerb, § 25a, § 19)](prompts/04-umsatzsteuer-sonderfall.md) |
-| 05 | [UStVA-Abweichung systematisch eingrenzen](prompts/05-ustva-abweichung-eingrenzen.md) |
-| 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/58-zusammenfassende-meldung-abgleich.md) |
+| 04 | [Umsatzsteuer-Sonderfall prüfen (§ 13b, i.g. Erwerb, § 25a, § 19)](prompts/02-umsatzsteuer/04-umsatzsteuer-sonderfall.md) |
+| 05 | [UStVA-Abweichung systematisch eingrenzen](prompts/02-umsatzsteuer/05-ustva-abweichung-eingrenzen.md) |
+| 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/02-umsatzsteuer/58-zusammenfassende-meldung-abgleich.md) |
 
 ### Jahresabschluss und Bilanzierung
 
@@ -60,14 +60,14 @@ Alles, was zwischen Bilanzstichtag und Offenlegung anfällt.
 
 | # | Prompt |
 |---|--------|
-| 21 | [Plausibilitätsprüfung EÜR-Zahlen vor Abgabe](prompts/21-euer-plausibilitaet.md) |
-| 50 | [Rückstellungs-Prüfschema zum Bilanzstichtag](prompts/50-rueckstellungen-pruefschema.md) |
-| 51 | [Cut-off- und Nachlaufcheck zum Bilanzstichtag](prompts/51-cutoff-nachlaufcheck.md) |
-| 52 | [Anlagevermögen und AfA-Wahlrechte plausibilisieren](prompts/52-anlagevermoegen-afa-wahlrechte.md) |
-| 53 | [Investitionsabzugsbetrag § 7g EStG überwachen](prompts/53-investitionsabzugsbetrag-monitor.md) |
-| 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/54-ebilanz-kontennachweise.md) |
-| 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/55-anhang-kleine-kapitalgesellschaft.md) |
-| 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/56-offenlegung-ordnungsgeld.md) |
+| 21 | [Plausibilitätsprüfung EÜR-Zahlen vor Abgabe](prompts/03-jahresabschluss/21-euer-plausibilitaet.md) |
+| 50 | [Rückstellungs-Prüfschema zum Bilanzstichtag](prompts/03-jahresabschluss/50-rueckstellungen-pruefschema.md) |
+| 51 | [Cut-off- und Nachlaufcheck zum Bilanzstichtag](prompts/03-jahresabschluss/51-cutoff-nachlaufcheck.md) |
+| 52 | [Anlagevermögen und AfA-Wahlrechte plausibilisieren](prompts/03-jahresabschluss/52-anlagevermoegen-afa-wahlrechte.md) |
+| 53 | [Investitionsabzugsbetrag § 7g EStG überwachen](prompts/03-jahresabschluss/53-investitionsabzugsbetrag-monitor.md) |
+| 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/03-jahresabschluss/54-ebilanz-kontennachweise.md) |
+| 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/03-jahresabschluss/55-anhang-kleine-kapitalgesellschaft.md) |
+| 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/03-jahresabschluss/56-offenlegung-ordnungsgeld.md) |
 
 ### Lohn und Gehalt
 
@@ -75,15 +75,15 @@ Abrechnung, Sozialversicherung, geldwerte Vorteile, Zulieferung.
 
 | # | Prompt |
 |---|--------|
-| 07 | [Lohn-Sonderfall einordnen: Steuer- und SV-Pflicht](prompts/07-lohn-sonderfall-einordnen.md) |
-| 08 | [Lohnabrechnung für den Arbeitnehmer erklären](prompts/08-lohnabrechnung-erklaeren.md) |
-| 40 | [Merkblatt Sachbezüge: Freigrenze und Aufmerksamkeiten](prompts/40-merkblatt-sachbezuege.md) |
-| 41 | [SV-Fehlerprotokoll im Klartext erklären](prompts/41-sv-fehlerprotokoll-erklaeren.md) |
-| 42 | [Anschreiben an Krankenkasse, Behörde oder Amt](prompts/42-anschreiben-kasse-behoerde.md) |
-| 43 | [FAQ zur Lohnabrechnung für die Belegschaft des Mandanten](prompts/43-faq-lohnabrechnung.md) |
-| 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/44-stichtagsplan-lohn.md) |
-| 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/63-elektro-dienstwagen.md) |
-| 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/64-minijob-uebergangsbereich.md) |
+| 07 | [Lohn-Sonderfall einordnen: Steuer- und SV-Pflicht](prompts/04-lohn/07-lohn-sonderfall-einordnen.md) |
+| 08 | [Lohnabrechnung für den Arbeitnehmer erklären](prompts/04-lohn/08-lohnabrechnung-erklaeren.md) |
+| 40 | [Merkblatt Sachbezüge: Freigrenze und Aufmerksamkeiten](prompts/04-lohn/40-merkblatt-sachbezuege.md) |
+| 41 | [SV-Fehlerprotokoll im Klartext erklären](prompts/04-lohn/41-sv-fehlerprotokoll-erklaeren.md) |
+| 42 | [Anschreiben an Krankenkasse, Behörde oder Amt](prompts/04-lohn/42-anschreiben-kasse-behoerde.md) |
+| 43 | [FAQ zur Lohnabrechnung für die Belegschaft des Mandanten](prompts/04-lohn/43-faq-lohnabrechnung.md) |
+| 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/04-lohn/44-stichtagsplan-lohn.md) |
+| 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/04-lohn/63-elektro-dienstwagen.md) |
+| 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/04-lohn/64-minijob-uebergangsbereich.md) |
 
 ### Steuererklärung und Einzelsteuerfälle
 
@@ -91,12 +91,12 @@ Deklaration und Fälle, die selten vorkommen und deshalb Zeit kosten.
 
 | # | Prompt |
 |---|--------|
-| 09 | [Unterlagen-Checkliste Einkommensteuer](prompts/09-unterlagen-checkliste-est.md) |
-| 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/57-bauabzugsteuer-pruefschema.md) |
-| 59 | [Kapitalertragsteuer bei Gewinnausschüttung](prompts/59-kapitalertragsteuer-ausschuettung.md) |
-| 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/60-photovoltaik-fallklaerung.md) |
-| 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/61-krypto-nachweise.md) |
-| 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/62-verbilligte-vermietung.md) |
+| 09 | [Unterlagen-Checkliste Einkommensteuer](prompts/05-steuererklaerung/09-unterlagen-checkliste-est.md) |
+| 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/05-steuererklaerung/57-bauabzugsteuer-pruefschema.md) |
+| 59 | [Kapitalertragsteuer bei Gewinnausschüttung](prompts/05-steuererklaerung/59-kapitalertragsteuer-ausschuettung.md) |
+| 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/05-steuererklaerung/60-photovoltaik-fallklaerung.md) |
+| 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/05-steuererklaerung/61-krypto-nachweise.md) |
+| 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/05-steuererklaerung/62-verbilligte-vermietung.md) |
 
 ### Finanzamt, Fristen und Rechtsbehelf
 
@@ -104,12 +104,12 @@ Anträge, Bescheide, Einspruch, Betriebsprüfung.
 
 | # | Prompt |
 |---|--------|
-| 31 | [Fristverlängerungsantrag entwerfen](prompts/31-fristverlaengerungsantrag.md) |
-| 32 | [Steuerbescheid gegen Erklärung abgleichen](prompts/32-bescheid-abgleichen.md) |
-| 33 | [Einspruchsbegründung formulieren](prompts/33-einspruchsbegruendung.md) |
-| 34 | [Betriebsprüfung vorbereiten](prompts/34-betriebspruefung-vorbereiten.md) |
-| 35 | [Wiedervorlage- und Fristenkonzept](prompts/35-fristenkonzept.md) |
-| 36 | [Sachverhaltsdarstellung für das Finanzamt](prompts/36-sachverhaltsdarstellung-finanzamt.md) |
+| 31 | [Fristverlängerungsantrag entwerfen](prompts/06-finanzamt-fristen/31-fristverlaengerungsantrag.md) |
+| 32 | [Steuerbescheid gegen Erklärung abgleichen](prompts/06-finanzamt-fristen/32-bescheid-abgleichen.md) |
+| 33 | [Einspruchsbegründung formulieren](prompts/06-finanzamt-fristen/33-einspruchsbegruendung.md) |
+| 34 | [Betriebsprüfung vorbereiten](prompts/06-finanzamt-fristen/34-betriebspruefung-vorbereiten.md) |
+| 35 | [Wiedervorlage- und Fristenkonzept](prompts/06-finanzamt-fristen/35-fristenkonzept.md) |
+| 36 | [Sachverhaltsdarstellung für das Finanzamt](prompts/06-finanzamt-fristen/36-sachverhaltsdarstellung-finanzamt.md) |
 
 ### GoBD, Kasse und Verfahrensdokumentation
 
@@ -117,9 +117,9 @@ Ordnungsmäßigkeit der Buchführung beim Mandanten.
 
 | # | Prompt |
 |---|--------|
-| 37 | [Verfahrensdokumentation entwerfen](prompts/37-verfahrensdokumentation.md) |
-| 38 | [GoBD-Checkliste Kassenführung](prompts/38-gobd-checkliste-kasse.md) |
-| 39 | [Kontierungsrichtlinie für den Mandanten](prompts/39-kontierungsrichtlinie-mandant.md) |
+| 37 | [Verfahrensdokumentation entwerfen](prompts/07-gobd-kasse/37-verfahrensdokumentation.md) |
+| 38 | [GoBD-Checkliste Kassenführung](prompts/07-gobd-kasse/38-gobd-checkliste-kasse.md) |
+| 39 | [Kontierungsrichtlinie für den Mandanten](prompts/07-gobd-kasse/39-kontierungsrichtlinie-mandant.md) |
 
 ### Mandantenkommunikation
 
@@ -127,15 +127,15 @@ Alles, was die Kanzlei an den Mandanten schreibt oder ihm erklärt.
 
 | # | Prompt |
 |---|--------|
-| 01 | [Belegnachforderung in drei Eskalationsstufen](prompts/01-belegnachforderung-eskalation.md) |
-| 06 | [BWA in Mandantensprache kommentieren](prompts/06-bwa-kommentar.md) |
-| 11 | [Fachtext in Mandantensprache übersetzen](prompts/11-fachtext-in-mandantensprache.md) |
-| 12 | [Mandantenrundschreiben E-Rechnungspflicht](prompts/12-e-rechnung-rundschreiben.md) |
-| 13 | [Lange Mandanten-Mail verdichten](prompts/13-mandantenmail-verdichten.md) |
-| 17 | [Jahres-Terminplan und Zulieferkalender](prompts/17-jahresterminplan-zulieferung.md) |
-| 26 | [Merkblatt Belegkanäle](prompts/26-merkblatt-belegkanaele.md) |
-| 27 | [Kurzanleitung: So reichen Sie Belege richtig ein](prompts/27-anleitung-belege-scannen.md) |
-| 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/49-mandantenkontakt-konzept.md) |
+| 01 | [Belegnachforderung in drei Eskalationsstufen](prompts/08-mandantenkommunikation/01-belegnachforderung-eskalation.md) |
+| 06 | [BWA in Mandantensprache kommentieren](prompts/08-mandantenkommunikation/06-bwa-kommentar.md) |
+| 11 | [Fachtext in Mandantensprache übersetzen](prompts/08-mandantenkommunikation/11-fachtext-in-mandantensprache.md) |
+| 12 | [Mandantenrundschreiben E-Rechnungspflicht](prompts/08-mandantenkommunikation/12-e-rechnung-rundschreiben.md) |
+| 13 | [Lange Mandanten-Mail verdichten](prompts/08-mandantenkommunikation/13-mandantenmail-verdichten.md) |
+| 17 | [Jahres-Terminplan und Zulieferkalender](prompts/08-mandantenkommunikation/17-jahresterminplan-zulieferung.md) |
+| 26 | [Merkblatt Belegkanäle](prompts/08-mandantenkommunikation/26-merkblatt-belegkanaele.md) |
+| 27 | [Kurzanleitung: So reichen Sie Belege richtig ein](prompts/08-mandantenkommunikation/27-anleitung-belege-scannen.md) |
+| 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/08-mandantenkommunikation/49-mandantenkontakt-konzept.md) |
 
 ### Honorar und Forderungen
 
@@ -143,10 +143,10 @@ Leistung sichtbar machen, Honorar begründen, Außenstände einholen.
 
 | # | Prompt |
 |---|--------|
-| 14 | [Leistungsnachweis als Anlage zur Honorarrechnung](prompts/14-leistungsnachweis-honorarrechnung.md) |
-| 15 | [Honorarbeschwerde und Honoraranpassung](prompts/15-honorarbeschwerde-und-anpassung.md) |
-| 16 | [Mahnstufen: Erinnerung bis Rechtsverfolgung](prompts/16-mahnstufen-texte.md) |
-| 46 | [Mandatsprofitabilität bewerten](prompts/46-mandatsprofitabilitaet.md) |
+| 14 | [Leistungsnachweis als Anlage zur Honorarrechnung](prompts/09-honorar-forderungen/14-leistungsnachweis-honorarrechnung.md) |
+| 15 | [Honorarbeschwerde und Honoraranpassung](prompts/09-honorar-forderungen/15-honorarbeschwerde-und-anpassung.md) |
+| 16 | [Mahnstufen: Erinnerung bis Rechtsverfolgung](prompts/09-honorar-forderungen/16-mahnstufen-texte.md) |
+| 46 | [Mandatsprofitabilität bewerten](prompts/09-honorar-forderungen/46-mandatsprofitabilitaet.md) |
 
 ### Kanzleiorganisation und Team
 
@@ -154,12 +154,12 @@ Interne Abläufe, Einarbeitung, Vertretung, Veränderungen.
 
 | # | Prompt |
 |---|--------|
-| 23 | [Arbeitsanweisung aus Stichworten ausformulieren](prompts/23-arbeitsanweisung-ausformulieren.md) |
-| 24 | [Vertretungsleitfaden je Mandant](prompts/24-vertretungsleitfaden.md) |
-| 29 | [Onboarding-Fahrplan für neue Mitarbeiter](prompts/29-onboarding-neue-mitarbeiter.md) |
-| 30 | [Übungsfälle mit Musterlösung erzeugen](prompts/30-uebungsfaelle-erzeugen.md) |
-| 47 | [Telefon- und Erreichbarkeitskonzept](prompts/47-erreichbarkeitskonzept.md) |
-| 48 | [Change-Kommunikation bei Tool-Einführung](prompts/48-change-kommunikation-tool.md) |
+| 23 | [Arbeitsanweisung aus Stichworten ausformulieren](prompts/10-kanzleiorganisation/23-arbeitsanweisung-ausformulieren.md) |
+| 24 | [Vertretungsleitfaden je Mandant](prompts/10-kanzleiorganisation/24-vertretungsleitfaden.md) |
+| 29 | [Onboarding-Fahrplan für neue Mitarbeiter](prompts/10-kanzleiorganisation/29-onboarding-neue-mitarbeiter.md) |
+| 30 | [Übungsfälle mit Musterlösung erzeugen](prompts/10-kanzleiorganisation/30-uebungsfaelle-erzeugen.md) |
+| 47 | [Telefon- und Erreichbarkeitskonzept](prompts/10-kanzleiorganisation/47-erreichbarkeitskonzept.md) |
+| 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
 
 ### Mandatsbeginn und Mandatswechsel
 
@@ -167,9 +167,9 @@ Neumandat, Übernahme, Datenübergabe.
 
 | # | Prompt |
 |---|--------|
-| 22 | [Kontenrahmen-Vergleich SKR03 ↔ SKR04](prompts/22-kontenrahmen-vergleich.md) |
-| 68 | [Fragebogen zur steuerlichen Erfassung](prompts/68-fragebogen-steuerliche-erfassung.md) |
-| 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/69-mandatswechsel-datenuebernahme.md) |
+| 22 | [Kontenrahmen-Vergleich SKR03 ↔ SKR04](prompts/11-mandatsbeginn-wechsel/22-kontenrahmen-vergleich.md) |
+| 68 | [Fragebogen zur steuerlichen Erfassung](prompts/11-mandatsbeginn-wechsel/68-fragebogen-steuerliche-erfassung.md) |
+| 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/11-mandatsbeginn-wechsel/69-mandatswechsel-datenuebernahme.md) |
 
 ### Krise, Liquidität und Bank
 
@@ -177,9 +177,9 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 | # | Prompt |
 |---|--------|
-| 65 | [Krisenindikatoren und Hinweisschreiben (nur Berufsträger)](prompts/65-insolvenzreife-hinweisschreiben.md) |
-| 66 | [Rollierende 13-Wochen-Liquiditätsplanung](prompts/66-liquiditaetsplanung-13-wochen.md) |
-| 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/67-bankgespraech-unterlagenpaket.md) |
+| 65 | [Krisenindikatoren und Hinweisschreiben (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/65-insolvenzreife-hinweisschreiben.md) |
+| 66 | [Rollierende 13-Wochen-Liquiditätsplanung](prompts/12-krise-liquiditaet-bank/66-liquiditaetsplanung-13-wochen.md) |
+| 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/12-krise-liquiditaet-bank/67-bankgespraech-unterlagenpaket.md) |
 
 ## Nach Rolle
 
@@ -187,99 +187,99 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 | # | Prompt |
 |---|--------|
-| 02 | [Gebündelte Rückfrageliste zu unklaren Bankumsätzen](prompts/02-rueckfrageliste-bankumsaetze.md) |
-| 03 | [Buchungssatz klären und begründen (SKR03/SKR04)](prompts/03-buchungssatz-klaeren.md) |
-| 04 | [Umsatzsteuer-Sonderfall prüfen (§ 13b, i.g. Erwerb, § 25a, § 19)](prompts/04-umsatzsteuer-sonderfall.md) |
-| 05 | [UStVA-Abweichung systematisch eingrenzen](prompts/05-ustva-abweichung-eingrenzen.md) |
-| 10 | [Reisekosten- und Bewirtungsbeleg prüfen](prompts/10-reisekosten-bewirtung-pruefen.md) |
-| 18 | [Offene-Posten-Liste analysieren](prompts/18-op-liste-analysieren.md) |
-| 19 | [Dublettenprüfung auf Buchungs- und Stammdatenexporten](prompts/19-dublettenpruefung.md) |
-| 20 | [Summen- und Saldenliste auf Auffälligkeiten prüfen](prompts/20-summen-salden-pruefen.md) |
-| 21 | [Plausibilitätsprüfung EÜR-Zahlen vor Abgabe](prompts/21-euer-plausibilitaet.md) |
-| 22 | [Kontenrahmen-Vergleich SKR03 ↔ SKR04](prompts/22-kontenrahmen-vergleich.md) |
-| 25 | [Namens- und Stammdatenkonvention für Personenkonten](prompts/25-stammdatenkonvention.md) |
-| 28 | [Vier-Augen-Prüfroutine für OCR-erfasste Belege](prompts/28-ocr-pruefroutine.md) |
-| 50 | [Rückstellungs-Prüfschema zum Bilanzstichtag](prompts/50-rueckstellungen-pruefschema.md) |
-| 51 | [Cut-off- und Nachlaufcheck zum Bilanzstichtag](prompts/51-cutoff-nachlaufcheck.md) |
-| 52 | [Anlagevermögen und AfA-Wahlrechte plausibilisieren](prompts/52-anlagevermoegen-afa-wahlrechte.md) |
-| 53 | [Investitionsabzugsbetrag § 7g EStG überwachen](prompts/53-investitionsabzugsbetrag-monitor.md) |
-| 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/54-ebilanz-kontennachweise.md) |
-| 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/57-bauabzugsteuer-pruefschema.md) |
-| 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/58-zusammenfassende-meldung-abgleich.md) |
+| 02 | [Gebündelte Rückfrageliste zu unklaren Bankumsätzen](prompts/01-finanzbuchhaltung/02-rueckfrageliste-bankumsaetze.md) |
+| 03 | [Buchungssatz klären und begründen (SKR03/SKR04)](prompts/01-finanzbuchhaltung/03-buchungssatz-klaeren.md) |
+| 04 | [Umsatzsteuer-Sonderfall prüfen (§ 13b, i.g. Erwerb, § 25a, § 19)](prompts/02-umsatzsteuer/04-umsatzsteuer-sonderfall.md) |
+| 05 | [UStVA-Abweichung systematisch eingrenzen](prompts/02-umsatzsteuer/05-ustva-abweichung-eingrenzen.md) |
+| 10 | [Reisekosten- und Bewirtungsbeleg prüfen](prompts/01-finanzbuchhaltung/10-reisekosten-bewirtung-pruefen.md) |
+| 18 | [Offene-Posten-Liste analysieren](prompts/01-finanzbuchhaltung/18-op-liste-analysieren.md) |
+| 19 | [Dublettenprüfung auf Buchungs- und Stammdatenexporten](prompts/01-finanzbuchhaltung/19-dublettenpruefung.md) |
+| 20 | [Summen- und Saldenliste auf Auffälligkeiten prüfen](prompts/01-finanzbuchhaltung/20-summen-salden-pruefen.md) |
+| 21 | [Plausibilitätsprüfung EÜR-Zahlen vor Abgabe](prompts/03-jahresabschluss/21-euer-plausibilitaet.md) |
+| 22 | [Kontenrahmen-Vergleich SKR03 ↔ SKR04](prompts/11-mandatsbeginn-wechsel/22-kontenrahmen-vergleich.md) |
+| 25 | [Namens- und Stammdatenkonvention für Personenkonten](prompts/01-finanzbuchhaltung/25-stammdatenkonvention.md) |
+| 28 | [Vier-Augen-Prüfroutine für OCR-erfasste Belege](prompts/01-finanzbuchhaltung/28-ocr-pruefroutine.md) |
+| 50 | [Rückstellungs-Prüfschema zum Bilanzstichtag](prompts/03-jahresabschluss/50-rueckstellungen-pruefschema.md) |
+| 51 | [Cut-off- und Nachlaufcheck zum Bilanzstichtag](prompts/03-jahresabschluss/51-cutoff-nachlaufcheck.md) |
+| 52 | [Anlagevermögen und AfA-Wahlrechte plausibilisieren](prompts/03-jahresabschluss/52-anlagevermoegen-afa-wahlrechte.md) |
+| 53 | [Investitionsabzugsbetrag § 7g EStG überwachen](prompts/03-jahresabschluss/53-investitionsabzugsbetrag-monitor.md) |
+| 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/03-jahresabschluss/54-ebilanz-kontennachweise.md) |
+| 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/05-steuererklaerung/57-bauabzugsteuer-pruefschema.md) |
+| 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/02-umsatzsteuer/58-zusammenfassende-meldung-abgleich.md) |
 
 ### Lohnsachbearbeitung
 
 | # | Prompt |
 |---|--------|
-| 07 | [Lohn-Sonderfall einordnen: Steuer- und SV-Pflicht](prompts/07-lohn-sonderfall-einordnen.md) |
-| 08 | [Lohnabrechnung für den Arbeitnehmer erklären](prompts/08-lohnabrechnung-erklaeren.md) |
-| 40 | [Merkblatt Sachbezüge: Freigrenze und Aufmerksamkeiten](prompts/40-merkblatt-sachbezuege.md) |
-| 41 | [SV-Fehlerprotokoll im Klartext erklären](prompts/41-sv-fehlerprotokoll-erklaeren.md) |
-| 42 | [Anschreiben an Krankenkasse, Behörde oder Amt](prompts/42-anschreiben-kasse-behoerde.md) |
-| 43 | [FAQ zur Lohnabrechnung für die Belegschaft des Mandanten](prompts/43-faq-lohnabrechnung.md) |
-| 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/44-stichtagsplan-lohn.md) |
-| 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/63-elektro-dienstwagen.md) |
-| 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/64-minijob-uebergangsbereich.md) |
+| 07 | [Lohn-Sonderfall einordnen: Steuer- und SV-Pflicht](prompts/04-lohn/07-lohn-sonderfall-einordnen.md) |
+| 08 | [Lohnabrechnung für den Arbeitnehmer erklären](prompts/04-lohn/08-lohnabrechnung-erklaeren.md) |
+| 40 | [Merkblatt Sachbezüge: Freigrenze und Aufmerksamkeiten](prompts/04-lohn/40-merkblatt-sachbezuege.md) |
+| 41 | [SV-Fehlerprotokoll im Klartext erklären](prompts/04-lohn/41-sv-fehlerprotokoll-erklaeren.md) |
+| 42 | [Anschreiben an Krankenkasse, Behörde oder Amt](prompts/04-lohn/42-anschreiben-kasse-behoerde.md) |
+| 43 | [FAQ zur Lohnabrechnung für die Belegschaft des Mandanten](prompts/04-lohn/43-faq-lohnabrechnung.md) |
+| 44 | [Stichtagsplan und Erinnerungstexte für Lohnzulieferungen](prompts/04-lohn/44-stichtagsplan-lohn.md) |
+| 63 | [Elektro-Dienstwagen: Bewertung und Lohnabrechnungsfolgen](prompts/04-lohn/63-elektro-dienstwagen.md) |
+| 64 | [Minijob und Übergangsbereich: Grenzen überwachen](prompts/04-lohn/64-minijob-uebergangsbereich.md) |
 
 ### Steuerberaterinnen und Steuerberater
 
 | # | Prompt |
 |---|--------|
-| 06 | [BWA in Mandantensprache kommentieren](prompts/06-bwa-kommentar.md) |
-| 12 | [Mandantenrundschreiben E-Rechnungspflicht](prompts/12-e-rechnung-rundschreiben.md) |
-| 32 | [Steuerbescheid gegen Erklärung abgleichen](prompts/32-bescheid-abgleichen.md) |
-| 33 | [Einspruchsbegründung formulieren](prompts/33-einspruchsbegruendung.md) |
-| 34 | [Betriebsprüfung vorbereiten](prompts/34-betriebspruefung-vorbereiten.md) |
-| 36 | [Sachverhaltsdarstellung für das Finanzamt](prompts/36-sachverhaltsdarstellung-finanzamt.md) |
-| 37 | [Verfahrensdokumentation entwerfen](prompts/37-verfahrensdokumentation.md) |
-| 38 | [GoBD-Checkliste Kassenführung](prompts/38-gobd-checkliste-kasse.md) |
-| 39 | [Kontierungsrichtlinie für den Mandanten](prompts/39-kontierungsrichtlinie-mandant.md) |
-| 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/55-anhang-kleine-kapitalgesellschaft.md) |
-| 59 | [Kapitalertragsteuer bei Gewinnausschüttung](prompts/59-kapitalertragsteuer-ausschuettung.md) |
-| 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/60-photovoltaik-fallklaerung.md) |
-| 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/61-krypto-nachweise.md) |
-| 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/62-verbilligte-vermietung.md) |
-| 65 | [Krisenindikatoren und Hinweisschreiben (nur Berufsträger)](prompts/65-insolvenzreife-hinweisschreiben.md) |
-| 66 | [Rollierende 13-Wochen-Liquiditätsplanung](prompts/66-liquiditaetsplanung-13-wochen.md) |
-| 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/67-bankgespraech-unterlagenpaket.md) |
-| 68 | [Fragebogen zur steuerlichen Erfassung](prompts/68-fragebogen-steuerliche-erfassung.md) |
-| 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/69-mandatswechsel-datenuebernahme.md) |
+| 06 | [BWA in Mandantensprache kommentieren](prompts/08-mandantenkommunikation/06-bwa-kommentar.md) |
+| 12 | [Mandantenrundschreiben E-Rechnungspflicht](prompts/08-mandantenkommunikation/12-e-rechnung-rundschreiben.md) |
+| 32 | [Steuerbescheid gegen Erklärung abgleichen](prompts/06-finanzamt-fristen/32-bescheid-abgleichen.md) |
+| 33 | [Einspruchsbegründung formulieren](prompts/06-finanzamt-fristen/33-einspruchsbegruendung.md) |
+| 34 | [Betriebsprüfung vorbereiten](prompts/06-finanzamt-fristen/34-betriebspruefung-vorbereiten.md) |
+| 36 | [Sachverhaltsdarstellung für das Finanzamt](prompts/06-finanzamt-fristen/36-sachverhaltsdarstellung-finanzamt.md) |
+| 37 | [Verfahrensdokumentation entwerfen](prompts/07-gobd-kasse/37-verfahrensdokumentation.md) |
+| 38 | [GoBD-Checkliste Kassenführung](prompts/07-gobd-kasse/38-gobd-checkliste-kasse.md) |
+| 39 | [Kontierungsrichtlinie für den Mandanten](prompts/07-gobd-kasse/39-kontierungsrichtlinie-mandant.md) |
+| 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/03-jahresabschluss/55-anhang-kleine-kapitalgesellschaft.md) |
+| 59 | [Kapitalertragsteuer bei Gewinnausschüttung](prompts/05-steuererklaerung/59-kapitalertragsteuer-ausschuettung.md) |
+| 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/05-steuererklaerung/60-photovoltaik-fallklaerung.md) |
+| 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/05-steuererklaerung/61-krypto-nachweise.md) |
+| 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/05-steuererklaerung/62-verbilligte-vermietung.md) |
+| 65 | [Krisenindikatoren und Hinweisschreiben (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/65-insolvenzreife-hinweisschreiben.md) |
+| 66 | [Rollierende 13-Wochen-Liquiditätsplanung](prompts/12-krise-liquiditaet-bank/66-liquiditaetsplanung-13-wochen.md) |
+| 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/12-krise-liquiditaet-bank/67-bankgespraech-unterlagenpaket.md) |
+| 68 | [Fragebogen zur steuerlichen Erfassung](prompts/11-mandatsbeginn-wechsel/68-fragebogen-steuerliche-erfassung.md) |
+| 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/11-mandatsbeginn-wechsel/69-mandatswechsel-datenuebernahme.md) |
 
 ### Sekretariat und Büroorganisation
 
 | # | Prompt |
 |---|--------|
-| 01 | [Belegnachforderung in drei Eskalationsstufen](prompts/01-belegnachforderung-eskalation.md) |
-| 09 | [Unterlagen-Checkliste Einkommensteuer](prompts/09-unterlagen-checkliste-est.md) |
-| 13 | [Lange Mandanten-Mail verdichten](prompts/13-mandantenmail-verdichten.md) |
-| 16 | [Mahnstufen: Erinnerung bis Rechtsverfolgung](prompts/16-mahnstufen-texte.md) |
-| 17 | [Jahres-Terminplan und Zulieferkalender](prompts/17-jahresterminplan-zulieferung.md) |
-| 27 | [Kurzanleitung: So reichen Sie Belege richtig ein](prompts/27-anleitung-belege-scannen.md) |
-| 31 | [Fristverlängerungsantrag entwerfen](prompts/31-fristverlaengerungsantrag.md) |
-| 47 | [Telefon- und Erreichbarkeitskonzept](prompts/47-erreichbarkeitskonzept.md) |
-| 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/56-offenlegung-ordnungsgeld.md) |
+| 01 | [Belegnachforderung in drei Eskalationsstufen](prompts/08-mandantenkommunikation/01-belegnachforderung-eskalation.md) |
+| 09 | [Unterlagen-Checkliste Einkommensteuer](prompts/05-steuererklaerung/09-unterlagen-checkliste-est.md) |
+| 13 | [Lange Mandanten-Mail verdichten](prompts/08-mandantenkommunikation/13-mandantenmail-verdichten.md) |
+| 16 | [Mahnstufen: Erinnerung bis Rechtsverfolgung](prompts/09-honorar-forderungen/16-mahnstufen-texte.md) |
+| 17 | [Jahres-Terminplan und Zulieferkalender](prompts/08-mandantenkommunikation/17-jahresterminplan-zulieferung.md) |
+| 27 | [Kurzanleitung: So reichen Sie Belege richtig ein](prompts/08-mandantenkommunikation/27-anleitung-belege-scannen.md) |
+| 31 | [Fristverlängerungsantrag entwerfen](prompts/06-finanzamt-fristen/31-fristverlaengerungsantrag.md) |
+| 47 | [Telefon- und Erreichbarkeitskonzept](prompts/10-kanzleiorganisation/47-erreichbarkeitskonzept.md) |
+| 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/03-jahresabschluss/56-offenlegung-ordnungsgeld.md) |
 
 ### Kanzleileitung
 
 | # | Prompt |
 |---|--------|
-| 14 | [Leistungsnachweis als Anlage zur Honorarrechnung](prompts/14-leistungsnachweis-honorarrechnung.md) |
-| 15 | [Honorarbeschwerde und Honoraranpassung](prompts/15-honorarbeschwerde-und-anpassung.md) |
-| 23 | [Arbeitsanweisung aus Stichworten ausformulieren](prompts/23-arbeitsanweisung-ausformulieren.md) |
-| 24 | [Vertretungsleitfaden je Mandant](prompts/24-vertretungsleitfaden.md) |
-| 26 | [Merkblatt Belegkanäle](prompts/26-merkblatt-belegkanaele.md) |
-| 29 | [Onboarding-Fahrplan für neue Mitarbeiter](prompts/29-onboarding-neue-mitarbeiter.md) |
-| 30 | [Übungsfälle mit Musterlösung erzeugen](prompts/30-uebungsfaelle-erzeugen.md) |
-| 35 | [Wiedervorlage- und Fristenkonzept](prompts/35-fristenkonzept.md) |
-| 46 | [Mandatsprofitabilität bewerten](prompts/46-mandatsprofitabilitaet.md) |
-| 48 | [Change-Kommunikation bei Tool-Einführung](prompts/48-change-kommunikation-tool.md) |
-| 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/49-mandantenkontakt-konzept.md) |
+| 14 | [Leistungsnachweis als Anlage zur Honorarrechnung](prompts/09-honorar-forderungen/14-leistungsnachweis-honorarrechnung.md) |
+| 15 | [Honorarbeschwerde und Honoraranpassung](prompts/09-honorar-forderungen/15-honorarbeschwerde-und-anpassung.md) |
+| 23 | [Arbeitsanweisung aus Stichworten ausformulieren](prompts/10-kanzleiorganisation/23-arbeitsanweisung-ausformulieren.md) |
+| 24 | [Vertretungsleitfaden je Mandant](prompts/10-kanzleiorganisation/24-vertretungsleitfaden.md) |
+| 26 | [Merkblatt Belegkanäle](prompts/08-mandantenkommunikation/26-merkblatt-belegkanaele.md) |
+| 29 | [Onboarding-Fahrplan für neue Mitarbeiter](prompts/10-kanzleiorganisation/29-onboarding-neue-mitarbeiter.md) |
+| 30 | [Übungsfälle mit Musterlösung erzeugen](prompts/10-kanzleiorganisation/30-uebungsfaelle-erzeugen.md) |
+| 35 | [Wiedervorlage- und Fristenkonzept](prompts/06-finanzamt-fristen/35-fristenkonzept.md) |
+| 46 | [Mandatsprofitabilität bewerten](prompts/09-honorar-forderungen/46-mandatsprofitabilitaet.md) |
+| 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
+| 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/08-mandantenkommunikation/49-mandantenkontakt-konzept.md) |
 
 ### Alle
 
 | # | Prompt |
 |---|--------|
-| 11 | [Fachtext in Mandantensprache übersetzen](prompts/11-fachtext-in-mandantensprache.md) |
+| 11 | [Fachtext in Mandantensprache übersetzen](prompts/08-mandantenkommunikation/11-fachtext-in-mandantensprache.md) |
 
 ---
 

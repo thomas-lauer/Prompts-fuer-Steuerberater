@@ -297,7 +297,7 @@ Was in Kanzleiprompts regelmäßig schiefgeht:
 
 ## Gerüst für einen neuen Prompt
 
-Zum Kopieren als Startpunkt einer neuen Datei in `prompts/`:
+Zum Kopieren als Startpunkt einer neuen Datei in `prompts/<kategorie>/`:
 
 ```text
 Du bist [ROLLE] in einer deutschen Steuerkanzlei.

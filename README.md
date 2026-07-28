@@ -54,7 +54,7 @@ Sie können außerdem nicht:
 
 ## So benutzt du sie
 
-1. Passenden Prompt in `prompts/` öffnen.
+1. Passenden Prompt über [INDEX.md](INDEX.md) suchen und in `prompts/<kategorie>/` öffnen.
 2. Den Block unter **## Prompt** vollständig kopieren.
 3. Alle Platzhalter in eckigen Klammern ersetzen – `[MANDANT]`, `[ZEITRAUM]`, `[BETRAG]`.
 4. In dein KI-Werkzeug einfügen und ausführen.
@@ -117,6 +117,21 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
+
+### 2026-07-28 – Verzeichnisstruktur nach Kategorien
+
+- Die Prompts liegen jetzt in zwölf Kategorieordnern unter `prompts/`
+  (`01-finanzbuchhaltung` bis `12-krise-liquiditaet-bank`) statt flach in einem
+  Verzeichnis. Die Ordner sind durchnummeriert, damit die Reihenfolge auf GitHub
+  der des Index entspricht.
+- Jeder Kategorieordner enthält eine `README.md` mit den Prompts der Kategorie –
+  GitHub zeigt sie beim Öffnen des Ordners an.
+- Alle 68 Links in `INDEX.md` auf die neuen Pfade umgestellt und maschinell
+  geprüft, dass jedes Ziel existiert.
+- Die Strukturprüfung durchsucht `prompts/` jetzt rekursiv und überspringt die
+  Ordner-READMEs: 68 Dateien geprüft, 0 Befunde.
+- **Hinweis für alle, die das Repository schon geklont oder verlinkt haben:
+  Die Dateipfade haben sich geändert, die Dateinamen nicht.**
 
 ### 2026-07-28 – Kategorien im Index
 
