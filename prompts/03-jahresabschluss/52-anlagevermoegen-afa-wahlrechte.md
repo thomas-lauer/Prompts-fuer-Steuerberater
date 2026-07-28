@@ -126,4 +126,4 @@ AUSGABEFORMAT
 - **Nur Ausreißersuche:** Zusatz "Lasse die Wahlrechtsgegenüberstellung weg und liefere nur die Ausreißerliste und die Abstimmung."
 - **Investitionsplanung:** Zusatz "Ergänze eine Betrachtung der geplanten Investitionen und ihres Zusammenspiels mit vorhandenen Abzugsbeträgen." Ergänzt Prompt 53.
 - **Fahrzeuge:** Zusatz "Ergänze je Fahrzeug einen Prüfschritt zur privaten Nutzung und zur Bewertungsmethode."
-- **Gebäude:** Zusatz "Ergänze Prüfschritte zur Aufteilung auf Grund und Boden, zu selbständigen Gebäudeteilen und zu Herstellungskosten nach Anschaffung."
+- **Gebäude:** Zusatz "Ergänze Prüfschritte zur Aufteilung auf Grund und Boden, zu selbständigen Gebäudeteilen und zu Herstellungskosten nach Anschaffung." Für Erwerbe innerhalb des maßgeblichen Zeitraums nach § 6 Abs. 1 Nr. 1a EStG (Zeitraum – für [JAHR] verifizieren) Prompt 89 verwenden.

@@ -10,5 +10,9 @@ Deklaration und Fälle, die selten vorkommen und deshalb Zeit kosten.
 | 60 | Photovoltaik: Fallklärung Steuerbefreiung, Entnahme, Liebhaberei | [60-photovoltaik-fallklaerung.md](60-photovoltaik-fallklaerung.md) |
 | 61 | Krypto: Nachweise anfordern und einen Steuerreport prüfen | [61-krypto-nachweise.md](61-krypto-nachweise.md) |
 | 62 | Verbilligte Vermietung: Entgeltlichkeitsprüfung und Prognose | [62-verbilligte-vermietung.md](62-verbilligte-vermietung.md) |
+| 89 | Erhaltungsaufwand oder anschaffungsnahe Herstellungskosten | [89-erhaltungsaufwand-abgrenzung.md](89-erhaltungsaufwand-abgrenzung.md) |
+| 90 | Privates Veräußerungsgeschäft § 23 EStG prüfen | [90-privates-veraeusserungsgeschaeft.md](90-privates-veraeusserungsgeschaeft.md) |
+| 92 | Sonderbetriebsvermögen bei der unentgeltlichen Übertragung | [92-sonderbetriebsvermoegen-nachfolge.md](92-sonderbetriebsvermoegen-nachfolge.md) |
+| 93 | Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist | [93-grunderwerbsteuer-anteilsbewegung.md](93-grunderwerbsteuer-anteilsbewegung.md) |
 
 [Zurück zum Index](../../INDEX.md) · [Datenschutz und Berufsrecht](../../DATENSCHUTZ.md)
