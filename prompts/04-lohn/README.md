@@ -6,8 +6,8 @@ Abrechnung, Sozialversicherung, geldwerte Vorteile, Zulieferung.
 |---|--------|-------|
 | 07 | Lohn-Sonderfall einordnen: Steuer- und SV-Pflicht prüfen | [07-lohn-sonderfall-einordnen.md](07-lohn-sonderfall-einordnen.md) |
 | 08 | Lohnabrechnung für den Arbeitnehmer verständlich erklären | [08-lohnabrechnung-erklaeren.md](08-lohnabrechnung-erklaeren.md) |
-| 10 | A1 und Tätigkeit im Ausland: Entscheidungsbaum | [100-a1-taetigkeit-ausland.md](100-a1-taetigkeit-ausland.md) |
-| 10 | Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner | [101-lohnpfaendung-drittschuldner.md](101-lohnpfaendung-drittschuldner.md) |
+| 100 | A1 und Tätigkeit im Ausland: Entscheidungsbaum | [100-a1-taetigkeit-ausland.md](100-a1-taetigkeit-ausland.md) |
+| 101 | Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner | [101-lohnpfaendung-drittschuldner.md](101-lohnpfaendung-drittschuldner.md) |
 | 40 | Merkblatt Sachbezüge: Freigrenze und Aufmerksamkeiten | [40-merkblatt-sachbezuege.md](40-merkblatt-sachbezuege.md) |
 | 41 | SV-Fehlerprotokoll im Klartext erklären und Ursachen eingrenzen | [41-sv-fehlerprotokoll-erklaeren.md](41-sv-fehlerprotokoll-erklaeren.md) |
 | 42 | Anschreiben an Krankenkasse, Behörde oder Amt zu Bescheinigungen | [42-anschreiben-kasse-behoerde.md](42-anschreiben-kasse-behoerde.md) |
