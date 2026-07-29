@@ -53,7 +53,9 @@ KANZLEIRAHMEN
 - Größe: [ZAHL BERUFSTRÄGER / ZAHL MITARBEITER / ZAHL STANDORTE]
 - Programme: [z. B. DATEV Vollmachtsdatenbank, DATEV Fristenkontrolle,
   DATEV Fristen und Bescheide, DMS, Outlook, Tabellenblatt]
-- Führendes Fristensystem laut Fristenkonzept: [ANGABE / noch nicht festgelegt]
+- Führendes Fristensystem laut Fristenkonzept:
+  [benannt / noch nicht festgelegt]
+  wenn benannt: [ANGABE]
 - Heutige Praxis des Bescheidabrufs: [WER RUFT AB, IN WELCHEM RHYTHMUS,
   WER ERFASST DIE FRIST]
 - Bekanntgabearten im Bestand: [Papier an den Mandanten / Papier an die
@@ -61,9 +63,12 @@ KANZLEIRAHMEN
   unbekannt]
 - Nach der Umstellung der Vollmachtsdatenbank geprüft: [ja / nein / teilweise],
   Stand: [DATUM]
-- Mandate, die Bescheide selbst erhalten: [ANZAHL / unbekannt]
-- Vertretungsregelung bei Urlaub und Krankheit: [ANGABE / nicht geregelt]
-- Schließzeiten der Kanzlei: [ANGABE / keine]
+- Mandate, die Bescheide selbst erhalten: [bekannt / unbekannt]
+  wenn bekannt: [ANZAHL]
+- Vertretungsregelung bei Urlaub und Krankheit: [geregelt / nicht geregelt]
+  wenn geregelt: [ANGABE]
+- Schließzeiten der Kanzlei: [vorhanden / keine]
+  wenn vorhanden: [ANGABE]
 - Bekannte Auffälligkeiten: [z. B. nicht abgerufene Bereitstellungen,
   abweichende Bekanntgabeart, doppelte Vollmachten, Mandatswechsel]
 
@@ -200,8 +205,8 @@ Die gesamte Bearbeitung brichst du nur ab, wenn die Angaben (a) ein
 Haftungs-, Regress- oder Deckungsverfahren gegen die Kanzlei erwähnen,
 (b) ein berufsgerichtliches oder aufsichtsrechtliches Verfahren erwähnen, oder
 (c) Steuernummern, Aktenzeichen des Finanzamts, Vollmachts- oder Zugangsdaten
-enthalten. Gib dann nur aus: "Anzeichen für [FALL] – Bearbeitung an dieser
-Stelle abgebrochen, Prüfung durch einen Berufsträger außerhalb des
+enthalten. Gib dann nur aus: "Abbruchgrund liegt vor (Buchstabe angeben) – Bearbeitung an
+dieser Stelle abgebrochen, Prüfung durch einen Berufsträger außerhalb des
 KI-Werkzeugs."
 
 ANFORDERUNGEN

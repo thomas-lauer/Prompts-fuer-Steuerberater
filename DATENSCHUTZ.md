@@ -107,6 +107,35 @@ KI-Werkzeug gespeichert.
 - eigene Texte der Kanzlei, die veröffentlicht werden sollen
 - alles, was ohnehin öffentlich ist
 
+## 2a. Sonderfall Geldwäscheverdacht
+
+Ein Verdachtsfall nach dem Geldwäschegesetz ist die schärfste Ausprägung der
+Zone Rot. Der Sachverhalt, der einer Verdachtsmeldung zugrunde liegt, betrifft
+den Vorwurf einer Straftat und kann dem Beschlagnahmeschutz unterliegen; er
+gehört nur so weit in ein KI-Werkzeug, wie er vollständig auf Rollen,
+Größenklassen und Zeitpunkte reduziert ist. Namen, Anschriften, Geburts-,
+Ausweis-, Register- und Kontodaten kommen nie hinein – auch dann nicht, wenn
+die Meldung sie später verlangt. Sie werden erst in der Kanzlei außerhalb des
+Werkzeugs in die Meldung eingesetzt.
+
+Dazu tritt eine berufsrechtlich eigenständige Gefahr: Nach **§ 47 Abs. 1 GwG**
+darf der Mandant über eine beabsichtigte oder erstattete Meldung, über ein
+darauf beruhendes Ermittlungsverfahren und über ein Auskunftsverlangen der
+Zentralstelle nicht in Kenntnis gesetzt werden. Das erfasst **jede Ausgabe
+eines KI-Werkzeugs, die den Mandanten erreichen könnte** – den Entwurf im
+gemeinsamen Mandantenordner, den Chatverlauf in einem geteilten Zugang, die
+Wiedervorlage in einer Akte, in die der Mandant Einsicht nimmt. Ausgaben zu
+einem Verdachtsfall werden getrennt abgelegt, im Zugriff beschränkt und nicht
+in die Mandantenakte übernommen.
+
+Das Verbot betrifft die Meldung, nicht die Sachverhaltsaufklärung: Hintergrund
+und Zweck einer ungewöhnlichen Transaktion sind nach § 15 Abs. 6 GwG zu
+untersuchen, und **§ 47 Abs. 4 GwG** stellt klar, dass keine
+Informationsweitergabe vorliegt, wenn der Verpflichtete den Mandanten von einer
+rechtswidrigen Handlung abzuhalten versucht. Ob und wie eine Rückfrage gestellt
+wird, entscheidet der Berufsträger.
+*(Fundstellen für [JAHR] verifizieren.)*
+
 ## 3. Freigabestufen
 
 Wer darf was, ohne zu fragen:

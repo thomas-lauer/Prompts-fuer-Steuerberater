@@ -201,8 +201,8 @@ Die gesamte Bearbeitung brichst du nur ab, wenn die Angaben (a) ein
 berufsgerichtliches oder aufsichtsrechtliches Verfahren gegen die Kanzlei
 erwähnen, (b) ein Ermittlungsverfahren wegen Verletzung von Privatgeheimnissen
 erwähnen, oder (c) Mandantendaten, Zugangsdaten oder Lizenzschlüssel
-enthalten. Gib dann nur aus: "Anzeichen für [FALL] – Bearbeitung an dieser
-Stelle abgebrochen, Prüfung durch einen Berufsträger außerhalb des
+enthalten. Gib dann nur aus: "Abbruchgrund liegt vor (Buchstabe angeben) – Bearbeitung an
+dieser Stelle abgebrochen, Prüfung durch einen Berufsträger außerhalb des
 KI-Werkzeugs."
 
 ANFORDERUNGEN

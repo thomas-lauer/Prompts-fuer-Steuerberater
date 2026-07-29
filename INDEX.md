@@ -1,7 +1,9 @@
-# Index – alle Prompts nach Kategorie, Rolle und Anlass
+# 101 Prompts für Steuerberater – Index nach Kategorie, Rolle und Anlass
 
-88 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
-Lücken bei 45 (zurückgestellt, siehe unten) und bei 70 bis 84.
+101 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
+Die Nummern laufen von 01 bis 105; es fehlen 45, 78, 79 und 81 – 45 ist
+zurückgestellt, 78, 79 und 81 sind als Kandidaten dokumentiert, aber bewusst
+nicht umgesetzt (beides unter „Nicht enthalten" am Ende).
 Vor dem ersten Einsatz: [DATENSCHUTZ.md](DATENSCHUTZ.md).
 Eigene Prompts schreiben: [BAUKASTEN.md](BAUKASTEN.md).
 
@@ -17,17 +19,17 @@ brauchen wie die Kanzleileitung.
 | Kategorie | Prompts |
 |---|---|
 | [Finanzbuchhaltung](#finanzbuchhaltung) | 8 |
-| [Umsatzsteuer](#umsatzsteuer) | 7 |
-| [Jahresabschluss und Bilanzierung](#jahresabschluss-und-bilanzierung) | 10 |
+| [Umsatzsteuer](#umsatzsteuer) | 8 |
+| [Jahresabschluss und Bilanzierung](#jahresabschluss-und-bilanzierung) | 11 |
 | [Lohn und Gehalt](#lohn-und-gehalt) | 16 |
-| [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 10 |
+| [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 15 |
 | [Finanzamt, Fristen und Rechtsbehelf](#finanzamt-fristen-und-rechtsbehelf) | 7 |
 | [GoBD, Kasse und Verfahrensdokumentation](#gobd-kasse-und-verfahrensdokumentation) | 3 |
 | [Mandantenkommunikation](#mandantenkommunikation) | 9 |
 | [Honorar und Forderungen](#honorar-und-forderungen) | 4 |
-| [Kanzleiorganisation und Team](#kanzleiorganisation-und-team) | 8 |
+| [Kanzleiorganisation und Team](#kanzleiorganisation-und-team) | 12 |
 | [Mandatsbeginn und Mandatswechsel](#mandatsbeginn-und-mandatswechsel) | 3 |
-| [Krise, Liquidität und Bank](#krise-liquidität-und-bank) | 3 |
+| [Krise, Liquidität und Bank](#krise-liquidität-und-bank) | 5 |
 
 ### Finanzbuchhaltung
 
@@ -53,6 +55,7 @@ Voranmeldung, Sonderfälle, grenzüberschreitende Umsätze.
 | 04 | [Umsatzsteuer-Sonderfall prüfen (§ 13b, i.g. Erwerb, § 25a, § 19)](prompts/02-umsatzsteuer/04-umsatzsteuer-sonderfall.md) |
 | 05 | [UStVA-Abweichung systematisch eingrenzen](prompts/02-umsatzsteuer/05-ustva-abweichung-eingrenzen.md) |
 | 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/02-umsatzsteuer/58-zusammenfassende-meldung-abgleich.md) |
+| 84 | [Gastronomie: Steuersatzaufteilung bei Kombiangeboten](prompts/02-umsatzsteuer/84-gastronomie-steuersatzaufteilung.md) |
 | 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
 | 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
 | 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
@@ -72,6 +75,7 @@ Alles, was zwischen Bilanzstichtag und Offenlegung anfällt.
 | 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/03-jahresabschluss/54-ebilanz-kontennachweise.md) |
 | 55 | [Anhang kleine Kapitalgesellschaft: Pflichtangaben](prompts/03-jahresabschluss/55-anhang-kleine-kapitalgesellschaft.md) |
 | 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/03-jahresabschluss/56-offenlegung-ordnungsgeld.md) |
+| 70 | [Going-Concern und Auftragsart bei der Abschlusserstellung (nur Berufsträger)](prompts/03-jahresabschluss/70-going-concern-auftragsart.md) |
 | 91 | [Betriebsaufspaltung: jährliches Monitoring](prompts/03-jahresabschluss/91-betriebsaufspaltung-monitoring.md) |
 | 94 | [Verdeckte Gewinnausschüttung: Vertragsdurchsicht](prompts/03-jahresabschluss/94-vga-vertragsdurchsicht.md) |
 
@@ -110,6 +114,11 @@ Deklaration und Fälle, die selten vorkommen und deshalb Zeit kosten.
 | 60 | [Photovoltaik: Fallklärung Steuerbefreiung und Entnahme](prompts/05-steuererklaerung/60-photovoltaik-fallklaerung.md) |
 | 61 | [Krypto: Nachweise anfordern und Steuerreport prüfen](prompts/05-steuererklaerung/61-krypto-nachweise.md) |
 | 62 | [Verbilligte Vermietung: Entgeltlichkeitsprüfung](prompts/05-steuererklaerung/62-verbilligte-vermietung.md) |
+| 71 | [Grundsteuer: Änderungsanzeigen erkennen und erstatten](prompts/05-steuererklaerung/71-grundsteuer-aenderungsanzeige.md) |
+| 72 | [Grundsteuerwert: niedrigeren gemeinen Wert prüfen](prompts/05-steuererklaerung/72-grundsteuerwert-niedrigerer-wert.md) |
+| 73 | [Erbschaft- und Schenkungsteuer: Anzeigepflicht und Ersteinschätzung](prompts/05-steuererklaerung/73-erbschaftsteuer-anzeigepflicht.md) |
+| 80 | [Gewerbesteuer-Zerlegung prüfen](prompts/05-steuererklaerung/80-gewerbesteuer-zerlegung.md) |
+| 82 | [Behaltensfristen §§ 13a, 13b ErbStG überwachen](prompts/05-steuererklaerung/82-behaltensfristen-erbstg.md) |
 | 89 | [Erhaltungsaufwand oder anschaffungsnahe Herstellungskosten](prompts/05-steuererklaerung/89-erhaltungsaufwand-abgrenzung.md) |
 | 90 | [Privates Veräußerungsgeschäft § 23 EStG prüfen](prompts/05-steuererklaerung/90-privates-veraeusserungsgeschaeft.md) |
 | 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
@@ -178,8 +187,12 @@ Interne Abläufe, Einarbeitung, Vertretung, Veränderungen.
 | 30 | [Übungsfälle mit Musterlösung erzeugen](prompts/10-kanzleiorganisation/30-uebungsfaelle-erzeugen.md) |
 | 47 | [Telefon- und Erreichbarkeitskonzept](prompts/10-kanzleiorganisation/47-erreichbarkeitskonzept.md) |
 | 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
+| 76 | [Die AVV-Anfrage des Mandanten beantworten](prompts/10-kanzleiorganisation/76-avv-anfrage-beantworten.md) |
+| 77 | [Auskunftsersuchen nach Art. 15 DSGVO beantworten](prompts/10-kanzleiorganisation/77-auskunftsersuchen-art-15-dsgvo.md) |
+| 83 | [Datenschutzvorfall: Bewertung, Meldung, Dokumentation](prompts/10-kanzleiorganisation/83-datenschutzvorfall.md) |
 | 103 | [§ 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung](prompts/10-kanzleiorganisation/103-62a-dienstleisterpruefung.md) |
 | 104 | [KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO](prompts/10-kanzleiorganisation/104-ki-richtlinie-kompetenz.md) |
+| 105 | [Geldwäsche: Verdachtsmeldung vorbereiten und dokumentieren](prompts/10-kanzleiorganisation/105-gwg-verdachtsmeldung.md) |
 
 ### Mandatsbeginn und Mandatswechsel
 
@@ -200,6 +213,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 65 | [Krisenindikatoren und Hinweisschreiben (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/65-insolvenzreife-hinweisschreiben.md) |
 | 66 | [Rollierende 13-Wochen-Liquiditätsplanung](prompts/12-krise-liquiditaet-bank/66-liquiditaetsplanung-13-wochen.md) |
 | 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/12-krise-liquiditaet-bank/67-bankgespraech-unterlagenpaket.md) |
+| 74 | [Zahlungsunfähigkeit: Datenanforderung und Statusgerüst für den Insolvenzrechtler (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/74-zahlungsunfaehigkeit-datenaufbereitung.md) |
+| 75 | [Krisenfrüherkennung nach § 1 StaRUG: Merkblatt und Frühwarnraster (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/75-krisenfrueherkennung-starug.md) |
 
 ## Nach Rolle
 
@@ -226,6 +241,12 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 54 | [E-Bilanz: unverdichtete Kontennachweise vorbereiten](prompts/03-jahresabschluss/54-ebilanz-kontennachweise.md) |
 | 57 | [Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema](prompts/05-steuererklaerung/57-bauabzugsteuer-pruefschema.md) |
 | 58 | [Zusammenfassende Meldung und i.g. Lieferung abgleichen](prompts/02-umsatzsteuer/58-zusammenfassende-meldung-abgleich.md) |
+| 71 | [Grundsteuer: Änderungsanzeigen erkennen und erstatten](prompts/05-steuererklaerung/71-grundsteuer-aenderungsanzeige.md) |
+| 72 | [Grundsteuerwert: niedrigeren gemeinen Wert prüfen](prompts/05-steuererklaerung/72-grundsteuerwert-niedrigerer-wert.md) |
+| 73 | [Erbschaft- und Schenkungsteuer: Anzeigepflicht und Ersteinschätzung](prompts/05-steuererklaerung/73-erbschaftsteuer-anzeigepflicht.md) |
+| 80 | [Gewerbesteuer-Zerlegung prüfen](prompts/05-steuererklaerung/80-gewerbesteuer-zerlegung.md) |
+| 82 | [Behaltensfristen §§ 13a, 13b ErbStG überwachen](prompts/05-steuererklaerung/82-behaltensfristen-erbstg.md) |
+| 84 | [Gastronomie: Steuersatzaufteilung bei Kombiangeboten](prompts/02-umsatzsteuer/84-gastronomie-steuersatzaufteilung.md) |
 | 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
 | 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
 | 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
@@ -281,6 +302,15 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 67 | [Bankgespräch und Rating: Unterlagenpaket](prompts/12-krise-liquiditaet-bank/67-bankgespraech-unterlagenpaket.md) |
 | 68 | [Fragebogen zur steuerlichen Erfassung](prompts/11-mandatsbeginn-wechsel/68-fragebogen-steuerliche-erfassung.md) |
 | 69 | [Mandatswechsel: Datenübernahme vom Vorberater](prompts/11-mandatsbeginn-wechsel/69-mandatswechsel-datenuebernahme.md) |
+| 70 | [Going-Concern und Auftragsart bei der Abschlusserstellung (nur Berufsträger)](prompts/03-jahresabschluss/70-going-concern-auftragsart.md) |
+| 71 | [Grundsteuer: Änderungsanzeigen erkennen und erstatten](prompts/05-steuererklaerung/71-grundsteuer-aenderungsanzeige.md) |
+| 72 | [Grundsteuerwert: niedrigeren gemeinen Wert prüfen](prompts/05-steuererklaerung/72-grundsteuerwert-niedrigerer-wert.md) |
+| 73 | [Erbschaft- und Schenkungsteuer: Anzeigepflicht und Ersteinschätzung](prompts/05-steuererklaerung/73-erbschaftsteuer-anzeigepflicht.md) |
+| 74 | [Zahlungsunfähigkeit: Datenanforderung und Statusgerüst für den Insolvenzrechtler (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/74-zahlungsunfaehigkeit-datenaufbereitung.md) |
+| 75 | [Krisenfrüherkennung nach § 1 StaRUG: Merkblatt und Frühwarnraster (nur Berufsträger)](prompts/12-krise-liquiditaet-bank/75-krisenfrueherkennung-starug.md) |
+| 80 | [Gewerbesteuer-Zerlegung prüfen](prompts/05-steuererklaerung/80-gewerbesteuer-zerlegung.md) |
+| 82 | [Behaltensfristen §§ 13a, 13b ErbStG überwachen](prompts/05-steuererklaerung/82-behaltensfristen-erbstg.md) |
+| 84 | [Gastronomie: Steuersatzaufteilung bei Kombiangeboten](prompts/02-umsatzsteuer/84-gastronomie-steuersatzaufteilung.md) |
 | 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
 | 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
 | 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
@@ -327,10 +357,14 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 46 | [Mandatsprofitabilität bewerten](prompts/09-honorar-forderungen/46-mandatsprofitabilitaet.md) |
 | 48 | [Change-Kommunikation bei Tool-Einführung](prompts/10-kanzleiorganisation/48-change-kommunikation-tool.md) |
 | 49 | [Kontaktkonzept gegen stille Mandantenabwanderung](prompts/08-mandantenkommunikation/49-mandantenkontakt-konzept.md) |
+| 76 | [Die AVV-Anfrage des Mandanten beantworten](prompts/10-kanzleiorganisation/76-avv-anfrage-beantworten.md) |
+| 77 | [Auskunftsersuchen nach Art. 15 DSGVO beantworten](prompts/10-kanzleiorganisation/77-auskunftsersuchen-art-15-dsgvo.md) |
+| 83 | [Datenschutzvorfall: Bewertung, Meldung, Dokumentation](prompts/10-kanzleiorganisation/83-datenschutzvorfall.md) |
 | 85 | [E-Rechnungs-Umstellungsradar: Stichtag je Mandant](prompts/02-umsatzsteuer/85-erechnung-umstellungsradar.md) |
 | 102 | [Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle](prompts/06-finanzamt-fristen/102-bekanntgabe-122a-ao.md) |
 | 103 | [§ 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung](prompts/10-kanzleiorganisation/103-62a-dienstleisterpruefung.md) |
 | 104 | [KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO](prompts/10-kanzleiorganisation/104-ki-richtlinie-kompetenz.md) |
+| 105 | [Geldwäsche: Verdachtsmeldung vorbereiten und dokumentieren](prompts/10-kanzleiorganisation/105-gwg-verdachtsmeldung.md) |
 
 ### Alle
 
@@ -354,7 +388,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 21 EÜR-Plausibilität · 22 Kontenrahmen-Vergleich · 30 Übungsfälle zum Lernen ·
 50 Rückstellungen · 57 Bauabzugsteuer · 59 Kapitalertragsteuer ·
 60 Photovoltaik · 62 Verbilligte Vermietung · 63 Elektro-Dienstwagen ·
-64 Minijob und Übergangsbereich · 85 E-Rechnungs-Stichtag je Mandant ·
+64 Minijob und Übergangsbereich · 80 Gewerbesteuer-Zerlegung ·
+84 Gastronomie: Steuersatzaufteilung · 85 E-Rechnungs-Stichtag je Mandant ·
 87 § 14c unrichtiger Steuerausweis · 88 Kleinunternehmer-Grenzen ·
 89 Erhaltungsaufwand oder Herstellungskosten ·
 90 Privates Veräußerungsgeschäft · 92 Sonderbetriebsvermögen ·
@@ -366,8 +401,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 50 Rückstellungen · 51 Cut-off und Nachlauf · 52 Anlagevermögen und AfA ·
 53 Investitionsabzugsbetrag · 54 E-Bilanz-Kontennachweise · 55 Anhang ·
-56 Offenlegung · 91 Betriebsaufspaltung-Monitoring ·
-94 Verdeckte Gewinnausschüttung
+56 Offenlegung · 70 Going-Concern und Auftragsart (nur Berufsträger) ·
+91 Betriebsaufspaltung-Monitoring · 94 Verdeckte Gewinnausschüttung
 
 ### Das Lohnjahr wechselt
 
@@ -378,6 +413,9 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 65 Krisenindikatoren und Hinweisschreiben (nur Berufsträger) ·
 66 13-Wochen-Liquiditätsplanung · 67 Bankgespräch und Rating ·
+70 Going-Concern und Auftragsart (nur Berufsträger) ·
+74 Zahlungsunfähigkeit: Datenanforderung und Statusgerüst (nur Berufsträger) ·
+75 Krisenfrüherkennung nach § 1 StaRUG (nur Berufsträger) ·
 18 Offene Posten
 
 ### Ein Mandat beginnt oder wechselt
@@ -400,6 +438,7 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 31 Fristverlängerung · 32 Bescheid abgleichen · 33 Einspruchsbegründung ·
 34 Betriebsprüfung · 36 Sachverhaltsdarstellung · 42 Anschreiben an Kasse/Behörde ·
+72 Grundsteuerwert: niedrigerer gemeiner Wert ·
 101 Lohnpfändung: Drittschuldnerpflichten ·
 102 Elektronische Bekanntgabe nach § 122a AO
 
@@ -420,7 +459,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 10 Reisekosten und Bewirtung · 28 OCR-Prüfroutine ·
 34 Betriebsprüfung · 37 Verfahrensdokumentation · 38 GoBD Kasse ·
-39 Kontierungsrichtlinie · 89 Erhaltungsaufwand oder Herstellungskosten ·
+39 Kontierungsrichtlinie · 84 Gastronomie: Steuersatzaufteilung ·
+89 Erhaltungsaufwand oder Herstellungskosten ·
 91 Betriebsaufspaltung-Monitoring · 94 Verdeckte Gewinnausschüttung ·
 97 Prüfung der Rentenversicherung
 
@@ -433,13 +473,28 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 ### Der Mandant hat eine Immobilie gekauft, verkauft oder saniert
 
 57 Bauabzugsteuer · 62 Verbilligte Vermietung ·
+71 Grundsteuer-Änderungsanzeigen · 72 Grundsteuerwert: niedrigerer gemeiner Wert ·
 89 Erhaltungsaufwand oder Herstellungskosten ·
 90 Privates Veräußerungsgeschäft
 
 ### Der Mandant übergibt sein Unternehmen oder überträgt Anteile
 
+73 Erbschaft- und Schenkungsteuer: Anzeigepflicht ·
+82 Behaltensfristen §§ 13a, 13b ErbStG ·
 91 Betriebsaufspaltung-Monitoring · 92 Sonderbetriebsvermögen ·
 93 Grunderwerbsteuer bei Anteilsbewegungen
+
+### Etwas ist anzuzeigen, nicht zu erklären
+
+71 Grundsteuer-Änderungsanzeigen · 73 Erbschaft- und Schenkungsteuer:
+Anzeigepflicht · 82 Behaltensfristen §§ 13a, 13b ErbStG ·
+93 Grunderwerbsteuer bei Anteilsbewegungen
+
+### Die Kanzlei steht selbst in der Pflicht: Datenschutz und Geldwäsche
+
+76 AVV-Anfrage des Mandanten · 77 Auskunftsersuchen nach Art. 15 DSGVO ·
+83 Datenschutzvorfall · 103 § 62a StBerG: Dienstleisterprüfung ·
+104 KI-Richtlinie und KI-Kompetenz · 105 Geldwäsche: Verdachtsmeldung
 
 ---
 
@@ -497,6 +552,30 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 - **104 → 103** – Auf die Positivliste der KI-Richtlinie gehört nur ein nach
   § 62a StBerG geprüftes Werkzeug; 103 übergibt sein Prüfergebnis an 104, und
   ein Auftragsverarbeitungsvertrag allein trägt die Aufnahme nicht.
+- **70 → 74 · 70 → 65 · 70 → 66** – 70 entscheidet über Auftragsart und
+  Fortführungsannahme und verweist ausdrücklich weiter: die Datenanforderung für
+  den Insolvenzrechtler an 74, das Hinweisschreiben samt Handaktenvermerk an 65,
+  die Zahlengrundlage an 66. Ob ein Insolvenzgrund vorliegt, prüft keiner der
+  vier Prompts – das ist Rechtsdienstleistung.
+- **74 ↔ 75** – Beide grenzen sich gegenseitig ab: 74 bereitet den
+  Liquiditätsstatus für den Insolvenzrechtler auf, 75 baut nur das Frühwarnraster
+  nach § 1 StaRUG. 75 nennt 74 in der Abgrenzung, 74 nennt 75 im Anschluss;
+  sobald Krisenindikatoren auftreten, beginnt in beiden Fällen 65.
+- **71 ↔ 72** – Die Änderungsanzeige und der Nachweis eines niedrigeren gemeinen
+  Werts verweisen wechselseitig aufeinander; 72 führt für den Rechtsbehelf
+  weiter zu 32 und 33.
+- **82 → 92 · 82 → 73** – Die unentgeltliche Weiterübertragung bricht die
+  Behaltensfrist nicht; 82 verweist für die ertragsteuerliche Seite auf 92 und
+  für die dadurch ausgelöste neue Anzeigepflicht auf 73.
+- **84 → 87** – 84 ordnet Kombiangebote den Steuersätzen zu und hört dort auf;
+  liegen bereits Belege mit unrichtigem Steuerausweis vor, übergibt es
+  ausdrücklich an 87, bevor weitere Belege ausgegeben werden.
+- **76 ↔ 77 → 103** – 76 klärt die Rolle der Kanzlei gegenüber dem Mandanten,
+  77 die Auskunft an eine betroffene Person; beide verweisen für die eigenen
+  Dienstleister der Kanzlei auf 103 und aufeinander.
+- **83 → 103 · 83 → 104** – 83 bearbeitet den Vorfall; ergibt er eine Lücke bei
+  einem Werkzeug oder in der Richtlinie, geht der Punkt an 103 (§ 62a StBerG)
+  und an 104 (KI-Richtlinie) und wird dort abgearbeitet.
 
 ## Nicht enthalten
 
@@ -504,3 +583,15 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 berufsrechtlich voraussetzungsvoll (Kündigung zur Unzeit, Herausgabepflichten,
 Zurückbehaltungsrecht) und für einen KI-Entwurf nur begrenzt geeignet.
 Steht in `ENTSCHEIDUNGEN.md` zur Entscheidung.
+
+**78 Ausbildungs- und Fortbildungsplan für die Kanzlei** – als Kandidat
+dokumentiert, aber bewusst nicht umgesetzt, weil der Kern Personalplanung und
+Nachweisführung ist und das Umfeld bereits von 29 und 30 abgedeckt wird.
+
+**79 OSS-Quartalsmeldung und Lieferschwelle** – als Kandidat dokumentiert, aber
+bewusst nicht umgesetzt, weil der Kern der Abgleich von Melde-, Retouren- und
+Marktplatzdaten ist, also eine Auswertung im System und kein Prompt.
+
+**81 Vorsteuervergütung im Ausland** – als Kandidat dokumentiert, aber bewusst
+nicht umgesetzt, weil der Fall im Wesentlichen Fristenüberwachung und
+Belegsammlung ist und dafür 35 trägt.

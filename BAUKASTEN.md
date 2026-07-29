@@ -272,9 +272,47 @@ in kein KI-Werkzeug.
 ```text
 ABBRUCHREGEL: Deutet das Material auf eine unrichtige abgegebene Erklärung, eine
 Selbstanzeige, ein Steuerstrafverfahren oder ein Organisationsversagen der
-Kanzlei hin, arbeite NICHT weiter. Gib nur aus: "Anzeichen für [FALL] –
+Kanzlei hin, arbeite NICHT weiter. Gib nur aus: "Abbruchgrund liegt vor (Grund angeben) –
 Bearbeitung an dieser Stelle abgebrochen, Prüfung durch einen Berufsträger
 außerhalb des KI-Werkzeugs."
+```
+
+**Die Probe aufs Exempel: Fülle den eigenen Sachverhaltsbogen mit dem typischen
+Fall aus, für den der Prompt gebaut ist. Feuert die Abbruchregel dabei, ist sie
+falsch.** Ein Krisenprompt, dessen Regel bei Beitragsrückständen abbricht, ein
+Berichtigungsprompt, dessen Regel bei einer erkannten Unrichtigkeit abbricht,
+ein Prüfungsprompt, dessen Regel bei einer Prüfungsanordnung abbricht – jedes
+Mal bricht der Prompt in genau dem Fall ab, für den er geschrieben wurde, und
+ist damit wertlos. Das ist bis Runde 13 achtmal passiert und war jedes Mal erst
+in der Fachprüfung zu sehen, weil die Regel für sich gelesen vernünftig klingt.
+
+Zwei Bedingungen, die eine Abbruchregel deshalb erfüllen muss:
+
+1. **Sie hängt an einem konkreten Feld des Sachverhaltsbogens, nicht an einer
+   Beurteilung.** Nicht „die Angaben deuten auf … hin", sondern „im Feld X steht
+   ‚ja'". Eine Regel, die das Modell erst beurteilen lässt, ob abzubrechen ist,
+   verlangt genau die Beurteilung, die der Prompt sonst verbietet – und feuert
+   dann unkontrolliert.
+2. **Das auslösende Feld existiert und darf existieren.** Fehlt das Feld, läuft
+   die Regel leer. Gehört die Angabe nach `DATENSCHUTZ.md` in die Zone Rot
+   (Strafverfahren, Selbstanzeige, nicht abgeführte Arbeitnehmeranteile), darf
+   sie auch nicht als „ja/nein" abgefragt werden: Dann ist die Abbruchregel der
+   falsche Ort. Die Frage gehört als **Vorschaltfrage in den Abschnitt
+   Anwendung**, wird vor dem Werkzeugeinsatz vom Berufsträger beantwortet und in
+   der Handakte vermerkt – nicht im Werkzeug.
+
+Trifft ein Grund nur einen Teil der Antwort, ist die Aussteuerung eines
+Einzelpunkts das mildere und meist richtige Mittel. Dann heißt die Regel auch
+so – eine Überschrift „ABBRUCHREGEL" über einer Anweisung, die den Abbruch
+gerade verbietet, liest das Modell zuerst und befolgt sie:
+
+```text
+AUSSTEUERUNGSREGEL – kein Abbruch, an objektiven Angaben. Steuere einen
+Einzelpunkt aus, wenn die dafür vorgesehene Zeile des Sachverhaltsbogens es
+sagt: (a) im Feld "[FELDNAME]" steht "ja". Gib für den ausgesteuerten
+Einzelpunkt nur aus: "Ausgesteuert – Prüfung durch einen Berufsträger außerhalb
+des KI-Werkzeugs." Beende die Bearbeitung NICHT; arbeite die übrigen Schritte
+weiter und führe die ausgesteuerten Punkte gesondert auf.
 ```
 
 ---

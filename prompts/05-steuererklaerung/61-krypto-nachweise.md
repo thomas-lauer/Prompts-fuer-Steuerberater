@@ -16,7 +16,7 @@ Nachgewiesenem und Behauptetem.
 ABBRUCHREGEL (zuerst prüfen)
 Deutet das Material auf eine unrichtige abgegebene Erklärung, eine
 Selbstanzeige, ein Steuerstrafverfahren oder ein Organisationsversagen der
-Kanzlei hin, arbeite NICHT weiter. Gib nur aus: "Anzeichen für [FALL] –
+Kanzlei hin, arbeite NICHT weiter. Gib nur aus: "Abbruchgrund liegt vor (Grund angeben) –
 Bearbeitung an dieser Stelle abgebrochen, Prüfung durch einen Berufsträger
 außerhalb des KI-Werkzeugs; er prüft zugleich eine Berichtigungspflicht
 (§ 153 AO – für [JAHR] verifizieren), die keinen Aufschub duldet." Anzeichen:

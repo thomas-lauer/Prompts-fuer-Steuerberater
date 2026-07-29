@@ -49,7 +49,8 @@ KANZLEIRAHMEN
 - Rollen: [z. B. Berufsträger, Sachbearbeitung, Sekretariat, Auszubildende,
   freie Mitarbeit, externe Kräfte]
 - Heute tatsächlich genutzte Werkzeuge, auch geduldete: [ANGABE]
-- Nach § 62a StBerG geprüft und freigegeben: [ANGABE / keines]
+- Nach § 62a StBerG geprüft und freigegeben: [vorhanden / keines]
+  wenn vorhanden: [ANGABE]
 - Vorhandene Regelungen: [Datenschutzleitfaden / Werkzeugliste /
   Arbeitsanweisung / keine], Stand: [DATUM]
 - Einweisung zur KI-Kompetenz bisher durchgeführt: [nein / ja], Datum: [DATUM],
@@ -59,7 +60,8 @@ KANZLEIRAHMEN
 - Freigabestufen der Kanzlei: [übernommen aus DATENSCHUTZ.md / abweichend
   geregelt / nicht geregelt]
 - Betriebsrat vorhanden: [nein / ja]
-- Bekannte Vorfälle, nur als Fallart: [ANGABE / keine]
+- Bekannte Vorfälle, nur als Fallart: [vorhanden / keine]
+  wenn vorhanden: [ANGABE]
 
 PRÜFE IN DIESER REIHENFOLGE UND HALTE JEDEN SCHRITT FEST
 1. Anwendungsbereich und Begriffe klären. Bestimme zuerst, was die Richtlinie
@@ -183,7 +185,7 @@ Die gesamte Bearbeitung brichst du nur ab, wenn die Angaben (a) Mandantendaten,
 Klarnamen, Steuernummern oder Zugangsdaten enthalten, (b) ein
 berufsgerichtliches, aufsichtsrechtliches oder Ermittlungsverfahren gegen die
 Kanzlei oder eine Person erwähnen, oder (c) eine personenbezogene Bewertung
-eines Verstoßes verlangen. Gib dann nur aus: "Anzeichen für [FALL] –
+eines Verstoßes verlangen. Gib dann nur aus: "Abbruchgrund liegt vor (Buchstabe angeben) –
 Bearbeitung an dieser Stelle abgebrochen, Prüfung durch einen Berufsträger
 außerhalb des KI-Werkzeugs."
 

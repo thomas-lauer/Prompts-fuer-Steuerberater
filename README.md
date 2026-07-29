@@ -1,7 +1,12 @@
-# Prompts für Steuerberater
+# 101 Prompts für Steuerberater
 
 Praxistaugliche KI-Prompts für Steuerkanzleien, die mit DATEV arbeiten.
 Zum Kopieren, Ausfüllen, Einsetzen.
+
+101 Prompts in zwölf Kategorien – von der Belegnachforderung über das
+Umsatzsteuer-Prüfschema und den Lohn-Sonderfall bis zur Verdachtsmeldung nach
+dem Geldwäschegesetz. Jeder Prompt ist ein Werkzeug für einen konkreten
+Arbeitsschritt, kein Aufsatz über Künstliche Intelligenz.
 
 ---
 
@@ -117,6 +122,40 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
+
+### 2026-07-29 – Runden 13 und 14: 101 Prompts, neuer Projektname
+
+- Dreizehn neue Prompts: Going-Concern und Auftragsart, Grundsteuer-
+  Änderungsanzeige, niedrigerer Grundsteuerwert, erbschaftsteuerliche
+  Anzeigepflicht, Zahlungsunfähigkeit, Krisenfrüherkennung nach § 1 StaRUG,
+  AVV-Anfrage, Auskunftsersuchen nach Art. 15 DSGVO, Gewerbesteuer-Zerlegung,
+  Behaltensfristen nach §§ 13a, 13b ErbStG, Datenschutzvorfall,
+  Gastronomie-Steuersatzaufteilung und – als bislang größte Lücke im Bestand –
+  die Geldwäsche-Verdachtsmeldung.
+- **Das Projekt heißt jetzt „101 Prompts für Steuerberater".**
+- Vor dem Bau wurden dreizehn Fundstellenkomplexe an der Primärquelle
+  gegengelesen. Acht Annahmen waren ganz oder teilweise falsch, sechs Angaben
+  nicht belegbar. Der teuerste Einzelfund: Die steuerberatende Tätigkeit ist
+  nach § 11 Abs. 2 Satz 2 StBerG **keine** Auftragsverarbeitung, und zwar auch
+  nicht die Lohn- und Gehaltsabrechnung – ein Prompt auf der Gegenannahme wäre
+  gegen den Gesetzeswortlaut gelaufen.
+- Adversarische Fachprüfung in drei Domänen: 74 Mängel, alle behoben. Die
+  schwersten: § 220 Abs. 2 Satz 3 BewG nimmt den Kaufpreisnachweis des § 198
+  Abs. 3 BewG gerade nicht in Bezug; Saarland und Sachsen wenden das
+  Bundesmodell an und dürfen bei der Grundsteuer nicht ausgesteuert werden;
+  § 47 GwG verbietet die Unterrichtung über die Meldung, nicht die
+  Sachverhaltsaufklärung nach § 15 Abs. 6 GwG; § 29 Abs. 1 Satz 2 BDSG trägt
+  gegenüber dem Mandanten als Geheimnisherrn seiner eigenen Daten keine
+  Auskunftsverweigerung; § 62a StBerG hat acht Absätze; und ein Prompt verwies
+  für die Prüfung des Insolvenzgrundes auf einen anderen, der diese Prüfung
+  ausdrücklich nicht leistet.
+- **Dreizehn Abbruchregeln feuerten im eigenen Hauptanwendungsfall** – dieselbe
+  Fehlerart wie in den Runden 10 und 12. `BAUKASTEN.md`, Baustein 15, hat
+  deshalb jetzt eine Probe aufs Exempel: Wer eine Abbruchregel schreibt, füllt
+  den eigenen Sachverhaltsbogen mit dem typischen Fall aus. Feuert die Regel
+  dabei, ist sie falsch.
+- `DATENSCHUTZ.md` um einen Abschnitt zum Geldwäscheverdacht ergänzt.
+- Strukturprüfung über alle 101 Dateien: 0 Befunde.
 
 ### 2026-07-28 – Runde 12b: Lohn, Verfahrensrecht, KI-Compliance (95–104)
 
