@@ -123,6 +123,18 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-08-13 – Neue Quelle ausgewertet: taxandbytes.de
+
+- taxandbytes.de als ständige Quelle aufgenommen. 397 Beiträge erfasst, 383
+  gefiltert, 219 gelesen.
+- Ergebnis: 25 entdoppelte Vorschläge für neue Prompts, überwiegend zur
+  Digitalisierung des Besteuerungsverfahrens (Mitteilungspflicht für
+  Kassensysteme, § 147b AO, § 200a AO, Steuerkontrollsystem,
+  Wirtschafts-Identifikationsnummer, ergänzende Angaben in der Erklärung).
+- **Am Bestand ändert sich nichts.** Die Sammlung bleibt bei 101 Prompts. Die
+  Vorschläge sind Kandidaten mit unverifizierten Fundstellen; ob und in welchem
+  Umfang gebaut wird, entscheidet der Nutzer.
+
 ### 2026-07-29 – Runden 13 und 14: 101 Prompts, neuer Projektname
 
 - Dreizehn neue Prompts: Going-Concern und Auftragsart, Grundsteuer-
