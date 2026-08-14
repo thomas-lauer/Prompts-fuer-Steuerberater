@@ -7,6 +7,7 @@ Interne Abläufe, Einarbeitung, Vertretung, Veränderungen.
 | 103 | § 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung | [103-62a-dienstleisterpruefung.md](103-62a-dienstleisterpruefung.md) |
 | 104 | KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO | [104-ki-richtlinie-kompetenz.md](104-ki-richtlinie-kompetenz.md) |
 | 105 | Geldwäsche: Verdachtsmeldung vorbereiten und dokumentieren | [105-gwg-verdachtsmeldung.md](105-gwg-verdachtsmeldung.md) |
+| 113 | Wirtschafts-Identifikationsnummer: Betroffenheit im Mandantenbestand und Mandanteninformation | [113-wirtschafts-identifikationsnummer.md](113-wirtschafts-identifikationsnummer.md) |
 | 23 | Arbeitsanweisung aus Stichworten ausformulieren | [23-arbeitsanweisung-ausformulieren.md](23-arbeitsanweisung-ausformulieren.md) |
 | 24 | Vertretungsleitfaden je Mandant für Urlaub und Krankheit | [24-vertretungsleitfaden.md](24-vertretungsleitfaden.md) |
 | 29 | Onboarding-Fahrplan für neue Kanzleimitarbeiter | [29-onboarding-neue-mitarbeiter.md](29-onboarding-neue-mitarbeiter.md) |

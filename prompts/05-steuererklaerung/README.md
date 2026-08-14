@@ -5,6 +5,13 @@ Deklaration und Fälle, die selten vorkommen und deshalb Zeit kosten.
 | # | Prompt | Datei |
 |---|--------|-------|
 | 09 | Unterlagen-Checkliste Einkommensteuer je Mandantentyp | [09-unterlagen-checkliste-est.md](09-unterlagen-checkliste-est.md) |
+| 120 | Creator und Influencer: Vollständigkeitsbogen für die Einnahmen | [120-creator-einnahmen-vollstaendigkeit.md](120-creator-einnahmen-vollstaendigkeit.md) |
+| 121 | Plattformen-Steuertransparenzgesetz: Betroffenheit und Sorgfaltspflichten des Betreibers | [121-psttg-plattformbetreiber.md](121-psttg-plattformbetreiber.md) |
+| 122 | Kryptowerte-Dienstleister: Meldepflicht und Information der Nutzer nach dem KStTG | [122-ksttg-nutzerinformation.md](122-ksttg-nutzerinformation.md) |
+| 123 | Mining und Staking: Tätigkeit qualifizieren, bevor Erträge erfasst werden | [123-mining-staking-qualifikation.md](123-mining-staking-qualifikation.md) |
+| 124 | Verrechnungspreise: Sachverhaltsaufnahme vor der Dokumentation | [124-verrechnungspreise-sachverhaltsaufnahme.md](124-verrechnungspreise-sachverhaltsaufnahme.md) |
+| 125 | Arbeiten im Ausland: Betriebsstättenrisiko vor der Zusage klären | [125-workation-betriebsstaettenrisiko.md](125-workation-betriebsstaettenrisiko.md) |
+| 128 | Ergänzende Angaben in der Steuererklärung: Offenlegen oder nicht | [128-ergaenzende-angaben-offenlegung.md](128-ergaenzende-angaben-offenlegung.md) |
 | 57 | Bauabzugsteuer § 48 EStG: Prüf- und Einbehaltsschema | [57-bauabzugsteuer-pruefschema.md](57-bauabzugsteuer-pruefschema.md) |
 | 59 | Kapitalertragsteuer bei Gewinnausschüttung: Ablauf- und Fristenschema | [59-kapitalertragsteuer-ausschuettung.md](59-kapitalertragsteuer-ausschuettung.md) |
 | 60 | Photovoltaik: Fallklärung Steuerbefreiung, Entnahme, Liebhaberei | [60-photovoltaik-fallklaerung.md](60-photovoltaik-fallklaerung.md) |
