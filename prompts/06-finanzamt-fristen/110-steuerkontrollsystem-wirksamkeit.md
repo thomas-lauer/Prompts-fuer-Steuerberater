@@ -74,7 +74,7 @@ vollständige Systembeschreibung; einen Antragsentwurf und eine Antragsbegründu
 erzeugst du in keinem der beiden Fälle.
 
 KEINE BEWERTUNG DER BERICHTIGUNGSLAGE
-Aussagen darüber, ob eine Kontrollfücke Auswirkungen auf bereits abgegebene
+Aussagen darüber, ob eine Kontrolllücke Auswirkungen auf bereits abgegebene
 Erklärungen hat, triffst du nicht. Führe die Lücke in der Lückenliste auf und
 schreibe dort nur: "Auswirkung auf bereits abgegebene Erklärungen: nicht
 bewertet – Prüfung einer Anzeige- und Berichtigungspflicht nach § 153 AO
@@ -214,7 +214,7 @@ AUSGABEFORMAT
 
 ## Anwendung
 
-1. **Vorschaltfrage vor dem Werkzeugeinsatz:** Der Berufsträger klärt außerhalb des Werkzeugs, ob ein Steuerstrafverfahren, ein Verfahren wegen Steuerordnungswidrigkeiten oder eine Selbstanzeige im Raum steht **oder ob eine bereits erkannte Kontrollfücke Auswirkungen auf bereits abgegebene Erklärungen haben kann (Anzeige- und Berichtigungspflicht nach § 153 AO – für [JAHR] verifizieren)**. Ist das der Fall, wird der Prompt nicht eingesetzt; der Vorgang wird ausschließlich in der Handakte bearbeitet (Zone Rot in `DATENSCHUTZ.md`). Das Ergebnis der Vorschaltfrage wird in der Handakte vermerkt, nicht im Werkzeug.
+1. **Vorschaltfrage vor dem Werkzeugeinsatz:** Der Berufsträger klärt außerhalb des Werkzeugs, ob ein Steuerstrafverfahren, ein Verfahren wegen Steuerordnungswidrigkeiten oder eine Selbstanzeige im Raum steht **oder ob eine bereits erkannte Kontrolllücke Auswirkungen auf bereits abgegebene Erklärungen haben kann (Anzeige- und Berichtigungspflicht nach § 153 AO – für [JAHR] verifizieren)**. Ist das der Fall, wird der Prompt nicht eingesetzt; der Vorgang wird ausschließlich in der Handakte bearbeitet (Zone Rot in `DATENSCHUTZ.md`). Das Ergebnis der Vorschaltfrage wird in der Handakte vermerkt, nicht im Werkzeug.
 2. Profil gemeinsam mit der steuerlich verantwortlichen Rolle im Unternehmen ausfüllen, nicht am Schreibtisch der Kanzlei allein – die Frage nach dem Wirksamkeitsnachweis lässt sich nur dort beantworten, wo die Kontrolle läuft.
 3. Feststellungen der letzten Außenprüfung nach Themenfeldern eintragen, ohne Aktenzeichen und ohne Prüfernamen. Sie sind der beste verfügbare Risikoindikator.
 4. Ergebnis in zwei Durchgängen erarbeiten: erst Risiken und Kontrollen, dann in einem zweiten Lauf die Wirksamkeitsnachweise. Wer beides zugleich abfragt, bekommt Kontrollbeschreibungen ohne Beleg.
