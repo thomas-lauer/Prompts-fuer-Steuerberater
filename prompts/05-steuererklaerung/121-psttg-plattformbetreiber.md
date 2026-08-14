@@ -250,4 +250,4 @@ AUSGABEFORMAT
 - **Erstbeurteilung:** „Beschränke dich auf die Schritte 1 bis 3 und gib nur das Betroffenheitsergebnis mit Begründung je Merkmal und die offenen Punkte aus."
 - **Umsetzungsplan:** „Erzeuge aus der Pflichten- und der Lückenliste einen Umsetzungsplan mit Arbeitspaketen, Verantwortlichen und Reihenfolge, ohne Termine zu setzen."
 - **Systemanforderungen:** „Leite aus den §§ 17 bis 20 PStTG eine Anforderungsliste an das Plattformsystem ab: welches Feld erhoben, welche Angabe plausibilisiert und welcher Vorgang protokolliert werden muss."
-- **Nach einem Betreiberwechsel oder einer Modeländerung:** „Prüfe ausschließlich, welche der bisherigen Feststellungen durch die geänderten Angaben hinfällig werden, und benenne, was neu zu klären ist."
+- **Nach einem Betreiberwechsel oder einer Modelländerung:** „Prüfe ausschließlich, welche der bisherigen Feststellungen durch die geänderten Angaben hinfällig werden, und benenne, was neu zu klären ist."
