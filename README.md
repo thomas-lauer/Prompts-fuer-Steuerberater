@@ -1,11 +1,11 @@
-# 101 Prompts für Steuerberater
+# Prompts für die Steuerkanzlei
 
 Praxistaugliche KI-Prompts für Steuerkanzleien, die mit DATEV arbeiten.
 Zum Kopieren, Ausfüllen, Einsetzen.
 
-101 Prompts in zwölf Kategorien – von der Belegnachforderung über das
-Umsatzsteuer-Prüfschema und den Lohn-Sonderfall bis zur Verdachtsmeldung nach
-dem Geldwäschegesetz. Jeder Prompt ist ein Werkzeug für einen konkreten
+124 Prompts in zwölf Kategorien – von der Belegnachforderung über das
+Umsatzsteuer-Prüfschema und den Lohn-Sonderfall bis zur Mitteilungspflicht für
+elektronische Kassensysteme und zum qualifizierten Mitwirkungsverlangen. Jeder Prompt ist ein Werkzeug für einen konkreten
 Arbeitsschritt, kein Aufsatz über Künstliche Intelligenz.
 
 ---
@@ -122,6 +122,49 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
+
+### 2026-08-14 – Runden 15 bis 18: 23 neue Prompts, neuer Projektname
+
+- **Das Projekt heißt jetzt „Prompts für die Steuerkanzlei".** Der Name enthält
+  bewusst keine Zahl mehr: Solange die Zahl im Titel stand, machte jeder neue
+  Prompt den Namen falsch. Der Bestand steht jetzt bei 124 Prompts.
+- **23 neue Prompts (106–128)** aus der Auswertung von taxandbytes.de:
+  - *Kasse und Aufzeichnung:* Mitteilungspflicht nach § 146a Abs. 4 AO (106),
+    Kassensystem-Einführung mit einem Dienstleister (107).
+  - *Außenprüfung:* Vorsystem- und Datenzugriffsinventur (108), qualifiziertes
+    Mitwirkungsverlangen nach § 200a AO (109), Steuerkontrollsystem und sein
+    Wirksamkeitsnachweis (110), Hinzuschätzung nach der Richtsatzsammlung (126).
+  - *Verfahren:* Vollmachtsbestand vor der elektronischen Bekanntgabe (111),
+    zulässiger Übermittlungsweg und Beweissicherung bei technischer Störung (112),
+    Wirtschafts-Identifikationsnummer (113), ergänzende Angaben in der
+    Erklärung (128).
+  - *Umsatzsteuer:* Anzahlung und Schlussrechnung im E-Rechnungsformat (114),
+    EDI-Strecke nach dem Auslaufen der Übergangsregelung (115),
+    Verfahrensdokumentation E-Rechnung (116), Einzweck- und
+    Mehrzweckgutschein (117), Leistungsort bei Betriebsstätte und Stammhaus (118),
+    Ortsnachweis bei elektronischen Leistungen an Privatkunden (119).
+  - *Plattform, Krypto, International:* Creator- und Influencer-Einnahmen (120),
+    Plattformbetreiber nach dem PStTG (121), Kryptowerte-Dienstleister nach dem
+    KStTG (122), Mining und Staking (123), Verrechnungspreise (124), Arbeiten im
+    Ausland (125).
+  - *Nachweisführung:* Rekonstruktion nach einem Cybervorfall (127).
+- **Vor dem Bau wurden 60 Rechercheangaben an der Primärquelle geprüft.** 5 waren
+  falsch, 12 teilweise falsch, 2 nicht belegbar. Unter anderem gibt es keine
+  verkündete Registrierkassenpflicht ab 2027, § 147b AO ist eine bloße
+  Verordnungsermächtigung ohne erlassene Rechtsverordnung, das SGB IV kennt die
+  Wirtschafts-Identifikationsnummer nicht, und §§ 4 und 6 AStG betreffen
+  Erbschaftsteuer und Wegzugsbesteuerung, nicht Verrechnungspreise.
+- **Vier adversarische Fachprüfungen fanden 143 Mängel, alle behoben.** Die
+  schwersten: eine Ampel, die Eingaben an das Finanzgericht auf Papier freigab,
+  obwohl dort beSt-Pflicht besteht; eine Regel, die genau den gesetzlichen
+  Tatbestand des Mehrzweckgutscheins sperrte; eine Entwarnung zum
+  Betriebsstättenrisiko im Ausland, die allein auf deutschen
+  Verwaltungsanweisungen beruhte; und mehrere Abbruchregeln, die im Hauptfall
+  ihres eigenen Prompts ausgelöst hätten.
+- **Zwei Kandidaten wurden bewusst nicht gebaut:** die Berichtigungsanzeige nach
+  § 153 AO und die Nacherklärung nach einem Sammelauskunftsersuchen. Beide führen
+  regelmäßig in Selbstanzeige und Steuerstrafverfahren – Angaben, die nach
+  `DATENSCHUTZ.md` in kein KI-Werkzeug gehören.
 
 ### 2026-08-13 – Neue Quelle ausgewertet: taxandbytes.de
 

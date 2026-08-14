@@ -1,7 +1,7 @@
-# 101 Prompts für Steuerberater – Index nach Kategorie, Rolle und Anlass
+# Prompts für die Steuerkanzlei – Index nach Kategorie, Rolle und Anlass
 
-101 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
-Die Nummern laufen von 01 bis 105; es fehlen 45, 78, 79 und 81 – 45 ist
+124 Prompts. Die Nummerierung folgt der Entstehung, nicht der Wichtigkeit.
+Die Nummern laufen von 01 bis 128; es fehlen 45, 78, 79 und 81 – 45 ist
 zurückgestellt, 78, 79 und 81 sind als Kandidaten dokumentiert, aber bewusst
 nicht umgesetzt (beides unter „Nicht enthalten" am Ende).
 Vor dem ersten Einsatz: [DATENSCHUTZ.md](DATENSCHUTZ.md).
@@ -19,15 +19,15 @@ brauchen wie die Kanzleileitung.
 | Kategorie | Prompts |
 |---|---|
 | [Finanzbuchhaltung](#finanzbuchhaltung) | 8 |
-| [Umsatzsteuer](#umsatzsteuer) | 8 |
+| [Umsatzsteuer](#umsatzsteuer) | 13 |
 | [Jahresabschluss und Bilanzierung](#jahresabschluss-und-bilanzierung) | 11 |
 | [Lohn und Gehalt](#lohn-und-gehalt) | 16 |
-| [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 15 |
-| [Finanzamt, Fristen und Rechtsbehelf](#finanzamt-fristen-und-rechtsbehelf) | 7 |
-| [GoBD, Kasse und Verfahrensdokumentation](#gobd-kasse-und-verfahrensdokumentation) | 3 |
+| [Steuererklärung und Einzelsteuerfälle](#steuererklärung-und-einzelsteuerfälle) | 22 |
+| [Finanzamt, Fristen und Rechtsbehelf](#finanzamt-fristen-und-rechtsbehelf) | 13 |
+| [GoBD, Kasse und Verfahrensdokumentation](#gobd-kasse-und-verfahrensdokumentation) | 7 |
 | [Mandantenkommunikation](#mandantenkommunikation) | 9 |
 | [Honorar und Forderungen](#honorar-und-forderungen) | 4 |
-| [Kanzleiorganisation und Team](#kanzleiorganisation-und-team) | 12 |
+| [Kanzleiorganisation und Team](#kanzleiorganisation-und-team) | 13 |
 | [Mandatsbeginn und Mandatswechsel](#mandatsbeginn-und-mandatswechsel) | 3 |
 | [Krise, Liquidität und Bank](#krise-liquidität-und-bank) | 5 |
 
@@ -60,6 +60,11 @@ Voranmeldung, Sonderfälle, grenzüberschreitende Umsätze.
 | 86 | [Fehlerhafte E-Rechnung: Fehlerklasse bestimmen und reklamieren](prompts/02-umsatzsteuer/86-erechnung-fehlerklasse.md) |
 | 87 | [§ 14c UStG: unrichtiger Steuerausweis erkennen und berichtigen](prompts/02-umsatzsteuer/87-14c-unrichtiger-steuerausweis.md) |
 | 88 | [Kleinunternehmer: Grenzen überwachen und Statuswechsel begleiten](prompts/02-umsatzsteuer/88-kleinunternehmer-grenzen.md) |
+| 114 | [Anzahlung, Schlussrechnung und Berichtigung im E-Rechnungsformat](prompts/02-umsatzsteuer/114-anzahlung-schlussrechnung-erechnung.md) |
+| 115 | [EDI-Strecke prüfen: Übergangsfrist, Extraktion und Interoperabilität](prompts/02-umsatzsteuer/115-edi-interoperabilitaet-en16931.md) |
+| 117 | [Einzweck- oder Mehrzweckgutschein: Einordnung und Folgen](prompts/02-umsatzsteuer/117-gutschein-einzweck-mehrzweck.md) |
+| 118 | [Leistungsort bei Betriebsstätte und Stammhaus](prompts/02-umsatzsteuer/118-leistungsort-betriebsstaette.md) |
+| 119 | [Elektronische Leistungen an Privatkunden: Ort des Kunden nachweisen](prompts/02-umsatzsteuer/119-kundenortnachweis-b2c-elektronisch.md) |
 
 ### Jahresabschluss und Bilanzierung
 
@@ -123,6 +128,13 @@ Deklaration und Fälle, die selten vorkommen und deshalb Zeit kosten.
 | 90 | [Privates Veräußerungsgeschäft § 23 EStG prüfen](prompts/05-steuererklaerung/90-privates-veraeusserungsgeschaeft.md) |
 | 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
 | 93 | [Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist](prompts/05-steuererklaerung/93-grunderwerbsteuer-anteilsbewegung.md) |
+| 120 | [Creator und Influencer: Vollständigkeitsbogen für die Einnahmen](prompts/05-steuererklaerung/120-creator-einnahmen-vollstaendigkeit.md) |
+| 121 | [Plattformen-Steuertransparenzgesetz: Betroffenheit und Sorgfaltspflichten des Betreibers](prompts/05-steuererklaerung/121-psttg-plattformbetreiber.md) |
+| 122 | [Kryptowerte-Dienstleister: Meldepflicht und Information der Nutzer nach dem KStTG](prompts/05-steuererklaerung/122-ksttg-nutzerinformation.md) |
+| 123 | [Mining und Staking: Tätigkeit qualifizieren, bevor Erträge erfasst werden](prompts/05-steuererklaerung/123-mining-staking-qualifikation.md) |
+| 124 | [Verrechnungspreise: Sachverhaltsaufnahme vor der Dokumentation](prompts/05-steuererklaerung/124-verrechnungspreise-sachverhaltsaufnahme.md) |
+| 125 | [Arbeiten im Ausland: Betriebsstättenrisiko vor der Zusage klären](prompts/05-steuererklaerung/125-workation-betriebsstaettenrisiko.md) |
+| 128 | [Ergänzende Angaben in der Steuererklärung: Offenlegen oder nicht](prompts/05-steuererklaerung/128-ergaenzende-angaben-offenlegung.md) |
 
 ### Finanzamt, Fristen und Rechtsbehelf
 
@@ -137,6 +149,12 @@ Anträge, Bescheide, Einspruch, Betriebsprüfung.
 | 35 | [Wiedervorlage- und Fristenkonzept](prompts/06-finanzamt-fristen/35-fristenkonzept.md) |
 | 36 | [Sachverhaltsdarstellung für das Finanzamt](prompts/06-finanzamt-fristen/36-sachverhaltsdarstellung-finanzamt.md) |
 | 102 | [Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle](prompts/06-finanzamt-fristen/102-bekanntgabe-122a-ao.md) |
+| 108 | [Vorsysteme und Datenzugriff: Inventur vor der Außenprüfung](prompts/06-finanzamt-fristen/108-datenzugriff-vorsystem-inventur.md) |
+| 109 | [Qualifiziertes Mitwirkungsverlangen nach § 200a AO: Bewerten und antworten](prompts/06-finanzamt-fristen/109-qualifiziertes-mitwirkungsverlangen.md) |
+| 110 | [Steuerkontrollsystem beschreiben und seine Wirksamkeit belegen](prompts/06-finanzamt-fristen/110-steuerkontrollsystem-wirksamkeit.md) |
+| 111 | [Vollmachtsbestand vor der elektronischen Bekanntgabe bereinigen](prompts/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe.md) |
+| 112 | [Fristgebundene Eingabe: zulässiger Übermittlungsweg und Beweissicherung bei Störung](prompts/06-finanzamt-fristen/112-uebermittlungsweg-technische-stoerung.md) |
+| 126 | [Hinzuschätzung nach der Richtsatzsammlung angreifen](prompts/06-finanzamt-fristen/126-schaetzung-richtsatzsammlung.md) |
 
 ### GoBD, Kasse und Verfahrensdokumentation
 
@@ -147,6 +165,10 @@ Ordnungsmäßigkeit der Buchführung beim Mandanten.
 | 37 | [Verfahrensdokumentation entwerfen](prompts/07-gobd-kasse/37-verfahrensdokumentation.md) |
 | 38 | [GoBD-Checkliste Kassenführung](prompts/07-gobd-kasse/38-gobd-checkliste-kasse.md) |
 | 39 | [Kontierungsrichtlinie für den Mandanten](prompts/07-gobd-kasse/39-kontierungsrichtlinie-mandant.md) |
+| 106 | [Elektronische Kassensysteme: Mitteilungspflicht nach § 146a Abs. 4 AO](prompts/07-gobd-kasse/106-kassensystem-mitteilungspflicht.md) |
+| 107 | [Kassensystem einführen: Anforderungen, Angebotsprüfung, Abnahme](prompts/07-gobd-kasse/107-kassensystem-einfuehrung-dienstleister.md) |
+| 116 | [Verfahrensdokumentation und Kontrollmatrix für den E-Rechnungsprozess](prompts/07-gobd-kasse/116-verfahrensdokumentation-erechnung.md) |
+| 127 | [Nach einem Cybervorfall: Nachweisführung gegenüber dem Finanzamt](prompts/07-gobd-kasse/127-nachweisfuehrung-nach-cybervorfall.md) |
 
 ### Mandantenkommunikation
 
@@ -193,6 +215,7 @@ Interne Abläufe, Einarbeitung, Vertretung, Veränderungen.
 | 103 | [§ 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung](prompts/10-kanzleiorganisation/103-62a-dienstleisterpruefung.md) |
 | 104 | [KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO](prompts/10-kanzleiorganisation/104-ki-richtlinie-kompetenz.md) |
 | 105 | [Geldwäsche: Verdachtsmeldung vorbereiten und dokumentieren](prompts/10-kanzleiorganisation/105-gwg-verdachtsmeldung.md) |
+| 113 | [Wirtschafts-Identifikationsnummer: Betroffenheit im Mandantenbestand und Mandanteninformation](prompts/10-kanzleiorganisation/113-wirtschafts-identifikationsnummer.md) |
 
 ### Mandatsbeginn und Mandatswechsel
 
@@ -257,6 +280,26 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 92 | [Sonderbetriebsvermögen bei der unentgeltlichen Übertragung](prompts/05-steuererklaerung/92-sonderbetriebsvermoegen-nachfolge.md) |
 | 93 | [Grunderwerbsteuer bei Anteilsbewegungen: Anzeigepflicht und Frist](prompts/05-steuererklaerung/93-grunderwerbsteuer-anteilsbewegung.md) |
 | 94 | [Verdeckte Gewinnausschüttung: Vertragsdurchsicht](prompts/03-jahresabschluss/94-vga-vertragsdurchsicht.md) |
+| 106 | [Elektronische Kassensysteme: Mitteilungspflicht nach § 146a Abs. 4 AO](prompts/07-gobd-kasse/106-kassensystem-mitteilungspflicht.md) |
+| 108 | [Vorsysteme und Datenzugriff: Inventur vor der Außenprüfung](prompts/06-finanzamt-fristen/108-datenzugriff-vorsystem-inventur.md) |
+| 109 | [Qualifiziertes Mitwirkungsverlangen nach § 200a AO: Bewerten und antworten](prompts/06-finanzamt-fristen/109-qualifiziertes-mitwirkungsverlangen.md) |
+| 110 | [Steuerkontrollsystem beschreiben und seine Wirksamkeit belegen](prompts/06-finanzamt-fristen/110-steuerkontrollsystem-wirksamkeit.md) |
+| 111 | [Vollmachtsbestand vor der elektronischen Bekanntgabe bereinigen](prompts/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe.md) |
+| 112 | [Fristgebundene Eingabe: zulässiger Übermittlungsweg und Beweissicherung bei Störung](prompts/06-finanzamt-fristen/112-uebermittlungsweg-technische-stoerung.md) |
+| 113 | [Wirtschafts-Identifikationsnummer: Betroffenheit im Mandantenbestand und Mandanteninformation](prompts/10-kanzleiorganisation/113-wirtschafts-identifikationsnummer.md) |
+| 114 | [Anzahlung, Schlussrechnung und Berichtigung im E-Rechnungsformat](prompts/02-umsatzsteuer/114-anzahlung-schlussrechnung-erechnung.md) |
+| 115 | [EDI-Strecke prüfen: Übergangsfrist, Extraktion und Interoperabilität](prompts/02-umsatzsteuer/115-edi-interoperabilitaet-en16931.md) |
+| 116 | [Verfahrensdokumentation und Kontrollmatrix für den E-Rechnungsprozess](prompts/07-gobd-kasse/116-verfahrensdokumentation-erechnung.md) |
+| 117 | [Einzweck- oder Mehrzweckgutschein: Einordnung und Folgen](prompts/02-umsatzsteuer/117-gutschein-einzweck-mehrzweck.md) |
+| 118 | [Leistungsort bei Betriebsstätte und Stammhaus](prompts/02-umsatzsteuer/118-leistungsort-betriebsstaette.md) |
+| 119 | [Elektronische Leistungen an Privatkunden: Ort des Kunden nachweisen](prompts/02-umsatzsteuer/119-kundenortnachweis-b2c-elektronisch.md) |
+| 120 | [Creator und Influencer: Vollständigkeitsbogen für die Einnahmen](prompts/05-steuererklaerung/120-creator-einnahmen-vollstaendigkeit.md) |
+| 122 | [Kryptowerte-Dienstleister: Meldepflicht und Information der Nutzer nach dem KStTG](prompts/05-steuererklaerung/122-ksttg-nutzerinformation.md) |
+| 123 | [Mining und Staking: Tätigkeit qualifizieren, bevor Erträge erfasst werden](prompts/05-steuererklaerung/123-mining-staking-qualifikation.md) |
+| 124 | [Verrechnungspreise: Sachverhaltsaufnahme vor der Dokumentation](prompts/05-steuererklaerung/124-verrechnungspreise-sachverhaltsaufnahme.md) |
+| 126 | [Hinzuschätzung nach der Richtsatzsammlung angreifen](prompts/06-finanzamt-fristen/126-schaetzung-richtsatzsammlung.md) |
+| 127 | [Nach einem Cybervorfall: Nachweisführung gegenüber dem Finanzamt](prompts/07-gobd-kasse/127-nachweisfuehrung-nach-cybervorfall.md) |
+| 128 | [Ergänzende Angaben in der Steuererklärung: Offenlegen oder nicht](prompts/05-steuererklaerung/128-ergaenzende-angaben-offenlegung.md) |
 
 ### Lohnsachbearbeitung
 
@@ -278,6 +321,7 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 99 | [Statusfeststellung: Indizienerhebung für § 7a SGB IV](prompts/04-lohn/99-statusfeststellung-indizien.md) |
 | 100 | [A1 und Tätigkeit im Ausland: Entscheidungsbaum](prompts/04-lohn/100-a1-taetigkeit-ausland.md) |
 | 101 | [Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner](prompts/04-lohn/101-lohnpfaendung-drittschuldner.md) |
+| 125 | [Arbeiten im Ausland: Betriebsstättenrisiko vor der Zusage klären](prompts/05-steuererklaerung/125-workation-betriebsstaettenrisiko.md) |
 
 ### Steuerberaterinnen und Steuerberater
 
@@ -327,6 +371,29 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 100 | [A1 und Tätigkeit im Ausland: Entscheidungsbaum](prompts/04-lohn/100-a1-taetigkeit-ausland.md) |
 | 101 | [Lohnpfändung: Pflichten des Arbeitgebers als Drittschuldner](prompts/04-lohn/101-lohnpfaendung-drittschuldner.md) |
 | 102 | [Elektronische Bekanntgabe nach § 122a AO: Umstellung und Fristenkontrolle](prompts/06-finanzamt-fristen/102-bekanntgabe-122a-ao.md) |
+| 106 | [Elektronische Kassensysteme: Mitteilungspflicht nach § 146a Abs. 4 AO](prompts/07-gobd-kasse/106-kassensystem-mitteilungspflicht.md) |
+| 107 | [Kassensystem einführen: Anforderungen, Angebotsprüfung, Abnahme](prompts/07-gobd-kasse/107-kassensystem-einfuehrung-dienstleister.md) |
+| 108 | [Vorsysteme und Datenzugriff: Inventur vor der Außenprüfung](prompts/06-finanzamt-fristen/108-datenzugriff-vorsystem-inventur.md) |
+| 109 | [Qualifiziertes Mitwirkungsverlangen nach § 200a AO: Bewerten und antworten](prompts/06-finanzamt-fristen/109-qualifiziertes-mitwirkungsverlangen.md) |
+| 110 | [Steuerkontrollsystem beschreiben und seine Wirksamkeit belegen](prompts/06-finanzamt-fristen/110-steuerkontrollsystem-wirksamkeit.md) |
+| 111 | [Vollmachtsbestand vor der elektronischen Bekanntgabe bereinigen](prompts/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe.md) |
+| 112 | [Fristgebundene Eingabe: zulässiger Übermittlungsweg und Beweissicherung bei Störung](prompts/06-finanzamt-fristen/112-uebermittlungsweg-technische-stoerung.md) |
+| 113 | [Wirtschafts-Identifikationsnummer: Betroffenheit im Mandantenbestand und Mandanteninformation](prompts/10-kanzleiorganisation/113-wirtschafts-identifikationsnummer.md) |
+| 114 | [Anzahlung, Schlussrechnung und Berichtigung im E-Rechnungsformat](prompts/02-umsatzsteuer/114-anzahlung-schlussrechnung-erechnung.md) |
+| 115 | [EDI-Strecke prüfen: Übergangsfrist, Extraktion und Interoperabilität](prompts/02-umsatzsteuer/115-edi-interoperabilitaet-en16931.md) |
+| 116 | [Verfahrensdokumentation und Kontrollmatrix für den E-Rechnungsprozess](prompts/07-gobd-kasse/116-verfahrensdokumentation-erechnung.md) |
+| 117 | [Einzweck- oder Mehrzweckgutschein: Einordnung und Folgen](prompts/02-umsatzsteuer/117-gutschein-einzweck-mehrzweck.md) |
+| 118 | [Leistungsort bei Betriebsstätte und Stammhaus](prompts/02-umsatzsteuer/118-leistungsort-betriebsstaette.md) |
+| 119 | [Elektronische Leistungen an Privatkunden: Ort des Kunden nachweisen](prompts/02-umsatzsteuer/119-kundenortnachweis-b2c-elektronisch.md) |
+| 120 | [Creator und Influencer: Vollständigkeitsbogen für die Einnahmen](prompts/05-steuererklaerung/120-creator-einnahmen-vollstaendigkeit.md) |
+| 121 | [Plattformen-Steuertransparenzgesetz: Betroffenheit und Sorgfaltspflichten des Betreibers](prompts/05-steuererklaerung/121-psttg-plattformbetreiber.md) |
+| 122 | [Kryptowerte-Dienstleister: Meldepflicht und Information der Nutzer nach dem KStTG](prompts/05-steuererklaerung/122-ksttg-nutzerinformation.md) |
+| 123 | [Mining und Staking: Tätigkeit qualifizieren, bevor Erträge erfasst werden](prompts/05-steuererklaerung/123-mining-staking-qualifikation.md) |
+| 124 | [Verrechnungspreise: Sachverhaltsaufnahme vor der Dokumentation](prompts/05-steuererklaerung/124-verrechnungspreise-sachverhaltsaufnahme.md) |
+| 125 | [Arbeiten im Ausland: Betriebsstättenrisiko vor der Zusage klären](prompts/05-steuererklaerung/125-workation-betriebsstaettenrisiko.md) |
+| 126 | [Hinzuschätzung nach der Richtsatzsammlung angreifen](prompts/06-finanzamt-fristen/126-schaetzung-richtsatzsammlung.md) |
+| 127 | [Nach einem Cybervorfall: Nachweisführung gegenüber dem Finanzamt](prompts/07-gobd-kasse/127-nachweisfuehrung-nach-cybervorfall.md) |
+| 128 | [Ergänzende Angaben in der Steuererklärung: Offenlegen oder nicht](prompts/05-steuererklaerung/128-ergaenzende-angaben-offenlegung.md) |
 
 ### Sekretariat und Büroorganisation
 
@@ -341,6 +408,8 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 31 | [Fristverlängerungsantrag entwerfen](prompts/06-finanzamt-fristen/31-fristverlaengerungsantrag.md) |
 | 47 | [Telefon- und Erreichbarkeitskonzept](prompts/10-kanzleiorganisation/47-erreichbarkeitskonzept.md) |
 | 56 | [Offenlegung und Ordnungsgeldabwehr](prompts/03-jahresabschluss/56-offenlegung-ordnungsgeld.md) |
+| 111 | [Vollmachtsbestand vor der elektronischen Bekanntgabe bereinigen](prompts/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe.md) |
+| 112 | [Fristgebundene Eingabe: zulässiger Übermittlungsweg und Beweissicherung bei Störung](prompts/06-finanzamt-fristen/112-uebermittlungsweg-technische-stoerung.md) |
 
 ### Kanzleileitung
 
@@ -365,6 +434,10 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 | 103 | [§ 62a StBerG: Dienstleister- und Werkzeugprüfung vor der Einführung](prompts/10-kanzleiorganisation/103-62a-dienstleisterpruefung.md) |
 | 104 | [KI-Richtlinie für Mitarbeitende und KI-Kompetenz nach Art. 4 KI-VO](prompts/10-kanzleiorganisation/104-ki-richtlinie-kompetenz.md) |
 | 105 | [Geldwäsche: Verdachtsmeldung vorbereiten und dokumentieren](prompts/10-kanzleiorganisation/105-gwg-verdachtsmeldung.md) |
+| 107 | [Kassensystem einführen: Anforderungen, Angebotsprüfung, Abnahme](prompts/07-gobd-kasse/107-kassensystem-einfuehrung-dienstleister.md) |
+| 111 | [Vollmachtsbestand vor der elektronischen Bekanntgabe bereinigen](prompts/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe.md) |
+| 113 | [Wirtschafts-Identifikationsnummer: Betroffenheit im Mandantenbestand und Mandanteninformation](prompts/10-kanzleiorganisation/113-wirtschafts-identifikationsnummer.md) |
+| 116 | [Verfahrensdokumentation und Kontrollmatrix für den E-Rechnungsprozess](prompts/07-gobd-kasse/116-verfahrensdokumentation-erechnung.md) |
 
 ### Alle
 
@@ -395,7 +468,16 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 90 Privates Veräußerungsgeschäft · 92 Sonderbetriebsvermögen ·
 93 Grunderwerbsteuer bei Anteilsbewegungen · 96 Aktivrente ·
 98 Phantomlohn-Auslöser · 99 Statusfeststellung ·
-100 A1 und Tätigkeit im Ausland · 101 Lohnpfändung
+100 A1 und Tätigkeit im Ausland · 101 Lohnpfändung ·
+114 Anzahlung und Schlussrechnung im E-Rechnungsformat ·
+115 EDI-Strecke und Interoperabilität · 117 Einzweck- oder Mehrzweckgutschein ·
+118 Leistungsort bei Betriebsstätte und Stammhaus ·
+119 Ort des Privatkunden bei elektronischen Leistungen ·
+120 Creator und Influencer: Einnahmenvollständigkeit ·
+123 Mining und Staking qualifizieren ·
+124 Verrechnungspreise: Sachverhaltsaufnahme ·
+125 Arbeiten im Ausland: Betriebsstättenrisiko ·
+128 Ergänzende Angaben: offenlegen oder nicht
 
 ### Jahresabschluss steht an
 
@@ -421,13 +503,15 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 ### Ein Mandat beginnt oder wechselt
 
 68 Fragebogen zur steuerlichen Erfassung · 69 Mandatswechsel und Datenübernahme ·
-22 Kontenrahmen-Vergleich · 09 Unterlagen-Checkliste · 17 Zulieferkalender
+22 Kontenrahmen-Vergleich · 09 Unterlagen-Checkliste · 17 Zulieferkalender ·
+120 Creator und Influencer: Einnahmenvollständigkeit
 
 ### Etwas stimmt nicht
 
 05 UStVA-Abweichung · 18 Offene Posten · 19 Dubletten ·
 20 Summen- und Saldenliste · 28 OCR-Prüfroutine · 41 SV-Fehlerprotokoll ·
-86 Fehlerhafte E-Rechnung · 87 § 14c unrichtiger Steuerausweis
+86 Fehlerhafte E-Rechnung · 87 § 14c unrichtiger Steuerausweis ·
+127 Nachweisführung nach einem Cybervorfall
 
 ### Ich muss etwas erklären
 
@@ -440,7 +524,11 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 34 Betriebsprüfung · 36 Sachverhaltsdarstellung · 42 Anschreiben an Kasse/Behörde ·
 72 Grundsteuerwert: niedrigerer gemeiner Wert ·
 101 Lohnpfändung: Drittschuldnerpflichten ·
-102 Elektronische Bekanntgabe nach § 122a AO
+102 Elektronische Bekanntgabe nach § 122a AO ·
+109 Qualifiziertes Mitwirkungsverlangen nach § 200a AO ·
+111 Vollmachtsbestand vor der elektronischen Bekanntgabe ·
+112 Zulässiger Übermittlungsweg und Beweissicherung bei Störung ·
+126 Hinzuschätzung nach der Richtsatzsammlung
 
 ### Es geht ums Geld
 
@@ -453,7 +541,10 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 29 Onboarding · 35 Fristenkonzept · 47 Erreichbarkeitskonzept ·
 48 Change-Kommunikation · 49 Mandantenkontakt ·
 102 Elektronische Bekanntgabe und Fristenkontrolle ·
-103 § 62a StBerG: Dienstleisterprüfung · 104 KI-Richtlinie und KI-Kompetenz
+103 § 62a StBerG: Dienstleisterprüfung · 104 KI-Richtlinie und KI-Kompetenz ·
+111 Vollmachtsbestand bereinigen ·
+112 Zulässiger Übermittlungsweg und Beweissicherung bei Störung ·
+113 Wirtschafts-Identifikationsnummer im Mandantenbestand
 
 ### Prüfungssicherheit herstellen
 
@@ -462,7 +553,16 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 39 Kontierungsrichtlinie · 84 Gastronomie: Steuersatzaufteilung ·
 89 Erhaltungsaufwand oder Herstellungskosten ·
 91 Betriebsaufspaltung-Monitoring · 94 Verdeckte Gewinnausschüttung ·
-97 Prüfung der Rentenversicherung
+97 Prüfung der Rentenversicherung ·
+106 Kassensysteme: Mitteilungspflicht nach § 146a Abs. 4 AO ·
+107 Kassensystem einführen: Anforderungen und Abnahme ·
+108 Vorsysteme und Datenzugriff: Inventur vor der Außenprüfung ·
+109 Qualifiziertes Mitwirkungsverlangen nach § 200a AO ·
+110 Steuerkontrollsystem und seine Wirksamkeit ·
+116 Verfahrensdokumentation für den E-Rechnungsprozess ·
+119 Ort des Privatkunden bei elektronischen Leistungen ·
+124 Verrechnungspreise: Sachverhaltsaufnahme ·
+127 Nachweisführung nach einem Cybervorfall
 
 ### Die Rentenversicherung prüft
 
@@ -488,7 +588,17 @@ Wirtschaftlich schwierige Lagen – der haftungskritischste Bereich.
 
 71 Grundsteuer-Änderungsanzeigen · 73 Erbschaft- und Schenkungsteuer:
 Anzeigepflicht · 82 Behaltensfristen §§ 13a, 13b ErbStG ·
-93 Grunderwerbsteuer bei Anteilsbewegungen
+93 Grunderwerbsteuer bei Anteilsbewegungen ·
+106 Kassensysteme: Mitteilungspflicht nach § 146a Abs. 4 AO
+
+### Eine neue Pflicht kommt auf den Mandanten zu
+
+106 Kassensysteme: Mitteilungspflicht nach § 146a Abs. 4 AO ·
+108 Vorsysteme und Datenzugriff: Inventur vor der Außenprüfung ·
+110 Steuerkontrollsystem beschreiben und belegen ·
+113 Wirtschafts-Identifikationsnummer im Mandantenbestand ·
+121 PStTG: Sorgfaltspflichten des Plattformbetreibers ·
+122 KStTG: Meldepflicht und Nutzerinformation
 
 ### Die Kanzlei steht selbst in der Pflicht: Datenschutz und Geldwäsche
 
@@ -595,3 +705,8 @@ Marktplatzdaten ist, also eine Auswertung im System und kein Prompt.
 **81 Vorsteuervergütung im Ausland** – als Kandidat dokumentiert, aber bewusst
 nicht umgesetzt, weil der Fall im Wesentlichen Fristenüberwachung und
 Belegsammlung ist und dafür 35 trägt.
+
+**T21 Berichtigungsanzeige nach § 153 AO** und **T23 Nacherklärung nach
+Sammelauskunftsersuchen** – als Kandidaten dokumentiert, aber bewusst nicht
+gebaut, weil Zone Rot in [DATENSCHUTZ.md](DATENSCHUTZ.md) Angaben zu
+Selbstanzeigen und laufenden Steuerstrafverfahren untersagt.
