@@ -262,3 +262,11 @@ AUSGABEFORMAT
 - **Nur Artikelmatrix:** „Erzeuge ausschließlich die Artikelmatrix und die Rückfrageliste, ohne Begründungstext und ohne Mandantenschreiben."
 - **Catering und Veranstaltungen:** „Behandle Veranstaltungen mit einem Pauschalpreis über mehrere Leistungsbestandteile und benenne, welche Angaben in Angebot und Rechnung stehen müssen, damit die Zuordnung nachvollziehbar ist – ohne Musterrechnung mit Steuerausweis."
 - **Umstellungskontrolle nach vier Wochen:** „Erzeuge eine Prüfliste, mit der die Kanzlei nach der Umstellung anhand der Kassendaten kontrolliert, ob die Zuordnung im Betrieb tatsächlich so gebucht wird wie in der Artikelmatrix vorgesehen."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/02-umsatzsteuer/84-gastronomie-steuersatzaufteilung/](../../skills/02-umsatzsteuer/84-gastronomie-steuersatzaufteilung/).
+Sie gleicht Karte und Artikelstamm der Kasse gegeneinander ab und führt jede
+Position der Angebotsliste einzeln durch dasselbe Raster bis in die vollständige
+Artikelmatrix.
