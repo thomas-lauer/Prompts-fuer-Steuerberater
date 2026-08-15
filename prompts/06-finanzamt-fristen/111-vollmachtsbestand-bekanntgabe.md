@@ -242,3 +242,11 @@ AUSGABEFORMAT
 - **Personengesellschaften:** „Beschränke die Bearbeitung auf Mandate mit Feststellungsbescheiden und stelle je Mandat dar, wer Bekanntgabeadressat ist und wer die Benachrichtigung erhält."
 - **Kurzfassung für die Teambesprechung:** „Erzeuge zusätzlich eine Kurzfassung mit höchstens 200 Wörtern: was sich ändert, welche drei Gruppen zuerst zu bearbeiten sind, wer zuständig ist."
 - **Nachlauf:** „Erzeuge aus der abgearbeiteten Arbeitsliste eine Kontrollübersicht: Mandatskürzel | geändert am (leer) | geprüft von (leer) | verbliebene offene Punkte."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe/](../../skills/06-finanzamt-fristen/111-vollmachtsbestand-bekanntgabe/).
+Sie führt die Mandatstabelle Zeile für Zeile durch das Prüfschema, hält je
+Mandat fest, worauf sich die Risikoeinstufung stützt, und verdichtet die
+Einzelergebnisse zu einer sortierten Arbeitsliste.
