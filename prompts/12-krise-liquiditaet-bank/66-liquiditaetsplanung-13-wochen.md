@@ -141,3 +141,10 @@ AUSGABEFORMAT
 - **Nur Annahmen:** „Erzeuge ausschließlich die Annahmenliste als Fragebogen."
 - **Abweichungsanalyse:** „Vergleiche Plan und Ist der abgelaufenen Wochen und benenne die drei größten Abweichungen mit Vermutung zur Ursache."
 - **BWA-Kommentar:** Prompt 06. **Offene Posten:** Prompt 18.
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/12-krise-liquiditaet-bank/66-liquiditaetsplanung-13-wochen/](../../skills/12-krise-liquiditaet-bank/66-liquiditaetsplanung-13-wochen/).
+Sie führt die OPOS-Zeilen wochenweise zusammen, weist je Zeile die Herkunft des
+Werts aus und schreibt die Tabelle beim nächsten Aufruf um eine Woche fort.
