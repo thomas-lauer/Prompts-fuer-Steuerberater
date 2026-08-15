@@ -124,3 +124,10 @@ AUSGABEFORMAT
 - **Nur Umsatzsteuer:** Zusatz "Beschränke dich auf Konten mit Umsatzsteuerbezug und prüfe die Verprobung je Steuersatz." Ergänzt Prompt 05.
 - **Monatsroutine:** Zusatz "Vergleiche mit dem Vormonat statt mit dem Vorjahr und nenne nur neue Auffälligkeiten."
 - **Mandatsübernahme:** Zusatz "Kennzeichne Auffälligkeiten, die auf abweichende Kontierungsgewohnheiten des Vorberaters hindeuten." Ergänzt Prompt 22.
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/01-finanzbuchhaltung/20-summen-salden-pruefen/](../../skills/01-finanzbuchhaltung/20-summen-salden-pruefen/).
+Sie rechnet Summenkontrolle, Vorjahresabweichung und Verhältniskennzahlen über
+alle Kontenzeilen aus und legt daraus eine fortschreibbare Arbeitsliste an.
