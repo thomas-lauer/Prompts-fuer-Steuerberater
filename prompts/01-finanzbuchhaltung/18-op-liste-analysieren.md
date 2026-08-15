@@ -125,3 +125,10 @@ AUSGABEFORMAT (alles als Tabellen, kein Fließtext)
 - **Kreditorenseite:** Gleiche Struktur auf offene Verbindlichkeiten anwenden, Zusatz "Bewerte Skontovorteile und Fälligkeiten für die Liquiditätsplanung."
 - **Monatliche Serie:** Zusatz "Vergleiche mit der Auswertung des Vormonats und benenne nur die Veränderungen."
 - **Liquiditätsblick:** Zusatz "Leite aus den Fälligkeiten eine Zahlungseingangsprognose für 30/60/90 Tage ab und kennzeichne sie als Schätzung."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/01-finanzbuchhaltung/18-op-liste-analysieren/](../../skills/01-finanzbuchhaltung/18-op-liste-analysieren/).
+Sie führt die Altersklassen-Zuordnung und die Risikoklassifizierung über alle
+Zeilen des OPOS-Exports selbst aus, statt sie dem Leser zu überlassen.
