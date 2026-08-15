@@ -179,3 +179,12 @@ AUSGABEFORMAT
 - **Kleinunternehmer mit Steuerausweis:** „Bearbeite ausschließlich den unberechtigten Steuerausweis und benenne die zusätzlichen Voraussetzungen der Berichtigung."
 - **Eingangsseite:** „Beurteile den Fall aus Sicht des Rechnungsempfängers und erzeuge ein Schreiben, mit dem er eine berichtigte Rechnung anfordert."
 - **Hybridformat:** „Prüfe, ob ein vom strukturierten Teil abweichender Bildteil eine weitere Rechnung darstellt, und leite die Folge ab."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/02-umsatzsteuer/87-unrichtiger-steuerausweis-14c/](../../skills/02-umsatzsteuer/87-unrichtiger-steuerausweis-14c/).
+Sie steuert zuerst die Zeiträume aus, deren bereits abgegebene Erklärung die
+geschuldete Steuer nicht enthält, und arbeitet die verbliebenen Belege dann
+gruppenweise nach Rechnungstyp, Wortlaut des Ausweises und Empfängerkategorie
+ab, statt jeden Beleg einzeln durch das Schema zu schicken.
