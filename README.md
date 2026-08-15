@@ -123,6 +123,25 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-08-15 – Skill-Runde 2: Finanzbuchhaltung und Umsatzsteuer
+
+- **Acht weitere Skills**, damit 16 von 54: Dublettenprüfung (19),
+  EÜR-Plausibilität (21), Kontenrahmen-Vergleich SKR03 ↔ SKR04 (22),
+  UStVA-Abweichung (05), Gastronomie-Steuersatzaufteilung (84),
+  E-Rechnungs-Umstellungsradar (85), § 14c unrichtiger Steuerausweis (87),
+  Kleinunternehmergrenzen (88). Der Ordner `01-finanzbuchhaltung` ist damit
+  vollständig.
+- **Sechzehn Befunde aus der adversarischen Prüfung behoben.** Zwei davon sind
+  für die Benutzung wichtig: Die Skill zur Dublettenprüfung hätte
+  Namensgleichheit bei abweichendem Ort als Nicht-Treffer aussortiert, statt sie
+  wie vorgesehen zur Prüfung vorzulegen; die Skill zur EÜR-Plausibilität hätte
+  jede Berichtigungsanzeige abgebrochen, obwohl nur Selbstanzeige und
+  Steuerstrafverfahren gesperrt sind.
+- **Umbenannt:** `skills/02-umsatzsteuer/87-unrichtiger-steuerausweis-14c/`.
+  Ein Skill-Name darf nicht mit einer Ziffer beginnen, sonst ist er von der
+  laufenden Nummer nicht zu unterscheiden; Paragrafenangaben stehen deshalb am
+  Ende des Kurznamens.
+
 ### 2026-08-15 – Skill-Runde 1: die Sammlung bekommt einen zweiten Ordnerbaum
 
 - **Neu: `skills/`**, parallel zu `prompts/`, mit denselben zwölf Kategorien.
