@@ -149,3 +149,10 @@ AUSGABEFORMAT
 - **Erstes Jahr:** Zusatz "Berücksichtige Betriebseröffnung: vorweggenommene Betriebsausgaben, Anlaufverluste, Gewinnermittlungswahl – als Prüfpunkte, nicht als Entscheidung."
 - **Wechsel der Gewinnermittlungsart:** Zusatz "Nenne die Prüfpunkte für den Übergangsgewinn, ohne Beträge zu behaupten."
 - **Freiberufler:** Zusatz "Lasse Positionen des Warenhandels weg und prüfe stattdessen Fremdleistungen, Honorarabgrenzung und Berufshaftpflicht."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/03-jahresabschluss/21-euer-plausibilitaet/](../../skills/03-jahresabschluss/21-euer-plausibilitaet/).
+Sie rechnet den Vorjahresvergleich über alle Positionen und den Abgleich der
+AfA-Summe mit dem Anlagenverzeichnis selbst durch, statt ihn nur anzuordnen.
