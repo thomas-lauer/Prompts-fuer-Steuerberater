@@ -92,3 +92,11 @@ Prüfschritt)  3. Empfohlene Prüfreihenfolge  4. Interner Vermerk
 - **Jahresverprobung:** Zeitraum auf das Wirtschaftsjahr ausdehnen, Zusatz "Berücksichtige Abweichungen zwischen UStVA-Summe und Jahreserklärung."
 - **Vorjahresfehler:** Zusatz "Erstelle zusätzlich einen Vorschlag, in welchem Zeitraum die Korrektur zu erfassen ist und welche Meldungen betroffen sind – als Prüfvorschlag, nicht als Entscheidung."
 - **Wiederkehrend:** "Leite aus der gefundenen Ursache eine Arbeitsanweisung ab, die den Fehler künftig verhindert."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/02-umsatzsteuer/05-ustva-abweichung-eingrenzen/](../../skills/02-umsatzsteuer/05-ustva-abweichung-eingrenzen/).
+Sie rechnet die Verprobung je Steuersatz über alle Kennzahlen und Kontensalden,
+beziffert den unerklärten Rest und hält den Abweichungsbetrag gegen jeden
+einzelnen Saldo.
