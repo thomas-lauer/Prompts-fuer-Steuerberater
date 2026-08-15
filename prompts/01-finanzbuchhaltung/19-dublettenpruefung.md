@@ -115,3 +115,11 @@ AUSGABEFORMAT
 - **Belegeingang statt Buchung:** Auf die Belegliste aus dem Portal anwenden, Zusatz "Prüfe zusätzlich gleiche Dateigröße und gleichen Dateinamen als Hinweis auf Doppeleinreichung."
 - **Laufende Kontrolle:** Zusatz "Leite aus den Funden eine Arbeitsanweisung ab, die die häufigste Dublettenursache künftig verhindert (z. B. verbindlicher Belegkanal)."
 - **Mandatsübernahme:** Zusatz "Berücksichtige, dass Stammdaten aus zwei Systemen stammen, und weise auf Konten hin, die nur in einem Bestand bebucht sind."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/01-finanzbuchhaltung/19-dublettenpruefung/](../../skills/01-finanzbuchhaltung/19-dublettenpruefung/).
+Sie stellt die Zeilen des Exports paarweise gegenüber und hält je Treffer das
+erfüllte Kriterium fest – ein Vergleich, der von Hand über einen ganzen Stapel
+nicht durchzuhalten ist.
