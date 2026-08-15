@@ -129,3 +129,11 @@ AUSGABEFORMAT
 - **Nur Analyse ohne Wechsel:** Zusatz "Der Kontenrahmen bleibt unverändert. Beschränke dich auf unübliche Kontierungen und die Fragen an den Vorberater."
 - **Eigener Kontenrahmen des Vorberaters:** Zusatz "Der Ausgangskontenrahmen ist kein Standardkontenrahmen. Leite die Funktion jedes Kontos ausschließlich aus Bezeichnung und Saldo ab und kennzeichne jede Unsicherheit."
 - **Übernahme mitten im Jahr:** Zusatz "Der Kontenrahmen bleibt zunächst unverändert – ein Wechsel setzt den Beginn eines Wirtschaftsjahres voraus. Berücksichtige die unterjährige Übernahme im bisherigen Kontenrahmen: Verkehrszahlen, bereits übermittelte Voranmeldungen, Abstimmung des Rumpfzeitraums. Behandle den Kontenrahmenwechsel getrennt als Vorhaben zum nächsten Wirtschaftsjahr."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/11-mandatsbeginn-wechsel/22-kontenrahmen-vergleich/](../../skills/11-mandatsbeginn-wechsel/22-kontenrahmen-vergleich/).
+Sie ordnet jede Kontenzeile des Vorberaters einzeln einem Bilanz- oder GuV-Posten
+zu, hält eine vorliegende Überleitungsliste als Mengenvergleich dagegen und
+rechnet die Summenprobe über alle Salden.
