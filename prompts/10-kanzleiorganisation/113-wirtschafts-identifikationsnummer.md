@@ -280,3 +280,11 @@ AUSGABEFORMAT
 - **Feldliste für die Stammdaten:** „Erzeuge nur die Liste der anzulegenden Stammdatenfelder mit Benennungsvorschlag, Datentyp und Pflegehinweis, abgestimmt auf die vorhandene Stammdatenkonvention."
 - **Mandanteninformation je Gruppe:** „Erzeuge je Stufe nach § 1 WIdV ein eigenes Anschreiben, höchstens 150 Wörter, ohne Termine, die nicht belegt sind."
 - **Nachfassliste:** „Erzeuge eine abhakbare Nachfassliste für die Mandate mit unbekanntem Stand, mit Vorschlag für die Rückfrage in einem Satz."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/10-kanzleiorganisation/113-wirtschafts-identifikationsnummer/](../../skills/10-kanzleiorganisation/113-wirtschafts-identifikationsnummer/).
+Sie ordnet jedes Mandat des Bestands einer Vergabestufe zu, führt die Mandate
+mit vorhandener USt-IdNr. als eigene Gruppe und leitet daraus die Feldliste für
+die Stammdaten ab.
