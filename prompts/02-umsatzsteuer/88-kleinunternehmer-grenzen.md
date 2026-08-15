@@ -214,3 +214,12 @@ AUSGABEFORMAT
 - **Rückkehr zur Kleinunternehmerregelung:** „Bearbeite ausschließlich Schritt 7 Buchstabe b und vertiefe die Auslöser des § 15a UStG."
 - **Grenzüberschreitend:** „Vertiefe Schritt 9 und erzeuge eine Checkliste für die Registrierung im besonderen Meldeverfahren."
 - **Mandantengespräch:** „Erzeuge daraus einen Gesprächsleitfaden mit fünf Fragen und den passenden Antworten, ohne Beträge."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/02-umsatzsteuer/88-kleinunternehmer-grenzen/](../../skills/02-umsatzsteuer/88-kleinunternehmer-grenzen/).
+Sie geht den Kleinunternehmer-Bestand mandatsweise durch, übernimmt je Zeile den
+von der Kanzlei gelieferten Grenzenvergleich und stellt jeden Durchlauf neben
+den vorangegangenen, sodass aus der halbjährlichen Statusprüfung eine
+fortgeschriebene Überwachungsliste wird.
