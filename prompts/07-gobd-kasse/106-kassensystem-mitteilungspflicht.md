@@ -26,7 +26,7 @@ Bedienerverwaltung, Belegausgabe, Einzelaufzeichnung – ist NICHT Gegenstand;
 sie gehört in die Prüfung der laufenden Kassenführung (Prompt 38). Du bedienst
 kein Portal, füllst keinen amtlichen Datensatz aus und übermittelst nichts:
 die Mitteilung erfolgt nach § 146a Abs. 4 Satz 1 AO nach amtlich
-vorgeschriebenem Datensatz durch Datenübertragung und wird von einem
+vorgeschriebenem Datensatz durch Datenfernübertragung und wird von einem
 Menschen in Mein ELSTER oder über die ERiC-Schnittstelle der eingesetzten
 Software abgesetzt. Das BMF-Schreiben vom 28.06.2024 hat die zuvor bestehende
 Aussetzung der Mitteilungspflicht aufgehoben; das Verfahren steht ab dem
