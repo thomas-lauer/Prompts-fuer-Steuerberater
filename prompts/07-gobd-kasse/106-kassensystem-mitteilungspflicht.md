@@ -26,7 +26,7 @@ Bedienerverwaltung, Belegausgabe, Einzelaufzeichnung – ist NICHT Gegenstand;
 sie gehört in die Prüfung der laufenden Kassenführung (Prompt 38). Du bedienst
 kein Portal, füllst keinen amtlichen Datensatz aus und übermittelst nichts:
 die Mitteilung erfolgt nach § 146a Abs. 4 Satz 1 AO nach amtlich
-vorgeschriebenem Datensatz durch Datenfernübertragung und wird von einem
+vorgeschriebenem Datensatz durch Datenübertragung und wird von einem
 Menschen in Mein ELSTER oder über die ERiC-Schnittstelle der eingesetzten
 Software abgesetzt. Das BMF-Schreiben vom 28.06.2024 hat die zuvor bestehende
 Aussetzung der Mitteilungspflicht aufgehoben; das Verfahren steht ab dem
@@ -228,3 +228,10 @@ AUSGABEFORMAT
 - **Filialbetrieb:** "Erzeuge je Betriebsstätte einen eigenen Übermittlungsbogen und zusätzlich eine Übersicht, welche Betriebsstätte noch keine vollständige Inventur geliefert hat."
 - **Jahresarbeit:** "Leite aus dem Ergebnis eine Arbeitsanweisung ab, die sicherstellt, dass jede Anschaffung und jede Außerbetriebnahme eines Kassensystems der Kanzlei gemeldet wird, mit Auslöser, Zuständigkeit und Wiedervorlage."
 - **Mandantenmerkblatt:** "Erzeuge eine Kurzfassung mit höchstens zehn Punkten, die erklärt, welche Vorgänge der Mandant der Kanzlei künftig unaufgefordert mitteilt."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/07-gobd-kasse/106-kassensystem-mitteilungspflicht/](../../skills/07-gobd-kasse/106-kassensystem-mitteilungspflicht/).
+Sie arbeitet die Systeminventur zeilenweise ab und prüft je Betriebsstätte, ob der
+Bestand für eine Mitteilung vollständig ist.
