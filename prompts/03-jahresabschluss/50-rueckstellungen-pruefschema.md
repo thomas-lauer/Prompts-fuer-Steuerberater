@@ -129,3 +129,12 @@ AUSGABEFORMAT
 - **Nur Personalrückstellungen:** Zusatz "Beschränke dich auf Urlaub, Jubiläum, Tantieme und Altersvorsorge und nenne je Position die Berechnungsgrundlage, die die Kanzlei anfordern muss."
 - **Vorbereitung Betriebsprüfung:** Zusatz "Formuliere je Position die Frage, die ein Prüfer stellen würde." Ergänzt Prompt 34.
 - **Erstjahr eines Mandats:** Zusatz "Behandle jede Rückstellung als neu und kennzeichne, was vom Vorberater anzufordern ist." Ergänzt Prompt 22.
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/03-jahresabschluss/50-rueckstellungen-pruefschema/](../../skills/03-jahresabschluss/50-rueckstellungen-pruefschema/).
+Sie führt den Rückstellungsspiegel Position für Position durch dasselbe
+Sechs-Schritte-Raster, fragt je Position nur die fehlenden Sachverhalts- und
+Datumsangaben nach und protokolliert den steuerlichen Ansatz getrennt vom
+handelsrechtlichen, statt den Handelsbilanzwert zu übernehmen.
