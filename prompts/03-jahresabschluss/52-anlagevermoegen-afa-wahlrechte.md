@@ -127,3 +127,12 @@ AUSGABEFORMAT
 - **Investitionsplanung:** Zusatz "Ergänze eine Betrachtung der geplanten Investitionen und ihres Zusammenspiels mit vorhandenen Abzugsbeträgen." Ergänzt Prompt 53.
 - **Fahrzeuge:** Zusatz "Ergänze je Fahrzeug einen Prüfschritt zur privaten Nutzung und zur Bewertungsmethode."
 - **Gebäude:** Zusatz "Ergänze Prüfschritte zur Aufteilung auf Grund und Boden, zu selbständigen Gebäudeteilen und zu Herstellungskosten nach Anschaffung." Für Erwerbe innerhalb des maßgeblichen Zeitraums nach § 6 Abs. 1 Nr. 1a EStG (Zeitraum – für [JAHR] verifizieren) Prompt 89 verwenden.
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/03-jahresabschluss/52-anlagevermoegen-afa-wahlrechte/](../../skills/03-jahresabschluss/52-anlagevermoegen-afa-wahlrechte/).
+Sie prüft jeden Zugang des Jahres einzeln durch das Entscheidungsschema, stellt
+je Zugang die Weiche zwischen nachträglichen Anschaffungskosten und
+Erhaltungsaufwand und stimmt anschließend die gesamte Anlagenbuchführung gegen
+die Konten des Rechnungswesens ab.
