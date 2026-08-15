@@ -169,3 +169,11 @@ AUSGABEFORMAT
 - **Nur Empfängerseite:** „Bearbeite ausschließlich Schritt 8 und erzeuge zusätzlich eine Arbeitsanweisung für die Belegerfassung."
 - **EDI-Mandant:** „Vertiefe Schritt 6 und erzeuge ein Anschreiben an die EDI-Partner mit Abfrage des geplanten Umstellungswegs."
 - **Kleinunternehmer:** „Beschränke dich auf Schritt 3 und die Empfangspflicht und erzeuge daraus ein einseitiges Merkblatt in Sie-Form."
+
+## Als Skill
+
+Für die wiederkehrende Auswertung gibt es diesen Prompt auch als ausführende
+Skill: [skills/02-umsatzsteuer/85-erechnung-umstellungsradar/](../../skills/02-umsatzsteuer/85-erechnung-umstellungsradar/).
+Sie führt beliebig viele Mandantenprofile in einem Lauf durch dieselben
+Prüfschritte, segmentiert den Stamm danach und schreibt die Zweifelsfallliste von
+Lauf zu Lauf fort.
