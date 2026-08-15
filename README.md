@@ -123,6 +123,39 @@ ausdrücklich erwünscht. Ohne Gewähr, ohne Haftung.
 Änderungen werden hier chronologisch festgehalten, neueste zuerst – ein Eintrag
 je abgeschlossener Runde.
 
+### 2026-08-15 – Skill-Runde 1: die Sammlung bekommt einen zweiten Ordnerbaum
+
+- **Neu: `skills/`**, parallel zu `prompts/`, mit denselben zwölf Kategorien.
+  Eine Skill ist kein zweiter Prompt: Der Prompt ist ein Copy-Paste-Textblock
+  für ein beliebiges KI-Werkzeug, die Skill wird von Claude geladen und führt
+  die Arbeit selbst – sie nimmt den Sachverhalt im Dialog entgegen, fordert
+  Fehlendes nach und legt das Ergebnis als Datei ab.
+- **Alle 124 Prompts wurden bewertet.** Nur 54 bekommen eine Skill. Maßstab ist
+  ein Mengen- oder Wiederholungsvorteil: Auswertung eines Exports, positionsweise
+  Abarbeitung vieler gleichartiger Fälle oder eine fortschreibbare
+  Überwachungsliste. Läuft nur ein einzelner Fall durch einen Entscheidungsbaum,
+  spart die Skill nichts – dann bleibt es beim Prompt. Die 70 übrigen sind
+  deswegen nicht schlechter; die Skill würde ihnen nur nichts hinzufügen.
+- **Die Skill schreibt das Prüfschema nicht ab**, sondern verweist auf die
+  Prompt-Datei. Zwei Fassungen desselben Schemas liefen bei der nächsten
+  Rechtsänderung auseinander. Der Prompt bleibt die einzige Quelle der Wahrheit.
+- **Zone Rot ist der erste Arbeitsschritt, nicht der letzte.** Eine ausführende
+  Skill bekommt den Sachverhalt direkt – anders als beim Prompt, wo der Mensch
+  vor dem Einfügen maskiert. Jede Skill beginnt deshalb mit der
+  Datensparsamkeitsprüfung und bricht ab, wenn Zone-Rot-Material auftaucht.
+- **Erste acht Skills:** 18 offene Posten, 20 Summen- und Saldenliste,
+  50 Rückstellungen, 52 Anlagevermögen und AfA-Wahlrechte, 66 13-Wochen-
+  Liquiditätsplanung, 106 Mitteilungspflicht Kassensysteme, 111 Vollmachtsbestand,
+  113 Wirtschafts-Identifikationsnummer. Jede ist von ihrer Prompt-Datei aus
+  verlinkt und verlinkt zurück.
+- **Adversarische Prüfung: 66 Mängel, alle behoben.** Die schwersten waren
+  Verzweigungen, die die Skill verschluckt hatte: Skill 18 verlor bei einem
+  EÜR-Mandanten die gesamte Risikoklassifizierung, Skill 52 hätte jeden
+  Erstzugang durch die Erhaltungsaufwands-Weiche gezwungen und zwanzigmal
+  „nicht entscheidbar" gemeldet, und in Skill 50 stand die Abbruchregel zur
+  Berichtigungspflicht als vorletzter Schritt – eine Sperre, die erst nach der
+  Arbeit greift, ist keine Sperre.
+
 ### 2026-08-14 – Runden 15 bis 18: 23 neue Prompts, neuer Projektname
 
 - **Das Projekt heißt jetzt „Prompts für die Steuerkanzlei".** Der Name enthält
